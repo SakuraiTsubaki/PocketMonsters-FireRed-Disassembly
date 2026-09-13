@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Validate the audited AgbMain extent for one FireRed baseline.
 
-This deliberately avoids an external disassembler dependency.  ARMv4T Thumb BL
+This deliberately avoids an external disassembler dependency. ARMv4T Thumb BL
 instructions are recognized as the standard two-halfword F000/F800 pair, which
 is sufficient to reproduce the call-count invariant recorded during the ROM
 audit.
@@ -63,24 +63,28 @@ def main() -> int:
     body = rom[start:end]
 
     observed_calls = count_thumb_bl(body)
+    observed_hash = hashlib.sha256(body).hexdigest()
     expected_calls = int(expected["thumb_bl_calls"])
     expected_size = int(expected["size"])
+    expected_hash = expected["sha256"]
 
     result = {
         "target": args.target,
         "start": f"0x{AGB_MAIN_START:08X}",
         "end_exclusive": f"0x{end_address:08X}",
         "size": len(body),
-        "sha256": hashlib.sha256(body).hexdigest(),
+        "sha256": observed_hash,
         "thumb_bl_calls": observed_calls,
         "print_init_call": bool(expected["print_init_call"]),
         "flash_memory_guard": bool(expected["flash_memory_guard"]),
         "size_matches": len(body) == expected_size,
         "bl_count_matches": observed_calls == expected_calls,
+        "sha256_matches": observed_hash == expected_hash,
     }
     print(json.dumps(result, indent=2))
 
-    return 0 if result["size_matches"] and result["bl_count_matches"] else 1
+    ok = result["size_matches"] and result["bl_count_matches"] and result["sha256_matches"]
+    return 0 if ok else 1
 
 
 if __name__ == "__main__":

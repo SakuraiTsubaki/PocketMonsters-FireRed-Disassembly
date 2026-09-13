@@ -1,0 +1,14 @@
+{
+  "start": "0x080003A4",
+  "baselines": {
+    "jp_rev0": {"end_exclusive":"0x080004B0","size":268,"thumb_bl_calls":29,"print_init_call":true,"flash_memory_guard":false},
+    "jp_rev1": {"end_exclusive":"0x080004AC","size":264,"thumb_bl_calls":28,"print_init_call":false,"flash_memory_guard":false},
+    "us_rev0": {"end_exclusive":"0x080004B0","size":268,"thumb_bl_calls":29,"print_init_call":true,"flash_memory_guard":false},
+    "us_rev1": {"end_exclusive":"0x080004C4","size":288,"thumb_bl_calls":30,"print_init_call":true,"flash_memory_guard":true},
+    "fr": {"end_exclusive":"0x080004AC","size":264,"thumb_bl_calls":28,"print_init_call":false,"flash_memory_guard":false},
+    "de": {"end_exclusive":"0x080004C0","size":284,"thumb_bl_calls":29,"print_init_call":false,"flash_memory_guard":true},
+    "it": {"end_exclusive":"0x080004C0","size":284,"thumb_bl_calls":29,"print_init_call":false,"flash_memory_guard":true},
+    "es": {"end_exclusive":"0x080004AC","size":264,"thumb_bl_calls":28,"print_init_call":false,"flash_memory_guard":false}
+  },
+  "policy": "Model independently verified regional behavior with explicit feature flags; do not collapse these differences to software revision alone."
+}

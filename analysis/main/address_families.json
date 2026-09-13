@@ -1,7 +1,8 @@
 {
   "reference": "us_rev0",
-  "verified_through_function": "DoSoftReset",
-  "verified_through_reference_address": "0x080008D8",
+  "verified_through_function": "ClearPokemonCrySongs",
+  "verified_through_reference_address": "0x08000968",
+  "next_object": "gpu_regs.c",
   "shifts_from_us_rev0": {
     "jp_rev0": 0,
     "jp_rev1": -4,
@@ -18,5 +19,5 @@
     "plus_0x10": ["de", "it"],
     "plus_0x14": ["us_rev1"]
   },
-  "note": "The shifts arise from AgbMain size differences. No additional function-size divergence was observed in the audited main.c sequence through DoSoftReset."
+  "note": "The shifts arise from AgbMain size differences. No additional function-size divergence was observed in the remaining main.c text through ClearPokemonCrySongs; the next object begins at the correspondingly shifted gpu_regs.c address."
 }

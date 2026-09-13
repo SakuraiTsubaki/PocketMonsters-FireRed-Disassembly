@@ -1,0 +1,148 @@
+{
+  "jp_rev0": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRJ",
+    "maker_code": "01",
+    "software_version": 0,
+    "header_checksum": 99,
+    "header_checksum_valid": true,
+    "sha1": "04139887b6cd8f53269aca098295b006ddba6cfe",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 1,
+    "last_non_ff": 16646142,
+    "long_ff_gaps": [
+      {"start": 7109944, "end_exclusive": 12582912, "size": 5472968},
+      {"start": 14245316, "end_exclusive": 15728640, "size": 1483324},
+      {"start": 16646143, "end_exclusive": 16777216, "size": 131073}
+    ]
+  },
+  "jp_rev1": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRJ",
+    "maker_code": "01",
+    "software_version": 1,
+    "header_checksum": 98,
+    "header_checksum_valid": true,
+    "sha1": "7c7107b87c3ccf6e3dbceb9cf80ceeffb25a1857",
+    "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 1,
+    "last_non_ff": 15987683,
+    "long_ff_gaps": [
+      {"start": 7090868, "end_exclusive": 12582912, "size": 5492044},
+      {"start": 14245316, "end_exclusive": 15728640, "size": 1483324},
+      {"start": 15987684, "end_exclusive": 16777216, "size": 789532}
+    ]
+  },
+  "us_rev0": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRE",
+    "maker_code": "01",
+    "software_version": 0,
+    "header_checksum": 104,
+    "header_checksum_valid": true,
+    "sha1": "41cb23d8dccc8ebd7c649cd8fbb58eeace6e2fdc",
+    "sha256": "3d0c79f1627022e18765766f6cb5ea067f6b5bf7dca115552189ad65a5c3a8ac",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 2,
+    "last_non_ff": 15403807,
+    "long_ff_gaps": [
+      {"start": 7447100, "end_exclusive": 13631488, "size": 6184388},
+      {"start": 15403808, "end_exclusive": 16777216, "size": 1373408}
+    ]
+  },
+  "us_rev1": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRE",
+    "maker_code": "01",
+    "software_version": 1,
+    "header_checksum": 103,
+    "header_checksum_valid": true,
+    "sha1": "dd5945db9b930750cb39d00c84da8571feebf417",
+    "sha256": "729041b940afe031302d630fdbe57c0c145f3f7b6d9b8eca5e98678d0ca4d059",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 2,
+    "last_non_ff": 15403807,
+    "long_ff_gaps": [
+      {"start": 7447196, "end_exclusive": 13631488, "size": 6184292},
+      {"start": 15403808, "end_exclusive": 16777216, "size": 1373408}
+    ]
+  },
+  "fr": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRF",
+    "maker_code": "01",
+    "software_version": 0,
+    "header_checksum": 103,
+    "header_checksum_valid": true,
+    "sha1": "fc663907256f06a3a09e2d6b967bc9af4919f111",
+    "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 3,
+    "last_non_ff": 15409567,
+    "long_ff_gaps": [
+      {"start": 7407032, "end_exclusive": 13631488, "size": 6224456},
+      {"start": 15409568, "end_exclusive": 16777216, "size": 1367648}
+    ]
+  },
+  "de": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRD",
+    "maker_code": "01",
+    "software_version": 0,
+    "header_checksum": 105,
+    "header_checksum_valid": true,
+    "sha1": "18a3758ceeef2c77b315144be2c3910d6f1f69fe",
+    "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 5,
+    "last_non_ff": 15409547,
+    "long_ff_gaps": [
+      {"start": 7441472, "end_exclusive": 13631488, "size": 6190016},
+      {"start": 15409548, "end_exclusive": 16777216, "size": 1367668}
+    ]
+  },
+  "it": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRI",
+    "maker_code": "01",
+    "software_version": 0,
+    "header_checksum": 100,
+    "header_checksum_valid": true,
+    "sha1": "66a9d415205321376b4318534c0dce5f69d28362",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 4,
+    "last_non_ff": 15409899,
+    "long_ff_gaps": [
+      {"start": 7396968, "end_exclusive": 13631488, "size": 6234520},
+      {"start": 15409900, "end_exclusive": 16777216, "size": 1367316}
+    ]
+  },
+  "es": {
+    "title": "POKEMON FIRE",
+    "game_code": "BPRS",
+    "maker_code": "01",
+    "software_version": 0,
+    "header_checksum": 90,
+    "header_checksum_valid": true,
+    "sha1": "ab8f6bfe0ccdaf41188cd015c8c74c314d02296a",
+    "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+    "size": 16777216,
+    "gf_version": 4,
+    "gf_language": 7,
+    "last_non_ff": 15409819,
+    "long_ff_gaps": [
+      {"start": 7409124, "end_exclusive": 13631488, "size": 6222364},
+      {"start": 15409820, "end_exclusive": 16777216, "size": 1367396}
+    ]
+  }
+}

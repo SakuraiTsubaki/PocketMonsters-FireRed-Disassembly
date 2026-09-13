@@ -1,0 +1,27 @@
+# Retail / rebuilt ROM images
+*.gba
+
+# Emulator and save data
+*.sav
+*.srm
+*.sgm
+*.state
+
+# Build outputs
+build/
+out/
+*.elf
+*.map
+*.o
+*.d
+
+# Tool caches
+__pycache__/
+*.pyc
+.cache/
+
+# Editor / OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

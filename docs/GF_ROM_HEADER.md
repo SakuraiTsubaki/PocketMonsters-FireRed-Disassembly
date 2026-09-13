@@ -61,8 +61,18 @@ The header contains direct ROM pointers to major tables including:
 - battle-move table
 - Poké Ball graphics/palettes
 
-These pointers vary substantially by language and revision because preceding data sizes and link placement vary. `analysis/gf_rom_header/headers.csv` is the authoritative extracted comparison table.
+These pointers vary substantially by language and revision because preceding data sizes and link placement vary. `analysis/gf_rom_header/headers.csv` and `analysis/gf_rom_header/headers.json` are the authoritative extracted comparison tables.
 
-## Build policy
+## Source reconstruction
 
-The final build must generate this header from source symbols and version constants. It must not embed a copied 0x104-byte opaque blob.
+`include/gf_rom_header.h` defines the exact `0x104`-byte structure and `src/gf_rom_header.c` emits it from symbolic table references plus language-dependent constants.
+
+A local ARM compile/link test was run separately for all eight canonical baselines. For each build, the appropriate language constant and the independently extracted symbol addresses were supplied to the linker. The generated `0x000100..0x000203` bytes matched the corresponding ROM **byte-for-byte in all eight cases**.
+
+This means the compatibility header no longer needs to be retained as an opaque ROM slice. As the referenced graphics/data tables are reconstructed, their linker symbols can directly populate the pointer fields.
+
+## Status
+
+**Reconstruction status: VERIFIED / SOURCE-REGENERATABLE**
+
+Together with `src/rom_header.s` and `src/crt0.s`, this completes a source representation of the ROM-start region through `0x0003A3`.

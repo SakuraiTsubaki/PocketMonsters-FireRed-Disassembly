@@ -1,0 +1,42 @@
+{
+  "jp_rev0": {
+    "print_init_call": true,
+    "flash_memory_guard": false,
+    "gfx_data_address": "0x08C00000"
+  },
+  "jp_rev1": {
+    "print_init_call": false,
+    "flash_memory_guard": false,
+    "gfx_data_address": "0x08C00000"
+  },
+  "us_rev0": {
+    "print_init_call": true,
+    "flash_memory_guard": false,
+    "gfx_data_address": "0x08D00000"
+  },
+  "us_rev1": {
+    "print_init_call": true,
+    "flash_memory_guard": true,
+    "gfx_data_address": "0x08D00000"
+  },
+  "fr": {
+    "print_init_call": false,
+    "flash_memory_guard": false,
+    "gfx_data_address": "0x08D00000"
+  },
+  "de": {
+    "print_init_call": false,
+    "flash_memory_guard": true,
+    "gfx_data_address": "0x08D00000"
+  },
+  "it": {
+    "print_init_call": false,
+    "flash_memory_guard": true,
+    "gfx_data_address": "0x08D00000"
+  },
+  "es": {
+    "print_init_call": false,
+    "flash_memory_guard": false,
+    "gfx_data_address": "0x08D00000"
+  }
+}

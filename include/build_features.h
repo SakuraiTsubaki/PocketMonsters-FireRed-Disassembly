@@ -19,6 +19,10 @@
 #error "FEATURE_ASSERTS_ENABLED must be provided by the selected FireRed target"
 #endif
 
+#ifndef FEATURE_JAPANESE_TEXT_ENGINE
+#error "FEATURE_JAPANESE_TEXT_ENGINE must be provided by the selected FireRed target"
+#endif
+
 #if (FEATURE_PRINT_INIT != 0) && (FEATURE_PRINT_INIT != 1)
 #error "FEATURE_PRINT_INIT must be 0 or 1"
 #endif
@@ -29,6 +33,10 @@
 
 #if (FEATURE_ASSERTS_ENABLED != 0) && (FEATURE_ASSERTS_ENABLED != 1)
 #error "FEATURE_ASSERTS_ENABLED must be 0 or 1"
+#endif
+
+#if (FEATURE_JAPANESE_TEXT_ENGINE != 0) && (FEATURE_JAPANESE_TEXT_ENGINE != 1)
+#error "FEATURE_JAPANESE_TEXT_ENGINE must be 0 or 1"
 #endif
 
 #endif /* GUARD_BUILD_FEATURES_H */

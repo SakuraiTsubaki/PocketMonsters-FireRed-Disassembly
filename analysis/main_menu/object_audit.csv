@@ -3,7 +3,7 @@ jp_rev0,0x0800BCB4,0x0800CC54,4000,japanese,0,0,0,0,japanese family reference
 jp_rev1,0x0800BC20,0x0800CBC0,4000,japanese,317,173,144,0,relocations only
 us_rev0,0x0800C2D4,0x0800D230,3932,us,0,0,0,0,US family reference
 us_rev1,0x0800C2E8,0x0800D244,3932,us,98,72,26,0,relocations only
+de,0x0800C254,0x0800D1B4,3936,europe,0,0,0,0,European common reference
 fr,0x0800C240,0x0800D1A0,3936,europe,215,135,76,4,French value-column X coordinate is 74 instead of 62
- de,0x0800C254,0x0800D1B4,3936,europe,0,0,0,0,European common reference
 it,0x0800C254,0x0800D1B4,3936,europe,163,111,52,0,relocations only vs German reference
 es,0x0800C240,0x0800D1A0,3936,europe,205,124,81,0,relocations only vs German reference

@@ -1,0 +1,17 @@
+{
+  "batch": "006-007",
+  "shared_by": [
+    "Pocket Monsters - Fire Red (Japan).gba",
+    "Pocket Monsters - Fire Red (Japan) (Rev 1).gba",
+    "Pokemon - Fire Red Version (USA).gba",
+    "Pokemon - Fire Red Version (USA, Europe) (Rev 1).gba",
+    "Pokemon - Feuerrote Edition (Germany).gba",
+    "Pokemon - Version Rouge Feu (France).gba",
+    "Pokemon - Edicion Rojo Fuego (Spain).gba",
+    "Pokemon - Versione Rosso Fuoco (Italy).gba"
+  ],
+  "species": [
+    {"national_dex":6,"name":"charizard","all_8_roms_identical":true,"front_sha256":"209a94b2595e4d605f200a89f761cf60cd69f246d811dc4cfcbdda93446bf97c","back_sha256":"8ae0d4a0c2c441e85d6246be111cffac960625198e3432d209f27805726d4e86","normal_palette_sha256":"a879d45b16ca3c7fb4a8b2b1b700f8f4a0c1ac383cf381eee89e7efb55325089","shiny_palette_sha256":"f627dc52d28f3766711cbd2ad2fd83fc03e2f30d2839e725edfdf68f7a70f1b2"},
+    {"national_dex":7,"name":"squirtle","all_8_roms_identical":true,"front_sha256":"064c75592e475e71aab15acfc4de144c15807974a8d2fd32bc8855a2e95eda87","back_sha256":"5f8697f0798e4e691ce6f13efd8bdb22a6e119cbf9b8812ac47a14dda9959b0a","normal_palette_sha256":"91e8d42c685214f6eaf47b323164fc637e26e3b0476993c5cf508c3df2a7f80e","shiny_palette_sha256":"34e05eb01557102d90ad7080fad86f25b10550255ee454511b2d77cc82257e2c"}
+  ]
+}

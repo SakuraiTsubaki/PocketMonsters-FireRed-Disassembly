@@ -1,0 +1,115 @@
+{
+  "range": [
+    8,
+    10
+  ],
+  "shared_by": [
+    {
+      "file": "Pocket Monsters - Fire Red (Japan).gba",
+      "sha1": "04139887b6cd8f53269aca098295b006ddba6cfe",
+      "game_code": "BPRJ",
+      "revision": 0
+    },
+    {
+      "file": "Pocket Monsters - Fire Red (Japan) (Rev 1).gba",
+      "sha1": "7c7107b87c3ccf6e3dbceb9cf80ceeffb25a1857",
+      "game_code": "BPRJ",
+      "revision": 1
+    },
+    {
+      "file": "Pokemon - Fire Red Version (USA).gba",
+      "sha1": "d3b806453369b4b086c792eb3c05a02f00057f50",
+      "game_code": "BPRE",
+      "revision": 0
+    },
+    {
+      "file": "Pokemon - Fire Red Version (USA, Europe) (Rev 1).gba",
+      "sha1": "c4d0119d9bcb36687f41a8f7ca72ab7af60558e4",
+      "game_code": "BPRE",
+      "revision": 1
+    },
+    {
+      "file": "Pokemon - Feuerrote Edition (Germany).gba",
+      "sha1": "18a3758ceeef2c77b315144be2c3910d6f1f69fe",
+      "game_code": "BPRD",
+      "revision": 0
+    },
+    {
+      "file": "Pokemon - Version Rouge Feu (France).gba",
+      "sha1": "fc663907256f06a3a09e2d6b967bc9af4919f111",
+      "game_code": "BPRF",
+      "revision": 0
+    },
+    {
+      "file": "Pokemon - Edicion Rojo Fuego (Spain).gba",
+      "sha1": "ab8f6bfe0ccdaf41188cd015c8c74c314d02296a",
+      "game_code": "BPRS",
+      "revision": 0
+    },
+    {
+      "file": "Pokemon - Versione Rosso Fuoco (Italy).gba",
+      "sha1": "66a9d415205321376b4318534c0dce5f69d28362",
+      "game_code": "BPRI",
+      "revision": 0
+    }
+  ],
+  "deduplication": "byte-identical across all listed ROMs; one canonical asset set stored",
+  "species": [
+    {
+      "national_dex": 8,
+      "name": "wartortle",
+      "canonical_source": "Pocket Monsters - Fire Red (Japan).gba",
+      "raw_sha256": {
+        "front": "cbb9a01fe9a3bdef9ce19fb6b97b007b17fd1ff19babdcfd7e69dc5031f7b437",
+        "back": "ac9b2503f534182773ce385ea6067acea5ae84ba53952517f36b216b7b43971d",
+        "normal_palette": "cabdcfc64b46f4e904b4a94939c2770c4e5222083ae5b7fe61c01a69f7eb282a",
+        "shiny_palette": "3ac6c5c4d6ca4d5fd3c55482e5238226f61a6b06265f79e2092f8d3cfe534e21"
+      },
+      "files": {
+        "front.png": "7db52b4ba9ed8370dca0a0e63c5a1a4749e75e3fabb04b3d98968adb2382cdc1",
+        "back.png": "aea76e11541a262a52012d24b7ee920446eae35c58514d65021704f92e9f35c0",
+        "normal.pal": "a787b5d4ede926c7eda2922318546760ca596cb51a9427626cf0130029fb2cb7",
+        "shiny.pal": "f32ddb21e348fdd654ec06b322637982841079be5d3155e080ea3390d4a58b76"
+      }
+    },
+    {
+      "national_dex": 9,
+      "name": "blastoise",
+      "canonical_source": "Pocket Monsters - Fire Red (Japan).gba",
+      "raw_sha256": {
+        "front": "f3e727b7ad5f219af91cab0c7a73cdb853770b49a746c0f5874de7212160172c",
+        "back": "b88c8c7a2124072a459084a201576f5ddf16011030780a8ef22dc093defa272f",
+        "normal_palette": "03304089e6064958259ca17819011b61ceefd3e8eb656fe97222f6139f3c6cc4",
+        "shiny_palette": "931028540d776f9036b62f987857a37a7c1fc5b1fbd3f3a39e02f878b6b194e5"
+      },
+      "files": {
+        "front.png": "51ed7f78e15645388320c3d608a2def24451b3fd3152b8ba4749bfa0edada1c5",
+        "back.png": "42b8094c07e56b1ec4a6d513b3783435b22ea7c03ac08615e9897b13d4df9dca",
+        "normal.pal": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33",
+        "shiny.pal": "2e7925cb4c404b45a9126bfaa99960cfcc5bf60b98c1567247cea164c14e1681"
+      }
+    },
+    {
+      "national_dex": 10,
+      "name": "caterpie",
+      "canonical_source": "Pocket Monsters - Fire Red (Japan).gba",
+      "raw_sha256": {
+        "front": "2ea4c410a162b3c6d135ef839b1a2fd6e788e1cb174e28eba923bc21dc55504d",
+        "back": "ea36ffcf2034390444e41363983ebdb8b6db7202d4a26fe82b7fabb9647128f8",
+        "normal_palette": "382e70ba36bdef6f0db0c0b81e6cad276052408c23b91eebd4317ca221945c68",
+        "shiny_palette": "d89c47a6e199ea245111816f29d82ea2131d7728b13ff095d53ffffa696b4a34"
+      },
+      "files": {
+        "front.png": "43a2f3f352287a9e95db90f5a0f16ea974994c4ee550069844cf63d2e3c0385a",
+        "back.png": "1a22999cc7cf9d9434455c4bc174061f599677a6b3895d518f3b48a2a74cf4e6",
+        "normal.pal": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2",
+        "shiny.pal": "48f4f0f8bf46df2606a211cd9638ecd14f84e92de00f1c4d846bf30c5a0422e9"
+      }
+    }
+  ],
+  "verification": {
+    "rom_count": 8,
+    "all_assets_byte_identical": true,
+    "png_roundtrip_to_4bpp": true
+  }
+}

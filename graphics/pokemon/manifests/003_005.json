@@ -1,0 +1,18 @@
+{
+  "batch": "003-005",
+  "shared_by": [
+    "Pocket Monsters - Fire Red (Japan).gba",
+    "Pocket Monsters - Fire Red (Japan) (Rev 1).gba",
+    "Pokemon - Fire Red Version (USA).gba",
+    "Pokemon - Fire Red Version (USA, Europe) (Rev 1).gba",
+    "Pokemon - Feuerrote Edition (Germany).gba",
+    "Pokemon - Version Rouge Feu (France).gba",
+    "Pokemon - Edicion Rojo Fuego (Spain).gba",
+    "Pokemon - Versione Rosso Fuoco (Italy).gba"
+  ],
+  "species": [
+    {"national_dex":3,"name":"venusaur","all_8_roms_identical":true,"front_sha256":"70ded6670f9e44c527a68b259c1c71e6017457e2a00cc06e5a0d223494d9c2b2","back_sha256":"1d831006fc9934de4774dba7b09a5427b3ca71acfb5ff97caf3f202e45509373","normal_palette_sha256":"3e842291db25eb4e375beb0a569aa548d1f499058f2c469a7dcd276ad755efaf","shiny_palette_sha256":"d832d80f4a0e6df347d1f6b75468fb05485a846e008fe1fb7884ee6e91b49e2d"},
+    {"national_dex":4,"name":"charmander","all_8_roms_identical":true,"front_sha256":"99512f72225d543bb4ce136380e424df45de4640b8a4c2098afa5010a2d2da64","back_sha256":"26903209adf6c1f18df6e155cfda9340eafb8f62bdc623f74a35ff23305fbd45","normal_palette_sha256":"766e7e39bdea4f311a8335306506792ee2d688ad0ef8bd5b67819de31f72d83b","shiny_palette_sha256":"3d2857712939c7d6100ded2164301840c0ce994eb64828c1c427f4b63db7f933"},
+    {"national_dex":5,"name":"charmeleon","all_8_roms_identical":true,"front_sha256":"25f649961387b3c88d76266d213ee345a19ae7ad86f79f6ec053e0d430510e86","back_sha256":"571850faa4c361420896ae3b17ec3d6aeb6d17ece5e5f466e226970f07e7c978","normal_palette_sha256":"7876267f53f2298228add716a124a916565ea19627ccfc2b6ff59ce92d65107f","shiny_palette_sha256":"6bb744fc60bffc39691043a967a0c32f15e4d610107e6d664246b3c88784da05"}
+  ]
+}

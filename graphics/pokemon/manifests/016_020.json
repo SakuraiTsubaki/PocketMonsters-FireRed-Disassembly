@@ -1,0 +1,22 @@
+{
+  "range":[16,20],
+  "shared_by":[
+    {"file":"Pocket Monsters - Fire Red (Japan).gba","sha1":"04139887b6cd8f53269aca098295b006ddba6cfe","game_code":"BPRJ","revision":0},
+    {"file":"Pocket Monsters - Fire Red (Japan) (Rev 1).gba","sha1":"7c7107b87c3ccf6e3dbceb9cf80ceeffb25a1857","game_code":"BPRJ","revision":1},
+    {"file":"Pokemon - Fire Red Version (USA).gba","sha1":"d3b806453369b4b086c792eb3c05a02f00057f50","game_code":"BPRE","revision":0},
+    {"file":"Pokemon - Fire Red Version (USA, Europe) (Rev 1).gba","sha1":"c4d0119d9bcb36687f41a8f7ca72ab7af60558e4","game_code":"BPRE","revision":1},
+    {"file":"Pokemon - Feuerrote Edition (Germany).gba","sha1":"18a3758ceeef2c77b315144be2c3910d6f1f69fe","game_code":"BPRD","revision":0},
+    {"file":"Pokemon - Version Rouge Feu (France).gba","sha1":"fc663907256f06a3a09e2d6b967bc9af4919f111","game_code":"BPRF","revision":0},
+    {"file":"Pokemon - Edicion Rojo Fuego (Spain).gba","sha1":"ab8f6bfe0ccdaf41188cd015c8c74c314d02296a","game_code":"BPRS","revision":0},
+    {"file":"Pokemon - Versione Rosso Fuoco (Italy).gba","sha1":"66a9d415205321376b4318534c0dce5f69d28362","game_code":"BPRI","revision":0}
+  ],
+  "deduplication":"byte-identical across all listed ROMs; one canonical asset set stored",
+  "species":[
+    {"national_dex":16,"name":"pidgey","raw_sha256":{"front":"210dd3d1cd7174505f91965726d0b7710c6f0b41a12c0ddb9c3104f54f010723","back":"d6a571068fddca31c98db77f66afcb421197664aa12a609933328239900a8113","normal_palette":"86220e6437408f368b1fcb9092ec7fac26a4c9c390e4bfc367462d25ded8787b","shiny_palette":"6f8a07fbf32c7a8f4fa18dc94cd42f83e2df996e2f5902ae837c2bd55ad9fccd"}},
+    {"national_dex":17,"name":"pidgeotto","raw_sha256":{"front":"3bd465fb85da80f24f05f4ce9d3af82e0e3b6426d8065b0d1def7f653d3af38c","back":"ecb4c606b62be4f133b2a1bb4db41b73ff868804f89e4a69b294ed7c0462a6e6","normal_palette":"d45f5a7ba4bdeac771332f949882e0bb0f44b891e1f224767b98151d3e93b4d4","shiny_palette":"5976434bc304817f17c294e4f791bb03c1fae02b71d26e5ba350b65dbe4092a9"}},
+    {"national_dex":18,"name":"pidgeot","raw_sha256":{"front":"f02c4bb781795c23606fb0ec2e5c3d2be41050edb73ca01be3b24be4bfc73a02","back":"e0f1f3e3d7bccccf272263239cb03f0d5226052fba12bb2b73d05ffb2e58303d","normal_palette":"9db56326d978b52883a13e0643b3de4db3bf8c97c456cf92c5b0e14e7bc7f01d","shiny_palette":"2ee7e8a282c054f81c24cb38ce6c2fcba17634e641dbc883dee534519aef1153"}},
+    {"national_dex":19,"name":"rattata","raw_sha256":{"front":"822e911df682794c3d308865c073632566cbe866af1440ac2012f1f40161a43c","back":"1e63276a2dda691675f576216e9f3a069b8c3b1b9a35e245e9af4a31115e533b","normal_palette":"9bb56cf86044694803efc3a1f90ce37cc233a019eaa89ba4a4927dc7796a0f4b","shiny_palette":"4abe6ed63bfeebd0fe975eba4816caac44b16e0a4c5df8777c17956ee34b95e3"}},
+    {"national_dex":20,"name":"raticate","raw_sha256":{"front":"2d778ce8c909ffa8205a7ade8c696c162d56bef682071a9809b8a6cd04b73af7","back":"877cf8eef75c4a372745f14163a41c0abc8a92f7c901bd1684d93f508ae75fc2","normal_palette":"aa15440142b0543d671f36838885b4509a5da5a57eed1f8ffd001e6f7e693b43","shiny_palette":"1f6844cea357ef3c4829b2e1b0dee696a2dc8a5bcb669d564908246dfbc87618"}}
+  ],
+  "verification":{"rom_count":8,"all_assets_byte_identical":true,"png_roundtrip_to_4bpp":true}
+}

@@ -1,23 +1,27 @@
-# Pokémon battle sprites
+# Pokémon graphics
 
-This directory contains ROM-extracted Pokémon battle sprite assets for FireRed.
+Pokémon assets in this directory are stored as FireRed disassembly source files.
 
-## Deduplication policy
+## Source layout
+
+Each species uses the canonical source-style path:
+
+- `graphics/pokemon/<species>/front.png`
+- `graphics/pokemon/<species>/back.png`
+- `graphics/pokemon/<species>/normal.pal`
+- `graphics/pokemon/<species>/shiny.pal`
+
+The PNGs preserve the 4bpp palette-index order; shiny coloration is represented by `shiny.pal` rather than duplicate shiny PNGs.
+
+## Deduplication
 
 - ROM binaries are input-only and are never committed.
-- Identical sprite data shared by language/revision ROMs is stored only once.
-- Source ROM membership, table offsets, and hashes are recorded in batch manifests.
-- Normal and shiny renders are kept separately because their palettes differ visually.
-- Uploads are intentionally split into small National Dex batches instead of one large asset dump.
-- Exact duplicate rendered/data assets discovered later are represented by manifest aliases instead of duplicate files.
+- Language/revision ROMs are compared before emission.
+- Byte-identical sprite and palette assets are stored once in the shared disassembly tree.
+- Version membership, ROM hashes, table offsets, and raw asset hashes are recorded in `manifests/` instead of duplicating identical graphics.
 
-## Current extraction format
+## Upload batches
 
-Each species directory may contain:
+Sprite assets are added in small National Dex batches. Do not mass-upload the full set in one commit.
 
-- `front.4bpp` / `back.4bpp` — decompressed 64×64 GBA 4bpp sprite data
-- `normal.gbapal` / `shiny.gbapal` — decompressed 16-color BGR555 palettes
-- `front.png` / `back.png` — normal-color review images
-- `front_shiny.png` / `back_shiny.png` — shiny-color review images
-
-See `tools/sprites/extract_pokemon_battle_sprites.py` for the reproducible extractor and `manifests/` for source/deduplication records.
+`tools/sprites/extract_pokemon_battle_sprites.py` recreates this layout directly from the input ROMs.

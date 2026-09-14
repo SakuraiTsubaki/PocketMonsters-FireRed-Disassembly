@@ -1,10 +1,9 @@
 #!/usr/bin/env python3
-"""Extract and deduplicate FireRed Pokémon battle sprites from one or more ROMs.
+"""Extract FireRed Pokémon battle sprites into disassembly-ready source paths.
 
-ROM binaries are input-only and are never copied to the output tree.
-The script auto-detects the front/back sprite tables and normal/shiny palette tables,
-then renders canonical PNGs. Identical assets across language/revision ROMs are stored
-once and represented by source mappings in the manifest.
+ROM binaries are input-only and are never copied. Multiple language/revision ROMs are
+compared byte-for-byte; identical assets are emitted once and source equivalence is
+recorded in a manifest.
 """
 from __future__ import annotations
 
@@ -32,9 +31,7 @@ def sha256(data: bytes) -> str:
 
 
 def pointer_to_offset(pointer: int, rom_size: int) -> int | None:
-    if ROM_BASE <= pointer < ROM_BASE + rom_size:
-        return pointer - ROM_BASE
-    return None
+    return pointer - ROM_BASE if ROM_BASE <= pointer < ROM_BASE + rom_size else None
 
 
 def lz_size(rom: bytes, offset: int | None) -> int | None:
@@ -69,22 +66,17 @@ def lz77_decompress(rom: bytes, offset: int) -> bytes:
 
 
 def find_sprite_tables(rom: bytes, probe: int = 12) -> List[int]:
-    """Find sequential 0x800-byte compressed sprite-sheet tables."""
     result: List[int] = []
     n = len(rom)
     for off in range(0, n - 8 * probe, 4):
         ptr, size, tag = struct.unpack_from("<IHH", rom, off)
-        p = pointer_to_offset(ptr, n)
-        if size != 0x800 or tag != 0 or lz_size(rom, p) != 0x800:
+        if size != 0x800 or tag != 0 or lz_size(rom, pointer_to_offset(ptr, n)) != 0x800:
             continue
-        ok = True
         for i in range(1, probe):
             ptr, size, tag = struct.unpack_from("<IHH", rom, off + i * 8)
-            p = pointer_to_offset(ptr, n)
-            if size != 0x800 or tag != i or lz_size(rom, p) != 0x800:
-                ok = False
+            if size != 0x800 or tag != i or lz_size(rom, pointer_to_offset(ptr, n)) != 0x800:
                 break
-        if ok:
+        else:
             result.append(off)
     return result
 
@@ -92,25 +84,22 @@ def find_sprite_tables(rom: bytes, probe: int = 12) -> List[int]:
 def find_palette_table(rom: bytes, start_tag: int, probe: int = 12) -> int:
     n = len(rom)
     for off in range(0, n - 8 * probe, 4):
-        ptr, tag, _pad = struct.unpack_from("<IHH", rom, off)
-        p = pointer_to_offset(ptr, n)
-        if tag != start_tag or lz_size(rom, p) != 32:
+        ptr, tag, _ = struct.unpack_from("<IHH", rom, off)
+        if tag != start_tag or lz_size(rom, pointer_to_offset(ptr, n)) != 32:
             continue
-        ok = True
         for i in range(1, probe):
-            ptr, tag, _pad = struct.unpack_from("<IHH", rom, off + i * 8)
-            p = pointer_to_offset(ptr, n)
-            if tag != start_tag + i or lz_size(rom, p) != 32:
-                ok = False
+            ptr, tag, _ = struct.unpack_from("<IHH", rom, off + i * 8)
+            if tag != start_tag + i or lz_size(rom, pointer_to_offset(ptr, n)) != 32:
                 break
-        if ok:
+        else:
             return off
     raise RuntimeError(f"palette table tag {start_tag} not found")
 
 
 def get_sheet(rom: bytes, table: int, species: int) -> bytes:
     ptr, size, tag = struct.unpack_from("<IHH", rom, table + species * 8)
-    assert size == 0x800 and tag == species
+    if size != 0x800 or tag != species:
+        raise RuntimeError(f"unexpected sprite entry for species {species}")
     return lz77_decompress(rom, ptr - ROM_BASE)
 
 
@@ -119,29 +108,34 @@ def get_palette(rom: bytes, table: int, species: int) -> bytes:
     return lz77_decompress(rom, ptr - ROM_BASE)
 
 
-def rgba_palette(raw: bytes) -> List[Tuple[int, int, int, int]]:
+def palette_rgb(raw: bytes) -> List[Tuple[int, int, int]]:
     colors = []
     for i in range(16):
         value = struct.unpack_from("<H", raw, i * 2)[0]
-        r = (value & 31) * 255 // 31
-        g = ((value >> 5) & 31) * 255 // 31
-        b = ((value >> 10) & 31) * 255 // 31
-        colors.append((r, g, b, 0 if i == 0 else 255))
+        colors.append(((value & 31) * 255 // 31,
+                       ((value >> 5) & 31) * 255 // 31,
+                       ((value >> 10) & 31) * 255 // 31))
     return colors
 
 
-def render(sheet: bytes, palette: bytes) -> Image.Image:
-    colors = rgba_palette(palette)
-    image = Image.new("RGBA", (64, 64), (0, 0, 0, 0))
+def jasc_palette(raw: bytes) -> str:
+    lines = ["JASC-PAL", "0100", "16"]
+    lines.extend(f"{r} {g} {b}" for r, g, b in palette_rgb(raw))
+    return "\n".join(lines) + "\n"
+
+
+def render_indexed(sheet: bytes, palette: bytes) -> Image.Image:
+    image = Image.new("P", (64, 64))
+    flat = [channel for rgb in palette_rgb(palette) for channel in rgb]
+    image.putpalette(flat + [0] * (768 - len(flat)))
     pixels = image.load()
     for tile_y in range(8):
         for tile_x in range(8):
-            tile = (tile_y * 8 + tile_x) * 32
+            base = (tile_y * 8 + tile_x) * 32
             for y in range(8):
                 for x in range(8):
-                    packed = sheet[tile + y * 4 + x // 2]
-                    idx = packed & 0x0F if x % 2 == 0 else packed >> 4
-                    pixels[tile_x * 8 + x, tile_y * 8 + y] = colors[idx]
+                    packed = sheet[base + y * 4 + x // 2]
+                    pixels[tile_x * 8 + x, tile_y * 8 + y] = packed & 0x0F if x % 2 == 0 else packed >> 4
     return image
 
 
@@ -160,16 +154,20 @@ def detect(rom: bytes) -> Dict[str, int]:
 def main() -> None:
     ap = argparse.ArgumentParser()
     ap.add_argument("roms", nargs="+", type=Path)
-    ap.add_argument("--output", type=Path, required=True)
+    ap.add_argument("--output", type=Path, required=True,
+                    help="disassembly graphics/pokemon directory")
+    ap.add_argument("--manifest", type=Path,
+                    help="optional manifest path; defaults under OUTPUT/manifests")
     ap.add_argument("--start", type=int, default=1)
     ap.add_argument("--end", type=int, default=25)
     args = ap.parse_args()
 
-    sources = []
     loaded = []
+    sources = []
     for path in args.roms:
         rom = path.read_bytes()
         tables = detect(rom)
+        loaded.append((path, rom, tables))
         sources.append({
             "file": path.name,
             "sha1": hashlib.sha1(rom).hexdigest(),
@@ -177,10 +175,8 @@ def main() -> None:
             "revision": rom[0xBC],
             "tables": {k: f"0x{v:X}" for k, v in tables.items()},
         })
-        loaded.append((path, rom, tables))
 
-    out = args.output
-    out.mkdir(parents=True, exist_ok=True)
+    args.output.mkdir(parents=True, exist_ok=True)
     manifest = {"sources": sources, "species": []}
 
     for species in range(args.start, args.end + 1):
@@ -196,41 +192,36 @@ def main() -> None:
             variants.append((path.name, parts))
 
         canonical = variants[0][1]
-        for src, parts in variants[1:]:
-            for key in canonical:
-                if canonical[key] != parts[key]:
-                    raise RuntimeError(f"{species:03d} {name}: {key} differs in {src}")
+        for source, parts in variants[1:]:
+            for key, value in canonical.items():
+                if value != parts[key]:
+                    raise RuntimeError(f"{species:03d} {name}: {key} differs in {source}")
 
-        folder = out / f"{species:03d}_{name}"
+        folder = args.output / name
         folder.mkdir(parents=True, exist_ok=True)
-        files = {}
-        raw_targets = {
-            "front": folder / "front.4bpp",
-            "back": folder / "back.4bpp",
-            "normal_palette": folder / "normal.gbapal",
-            "shiny_palette": folder / "shiny.gbapal",
-        }
-        for key, target in raw_targets.items():
-            target.write_bytes(canonical[key])
-            files[target.name] = sha256(canonical[key])
-
         for side in ("front", "back"):
-            for pal_key, suffix in (("normal_palette", ""), ("shiny_palette", "_shiny")):
-                image = render(canonical[side], canonical[pal_key])
-                target = folder / f"{side}{suffix}.png"
-                image.save(target, optimize=True)
-                files[target.name] = sha256(target.read_bytes())
+            target = folder / f"{side}.png"
+            render_indexed(canonical[side], canonical["normal_palette"]).save(target, optimize=True, bits=4)
+        (folder / "normal.pal").write_text(jasc_palette(canonical["normal_palette"]), encoding="ascii")
+        (folder / "shiny.pal").write_text(jasc_palette(canonical["shiny_palette"]), encoding="ascii")
 
         manifest["species"].append({
             "national_dex": species,
             "name": name,
             "canonical_source": variants[0][0],
-            "shared_by": [src for src, _ in variants],
+            "shared_by": [source for source, _ in variants],
             "raw_hashes": {key: sha256(value) for key, value in canonical.items()},
-            "file_hashes": files,
+            "paths": {
+                "front": f"graphics/pokemon/{name}/front.png",
+                "back": f"graphics/pokemon/{name}/back.png",
+                "normal_palette": f"graphics/pokemon/{name}/normal.pal",
+                "shiny_palette": f"graphics/pokemon/{name}/shiny.pal",
+            },
         })
 
-    (out / "manifest.json").write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n")
+    manifest_path = args.manifest or args.output / "manifests" / f"battle_{args.start:03d}_{args.end:03d}.json"
+    manifest_path.parent.mkdir(parents=True, exist_ok=True)
+    manifest_path.write_text(json.dumps(manifest, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")
 
 
 if __name__ == "__main__":

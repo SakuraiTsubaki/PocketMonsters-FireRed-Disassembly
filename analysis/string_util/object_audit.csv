@@ -1,0 +1,9 @@
+baseline,start,end_exclusive,size,build_family,byte_differences_vs_family_reference,address_literal_bytes,thumb_bl_bytes,other_bytes
+jp_rev0,0x08008870,0x08008EAC,1596,japanese,0,0,0,0
+jp_rev1,0x080087DC,0x08008E18,1596,japanese,126,108,18,0
+us_rev0,0x08008CF4,0x08009480,1932,international,0,0,0,0
+us_rev1,0x08008D08,0x08009494,1932,international,59,51,8,0
+fr,0x08008C60,0x080093EC,1932,international,119,100,19,0
+de,0x08008C74,0x08009400,1932,international,92,79,13,0
+it,0x08008C74,0x08009400,1932,international,117,99,18,0
+es,0x08008C60,0x080093EC,1932,international,104,88,16,0

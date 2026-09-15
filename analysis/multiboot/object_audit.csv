@@ -1,9 +1,0 @@
-baseline,start,end_exclusive,size,build_family,byte_differences_vs_family_reference,address_literal_bytes,thumb_bl_bytes,other_bytes
-jp_rev0,0x0800B600,0x0800BCB4,1716,japanese,0,0,0,0
-jp_rev1,0x0800B56C,0x0800BC20,1716,japanese,23,20,3,0
-us_rev0,0x0800BC20,0x0800C2D4,1716,international,0,0,0,0
-us_rev1,0x0800BC34,0x0800C2E8,1716,international,11,10,1,0
-fr,0x0800BB8C,0x0800C240,1716,international,23,20,3,0
-de,0x0800BBA0,0x0800C254,1716,international,23,20,3,0
-it,0x0800BBA0,0x0800C254,1716,international,22,20,2,0
-es,0x0800BB8C,0x0800C240,1716,international,22,20,2,0

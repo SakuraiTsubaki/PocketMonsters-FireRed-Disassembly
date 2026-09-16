@@ -1,2 +1,38 @@
 # PocketMonsters-FireRed-Disassembly
-Multi-language, multi-revision disassembly and decompilation of Pokémon FireRed, reconstructed for reproducible builds from source, graphics, text, audio, maps, and game data. ROM images are not included.
+
+Evidence-driven disassembly research for **Pokémon FireRed**.
+
+## Target
+
+| Field | Value |
+| --- | --- |
+| Platform | Game Boy Advance |
+| CPU | ARM7TDMI (ARMv4T) |
+| Architecture profile | `gba-arm7tdmi` |
+| Scope | Japanese and localized FireRed releases across independently verified revisions. |
+| Current stage | Foundation; no release baseline is verified yet |
+
+## Ready to use
+
+- machine-readable target metadata and an intentionally empty release matrix;
+- architecture-specific bank/section and symbol tables;
+- documented scope, workflow, research method, and roadmap;
+- local input hashing and repository validation tools;
+- unit tests, GitHub Actions, issue forms, and pull-request checks.
+
+## Start a verified baseline
+
+```sh
+python tools/hash_input.py path/to/legally-obtained-input
+python tools/validate_repository.py .
+python -m unittest discover -s tests -v
+```
+
+Add only metadata and hashes to `research/releases.csv`; never add the input.
+Use `research/templates/note.md` for each bounded investigation.
+
+Shared methods and reusable tools belong in
+[`SakuraiTsubaki/Disassembly`](https://github.com/SakuraiTsubaki/Disassembly).
+
+No earlier experimental work was migrated. Completeness and byte-exactness are
+not claimed until automated evidence exists.

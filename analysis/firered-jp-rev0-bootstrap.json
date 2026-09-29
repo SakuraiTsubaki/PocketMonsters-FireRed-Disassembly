@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 516,
+  "start_address": 134218244,
+  "end_offset": 564,
+  "instruction_count": 12,
+  "instruction_bytes_sha256": "d351dac18b97db56c30ec6b71463a08edde9480d27fb2c48bdda135efec937e6",
+  "instructions": [
+    {
+      "address": 134218244,
+      "word": 3818913810,
+      "bytes_le": "1200a0e3",
+      "kind": "other"
+    },
+    {
+      "address": 134218248,
+      "word": 3777622016,
+      "bytes_le": "00f029e1",
+      "kind": "other"
+    },
+    {
+      "address": 134218252,
+      "word": 3852455976,
+      "bytes_le": "28d09fe5",
+      "kind": "ldr-literal",
+      "register": 13,
+      "literal_address": 134218300,
+      "value": 50364320
+    },
+    {
+      "address": 134218256,
+      "word": 3818913823,
+      "bytes_le": "1f00a0e3",
+      "kind": "other"
+    },
+    {
+      "address": 134218260,
+      "word": 3777622016,
+      "bytes_le": "00f029e1",
+      "kind": "other"
+    },
+    {
+      "address": 134218264,
+      "word": 3852455960,
+      "bytes_le": "18d09fe5",
+      "kind": "ldr-literal",
+      "register": 13,
+      "literal_address": 134218296,
+      "value": 50363968
+    },
+    {
+      "address": 134218268,
+      "word": 3852406812,
+      "bytes_le": "1c109fe5",
+      "kind": "ldr-literal",
+      "register": 1,
+      "literal_address": 134218304,
+      "value": 50364412
+    },
+    {
+      "address": 134218272,
+      "word": 3801022496,
+      "bytes_le": "20008fe2",
+      "kind": "other"
+    },
+    {
+      "address": 134218276,
+      "word": 3850436608,
+      "bytes_le": "000081e5",
+      "kind": "other"
+    },
+    {
+      "address": 134218280,
+      "word": 3852406804,
+      "bytes_le": "14109fe5",
+      "kind": "ldr-literal",
+      "register": 1,
+      "literal_address": 134218308,
+      "value": 134218661
+    },
+    {
+      "address": 134218284,
+      "word": 3785416719,
+      "bytes_le": "0fe0a0e1",
+      "kind": "other"
+    },
+    {
+      "address": 134218288,
+      "word": 3778019089,
+      "bytes_le": "11ff2fe1",
+      "kind": "bx",
+      "register": 1
+    }
+  ],
+  "transition": {
+    "instruction_address": 134218288,
+    "register": 1,
+    "loaded_at": 134218280,
+    "literal_address": 134218308,
+    "raw_target": 134218661,
+    "target_address": 134218660,
+    "target_state": "thumb"
+  },
+  "source_size": 16777216,
+  "source_sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+}

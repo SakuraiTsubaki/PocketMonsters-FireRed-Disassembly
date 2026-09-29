@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"firered-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486","offset":0,"length":4}],"outputs":[{"path":"analysis/firered-jp-rev0-entrypoint.json","sha256":"88a7c8c567806cfeaae38c0d750eb6e1105adc102a354a430972c2115be99830"},{"path":"src/rom_entry.s","sha256":"01628f1418cdec5232cdc7b8f761a03bd6dbae2ccb58d4bf5f44333912498966"}]}
+

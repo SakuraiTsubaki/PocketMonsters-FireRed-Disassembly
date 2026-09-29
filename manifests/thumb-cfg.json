@@ -1,0 +1,2 @@
+{"schema_version":1,"id":"firered-jp-rev0-thumb-cfg","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_thumb_cfg.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486","start_address":"0x080003a4"}],"outputs":[{"path":"analysis/firered-jp-rev0-thumb-cfg.json","sha256":"05175b9d397f0c42a6b8dc9e108fb5c92403ef70e37360adfdb4b2bec882bfd9"},{"path":"src/thumb_entry_reachable.s","sha256":"de6d23b7febb687310430d613b8da39800d20c1695a2b41d086bb6fec895c69c"}]}
+

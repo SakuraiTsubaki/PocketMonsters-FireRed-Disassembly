@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "game_code_prefix": "BPR",
+  "observed_files": 8,
+  "unique_identities": 8,
+  "language_priority": [
+    "Japanese",
+    "English",
+    "German",
+    "French",
+    "Italian",
+    "Spanish"
+  ],
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "market": "Japan",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "04139887b6cd8f53269aca098295b006ddba6cfe",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "observed_filenames": [
+        "Pocket Monsters - Fire Red (Japan).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRJ",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 99
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 99
+      }
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "market": "Japan",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "7c7107b87c3ccf6e3dbceb9cf80ceeffb25a1857",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "observed_filenames": [
+        "Pocket Monsters - Fire Red (Japan) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRJ",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 98
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 98
+      }
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "d3b806453369b4b086c792eb3c05a02f00057f50",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "observed_filenames": [
+        "Pokemon - Fire Red Version (USA).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 104
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 104
+      }
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "market": "USA/Europe",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "c4d0119d9bcb36687f41a8f7ca72ab7af60558e4",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "observed_filenames": [
+        "Pokemon - Fire Red Version (USA, Europe) (Rev 1).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRE",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 1,
+        "header_checksum": 103
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 103
+      }
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "market": "Germany",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "18a3758ceeef2c77b315144be2c3910d6f1f69fe",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "observed_filenames": [
+        "Pokemon - Feuerrote Edition (Germany).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRD",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 105
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 105
+      }
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "market": "France",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "fc663907256f06a3a09e2d6b967bc9af4919f111",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "observed_filenames": [
+        "Pokemon - Version Rouge Feu (France).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRF",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 103
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 103
+      }
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "market": "Italy",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "66a9d415205321376b4318534c0dce5f69d28362",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "observed_filenames": [
+        "Pokemon - Versione Rosso Fuoco (Italy).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRI",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 100
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 100
+      }
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "market": "Spain",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "size": 16777216,
+      "sha1": "ab8f6bfe0ccdaf41188cd015c8c74c314d02296a",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "observed_filenames": [
+        "Pokemon - Edicion Rojo Fuego (Spain).gba"
+      ],
+      "header": {
+        "entry_point": "7f0000ea",
+        "title": "POKEMON FIRE",
+        "game_code": "BPRS",
+        "maker_code": "01",
+        "fixed_value": 150,
+        "main_unit_code": 0,
+        "device_type": 0,
+        "software_version": 0,
+        "header_checksum": 90
+      },
+      "validation": {
+        "nintendo_logo_valid": true,
+        "fixed_value_valid": true,
+        "reserved_area_valid": true,
+        "header_checksum_valid": true,
+        "calculated_header_checksum": 90
+      }
+    }
+  ]
+}

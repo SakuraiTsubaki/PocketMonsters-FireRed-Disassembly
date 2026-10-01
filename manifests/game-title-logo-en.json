@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "asset_id": "firered-en-rev0-game-title-logo",
+  "release_id": "firered-en-rev0",
+  "release_status": "candidate",
+  "source": {"rom_sha256":"b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00","offset":"0xEAB8C4","compression":"GBA BIOS LZ77","compressed_length":6857,"compressed_sha256":"b73c230503b5ba7f43236863d80f729a512267b1570f195389ed451f4a394701"},
+  "decoded": {"format":"GBA 8bpp tiles","length":16384,"tile_count":256,"sha256":"c31453fde1834af792e49e675d0b47683e9312c637683fad0f3ebe4177bc7a9c"},
+  "reference": {"repository":"pret/pokefirered","commit":"037335f4c725d7c9aecdac87066f2002b4bd7e14","path":"graphics/title_screen/firered/game_title_logo.png","git_blob_sha1":"9d9cd68f18f2081d419d547e253a9c45f4f36752","png_sha256":"8c10d021f51e93ffbad6474ec9e16253d5181f1dbbb38bea8cf51821df3360c2","relationship":"indexed PNG converted in 8x8 tile order exactly matches decoded ROM bytes"},
+  "outputs": [
+    {"path":"graphics/title/game-title-logo-en.png","sha256":"9fc0ca8f171a833e0919652b7bad783050a9233d37a8d87e9ef6c968f58708d8"},
+    {"path":"graphics/title/game-title-logo-en.pal","sha256":"e4c37140ce42fafeac342cf43d665d3f23db0bd614eaa0d98f9e5a11f9f5c88c"},
+    {"path":"analysis/firered-en-rev0-game-title-logo.json"}
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "asset_group": "firered-localized-game-title-logos",
+  "languages": [
+    "de",
+    "fr",
+    "it",
+    "es"
+  ],
+  "assets": [
+    {
+      "language": "de",
+      "release_id": "firered-de-rev0",
+      "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "palette": {
+        "offset": "0xEA9FE0",
+        "source_sha256": "7f3dc7d15742975d9a748d54a5680e765802cfdd858870fd49b0ae1a83a92b42",
+        "output_sha256": "39177fb40e2a3821fd854d63ade45b960c2fd99ebc3d3bd81679aadfb4143a52",
+        "path": "graphics/title/game-title-logo-de.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA1E0",
+        "compressed_length": 6865,
+        "compressed_sha256": "810e36addf3ed5bc3aa4d29faaa198565955629a17792072c96cbc405ab681cf",
+        "decompressed_sha256": "5f7ac8229ed2418870178a728c270e70fb6ac6438627e738e202c40fec21961e",
+        "path": "graphics/title/game-title-logo-de.png",
+        "png_sha256": "391799cb35e5070d5658df91b6639409ca44399b6a62c4c9ae476fa2c6aecc0f"
+      }
+    },
+    {
+      "language": "fr",
+      "release_id": "firered-fr-rev0",
+      "rom_sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "palette": {
+        "offset": "0xEAA020",
+        "source_sha256": "7906b199357f12d18d5ebc7337b9ef2583339ec4bf3bf5b962c996942dafb780",
+        "output_sha256": "989be5f0154ffca345ccd582dd2283ff57276d666dc887a3117c14d9620889bf",
+        "path": "graphics/title/game-title-logo-fr.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA220",
+        "compressed_length": 6874,
+        "compressed_sha256": "ee28286f8a84bb27172ce4e2e873ab7904962f41405827916e2815fc2c89c77c",
+        "decompressed_sha256": "8ed7b75888f2debd6a95a3dfa2e7bd5bf3168a983a2a59c35283df4d7409b4c1",
+        "path": "graphics/title/game-title-logo-fr.png",
+        "png_sha256": "cef4662a5fc5e4f1687cca2e26dca7adf38c789e2dca9d4b66be78d65ad03037"
+      }
+    },
+    {
+      "language": "it",
+      "release_id": "firered-it-rev0",
+      "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "palette": {
+        "offset": "0xEA9FFC",
+        "source_sha256": "ec923ae3d084eda1f5b22fd2891193c3fdc80c949ce4285b67f2a139a68a152b",
+        "output_sha256": "e0800c253d03d2aaaf4a5cd76d5e147e6228132877cc930afc68b88cffcbd7dd",
+        "path": "graphics/title/game-title-logo-it.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA1FC",
+        "compressed_length": 7052,
+        "compressed_sha256": "0c1cb4829f2967ec415fffe0595625e319dfb517280b7ab673e1061ddb9dc2e5",
+        "decompressed_sha256": "5f3dd45438175d49717520c6a9295fa549ae16d277c51b8ba016bac20fc7b490",
+        "path": "graphics/title/game-title-logo-it.png",
+        "png_sha256": "80b9c45c106d0ae8de01aca91e1012df4a399f53fd62e317ce82398c2b00ccf6"
+      }
+    },
+    {
+      "language": "es",
+      "release_id": "firered-es-rev0",
+      "rom_sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "palette": {
+        "offset": "0xEAA058",
+        "source_sha256": "4efa36ad36d1620e72eb904a06e5d96f65704211c737cac3beb4ed7fce61a207",
+        "output_sha256": "ec30aee185c2cc9916b3f50381a999d7da06cdc51c4c285796206d4776f5e06d",
+        "path": "graphics/title/game-title-logo-es.pal"
+      },
+      "tiles": {
+        "offset": "0xEAA258",
+        "compressed_length": 6968,
+        "compressed_sha256": "649d58b2a2b5dc89e96db3e35160e36e6dc9fdcbdc7f31a7f31905091afc61fa",
+        "decompressed_sha256": "7aa0dc76317541ef61e1f9c3a86f9fada1add3cda9b7776771783b545d157dac",
+        "path": "graphics/title/game-title-logo-es.png",
+        "png_sha256": "6f832d8857eae7e490649e3d314aa1519056e8e63e65fe275922a1c7a2b43b03"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "asset_group": "firered-jp-version-sprite-sheets",
+  "target": {
+    "release": "BPRJ-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/extract_gba_lz77_4bpp.py",
+    "mode": "grayscale-index-preview",
+    "tiles_per_row": 16
+  },
+  "palette_status": "unverified-not-published",
+  "outputs": [
+    {
+      "path": "graphics/title/jp-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/jp-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    },
+    {
+      "path": "analysis/firered-jp-version-sprite-sheet-0.json",
+      "sha256": "f3c6c2408b7ab6ce87a583305003b264414faf5958eb7cc7aa78911ff0290112"
+    },
+    {
+      "path": "analysis/firered-jp-version-sprite-sheet-1.json",
+      "sha256": "8f4291a97a84ffd456e57572a31c0325eeb9558a9386375e83db629c7527fd22"
+    },
+    {
+      "path": "research/jp-version-sprite-sheets.md",
+      "sha256": "a4ea1082e23820279e91c142f01e496d45123fd45c8c04a3221e6b6fd5643680"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
+

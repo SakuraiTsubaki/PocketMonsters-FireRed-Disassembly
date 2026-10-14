@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "asset_group": "firered-jp-deoxys-attack-sprites",
+  "target": {"release": "BPRJ-rev0", "species": 410, "form": "attack", "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"},
+  "reference": {"repository": "pret/pokefirered", "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14"},
+  "outputs": [
+    {"path": "graphics/pokemon/deoxys-normal-jp.pal", "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"},
+    {"path": "graphics/pokemon/deoxys-attack-front-jp.png", "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"},
+    {"path": "graphics/pokemon/deoxys-attack-back-jp.png", "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"},
+    {"path": "analysis/firered-jp-rev0-deoxys-palette.json", "sha256": "b8bb20f7156db591a40d9cfb3ce93554897045c8ce953af91adebd9d60d14d79"},
+    {"path": "analysis/firered-jp-rev0-deoxys-attack-front.json", "sha256": "c237a550d446a713a7fff8082565777563ed11b17800263ff93c5ec38933906e"},
+    {"path": "analysis/firered-jp-rev0-deoxys-attack-back.json", "sha256": "f844b0640c3d3053d37d3162892830dcb9be673794d1ca85e4a5bba872adad91"},
+    {"path": "analysis/firered-jp-rev0-deoxys-front-table.json", "sha256": "2388b7818480277b6f6daa1c8f2900a609e9806d5e247409a431b6e051a30f13"},
+    {"path": "analysis/firered-jp-rev0-deoxys-back-table.json", "sha256": "d1df84fc0c8a523fa8909bed571cf5390a8cc5f385cfdf6df79586bee300c9b6"},
+    {"path": "src/deoxys_species_sprite_tables.asm", "sha256": "929fe443c2280b4923e78ced1c3894618a225c0e5fd8976b3fe917f1f75b5158"},
+    {"path": "research/deoxys-attack-sprites.md", "sha256": "58ed87d94363f3e7181c37ad1a544221a126e9e04abda504b3b0190f84111c96"}
+  ],
+  "raw_rom_bytes_included": false
+}

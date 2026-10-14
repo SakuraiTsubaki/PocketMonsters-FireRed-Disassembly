@@ -1,0 +1,194 @@
+{
+  "asset": {
+    "source_offset": 13866380,
+    "source_pointer": 148084108,
+    "decompressed_length": 4096
+  },
+  "species": 410,
+  "entries": [
+    {
+      "entry_offset": 2052960,
+      "data_pointer": 148084108,
+      "size": 2048,
+      "tag": 410,
+      "table_offset": 2049680,
+      "table_pointer": 136267408,
+      "table_pointer_locations": [
+        296,
+        58972,
+        59040,
+        59164,
+        59188,
+        60076,
+        60132,
+        60256,
+        60280,
+        211768,
+        214228,
+        215024,
+        287984,
+        325960,
+        326032,
+        334116,
+        339328,
+        483680,
+        483716,
+        585388,
+        848400,
+        848912,
+        849324,
+        849948,
+        1099452,
+        1099464,
+        1171732,
+        1356940
+      ],
+      "table_thumb_references": [
+        {
+          "instruction_offset": 58960,
+          "literal_offset": 58972,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 59010,
+          "literal_offset": 59040,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 59152,
+          "literal_offset": 59164,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 59176,
+          "literal_offset": 59188,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 60064,
+          "literal_offset": 60076,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 60102,
+          "literal_offset": 60132,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 60244,
+          "literal_offset": 60256,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 60268,
+          "literal_offset": 60280,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 211700,
+          "literal_offset": 211768,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 213984,
+          "literal_offset": 214228,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 214704,
+          "literal_offset": 215024,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 287938,
+          "literal_offset": 287984,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 325936,
+          "literal_offset": 325960,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 325970,
+          "literal_offset": 326032,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 334086,
+          "literal_offset": 334116,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 339298,
+          "literal_offset": 339328,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 483642,
+          "literal_offset": 483680,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 483686,
+          "literal_offset": 483716,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 585296,
+          "literal_offset": 585388,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 847980,
+          "literal_offset": 848400,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 848102,
+          "literal_offset": 848400,
+          "destination_register": 2
+        },
+        {
+          "instruction_offset": 848668,
+          "literal_offset": 848912,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 849282,
+          "literal_offset": 849324,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 849686,
+          "literal_offset": 849948,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 1099448,
+          "literal_offset": 1099452,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 1099458,
+          "literal_offset": 1099464,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 1171656,
+          "literal_offset": 1171732,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 1356784,
+          "literal_offset": 1356940,
+          "destination_register": 1
+        }
+      ]
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+}

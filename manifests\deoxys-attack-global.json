@@ -1,0 +1,28 @@
+{
+  "schema_version": 1,
+  "asset_group": "firered-global-rev0-deoxys-attack-sprites",
+  "species": 410,
+  "form": "attack",
+  "shared_hashes": {
+    "front_decoded_sha256": "ed6b7c3b3be626897d54ac922eee955f0616611cbe7eeafb416bf5e2623882e0",
+    "back_decoded_sha256": "76478bca4bc91a53cee1c2704aa83877b6bca240a24dd127b11c8ba03a276225",
+    "palette_decoded_sha256": "caf8aee9d8d99ae6753203850a50e6e7ab546f28762639c2e5f405cc30c9c477",
+    "front_png_sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d",
+    "back_png_sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1",
+    "palette_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+  },
+  "releases": {
+    "en": {"sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00", "front_source": 14914956, "back_source": 14916976, "palette_source": 14916936, "front_table": 2314412, "back_table": 2319692},
+    "de": {"sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507", "front_source": 14914944, "back_source": 14916964, "palette_source": 14916924, "front_table": 2314108, "back_table": 2319388},
+    "fr": {"sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a", "front_source": 14914956, "back_source": 14916976, "palette_source": 14916936, "front_table": 2290872, "back_table": 2296152},
+    "it": {"sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a", "front_source": 14914948, "back_source": 14916968, "palette_source": 14916928, "front_table": 2285904, "back_table": 2291184},
+    "es": {"sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554", "front_source": 14914956, "back_source": 14916976, "palette_source": 14916936, "front_table": 2295832, "back_table": 2301112}
+  },
+  "path_templates": {
+    "palette": "graphics/pokemon/deoxys-normal-{language}.pal",
+    "front_png": "graphics/pokemon/deoxys-attack-front-{language}.png",
+    "back_png": "graphics/pokemon/deoxys-attack-back-{language}.png",
+    "analysis": "analysis/firered-{language}-rev0-deoxys-*.json"
+  },
+  "raw_rom_bytes_included": false
+}

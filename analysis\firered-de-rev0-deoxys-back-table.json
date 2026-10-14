@@ -1,0 +1,81 @@
+{
+  "asset": {
+    "source_offset": 14916964,
+    "source_pointer": 149134692,
+    "decompressed_length": 4096
+  },
+  "species": 410,
+  "entries": [
+    {
+      "entry_offset": 2322668,
+      "data_pointer": 149134692,
+      "size": 2048,
+      "tag": 410,
+      "table_offset": 2319388,
+      "table_pointer": 136537116,
+      "table_pointer_locations": [
+        300,
+        60636,
+        61728,
+        214080,
+        214148,
+        216580,
+        485820,
+        485932,
+        1096844,
+        1096868
+      ],
+      "table_thumb_references": [
+        {
+          "instruction_offset": 60626,
+          "literal_offset": 60636,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 61718,
+          "literal_offset": 61728,
+          "destination_register": 0
+        },
+        {
+          "instruction_offset": 214046,
+          "literal_offset": 214080,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 214090,
+          "literal_offset": 214148,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 216534,
+          "literal_offset": 216580,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 485784,
+          "literal_offset": 485820,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 485830,
+          "literal_offset": 485932,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 1096826,
+          "literal_offset": 1096844,
+          "destination_register": 1
+        },
+        {
+          "instruction_offset": 1096850,
+          "literal_offset": 1096868,
+          "destination_register": 1
+        }
+      ]
+    }
+  ],
+  "raw_bytes_published": false,
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+}

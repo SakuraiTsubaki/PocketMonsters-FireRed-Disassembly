@@ -1,0 +1,15 @@
+{
+  "schema_version": 1,
+  "rom_size": 16777216,
+  "rom_sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+  "source_offset": 14916936,
+  "compressed_length": 40,
+  "compressed_sha256": "4ea13d31488595d2bb5866735aa488ca02ff83ce998e00450be263c41fad1ed5",
+  "decompressed_length": 32,
+  "decompressed_sha256": "caf8aee9d8d99ae6753203850a50e6e7ab546f28762639c2e5f405cc30c9c477",
+  "color_count": 16,
+  "source_format": "gba-bios-lz77-to-bgr555",
+  "output_format": "JASC-PAL",
+  "palette_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "asset": "localized-game-title-logo",
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/trace_gba_bg_asset_load.py",
+    "tool_sha256": "bd6ad6fa5ba659c562eeb17cabe32350536c816745e203f33e59553bb730e516"
+  },
+  "inputs": [
+    {
+      "path": "analysis/firered-de-rev0-game-title-logo.json",
+      "sha256": "ceffeb5b56dfbfaf59b01e8fec4cf36e74e3a809e92d6f654c30a9d17c4220a8"
+    },
+    {
+      "path": "analysis/firered-en-rev0-game-title-logo.json",
+      "sha256": "3ce33507d1a172e1a836f1d53f3b54cc5291166bd0241f1dfe954d672521f96f"
+    },
+    {
+      "path": "analysis/firered-es-rev0-game-title-logo.json",
+      "sha256": "b08cc9e38513e53b55ec6a0151b2b8563002d88ab872acacffb7cee8af026fe7"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-game-title-logo.json",
+      "sha256": "93677cea641a157484aab642a2344fd8c744830cc3e01f014f3917cc11d586b7"
+    },
+    {
+      "path": "analysis/firered-it-rev0-game-title-logo.json",
+      "sha256": "d0bc14f1de187f2e87a6d28997f99a3f752089dab7842374332e0d4d58fe285c"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "src/game_title_logo_loader.asm",
+      "sha256": "fe6d3c96e8788622689dc157ff348f76d620bc9ab9a3b0442eb208f6fa46ae27"
+    },
+    {
+      "path": "research/game-title-logo-loader.md",
+      "sha256": "dbda4c6bf39e03f880fecba25cd7c97c6d3264b6d480011d7e1f6ed1649da1a1"
+    },
+    {
+      "path": "tests/test_game_title_logo_loader.py",
+      "sha256": "7480f96ad035e816835794ce4b66ddc4ee1191ca1c2948996327351b7591b331"
+    },
+    {
+      "path": "analysis/firered-de-rev0-game-title-logo-load.json",
+      "sha256": "5f70d9b7f74c9594dca0cdea0f604ee322120859ede6e856c91c0a1a388354b8"
+    },
+    {
+      "path": "analysis/firered-en-rev0-game-title-logo-load.json",
+      "sha256": "3d0c273b6495953b13993c918cab0966557221d88ef4b60473270c75c502d11d"
+    },
+    {
+      "path": "analysis/firered-es-rev0-game-title-logo-load.json",
+      "sha256": "120cc3fbe85c8e5cb5ad8d27f297c04fe2532da57f7d7f09189b02a54deff162"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-game-title-logo-load.json",
+      "sha256": "f555620147eec341220dd6890a2fe679f48e7d7663487b5f52c1346ea6d493c4"
+    },
+    {
+      "path": "analysis/firered-it-rev0-game-title-logo-load.json",
+      "sha256": "eaca9387b2baaf99af7c4c6272e0b6a08f9084c6e6313a9c415b1ecdc65ebe14"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

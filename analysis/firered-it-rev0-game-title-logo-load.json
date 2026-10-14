@@ -1,0 +1,39 @@
+{
+  "asset": {
+    "source_offset": 15376892,
+    "source_pointer": 149594620,
+    "decompressed_length": 16384
+  },
+  "pointer_locations": [
+    494056
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 493900,
+      "literal_offset": 494056,
+      "destination_register": 1
+    }
+  ],
+  "raw_bytes_published": false,
+  "background_loads": [
+    {
+      "instruction_offset": 493900,
+      "literal_offset": 494056,
+      "asset_argument_register": 1,
+      "register_immediates": {
+        "r4": 0,
+        "r0": 0,
+        "r2": 0,
+        "r3": 0
+      },
+      "call_offset": 493912,
+      "call_target": 135228172,
+      "loader_sequence_length": 16,
+      "loader_sequence_sha256": "2003d20d78304b3f5dff74c20ef466ac4e0ef1a6ef7ee9436b7f1c03e1511780"
+    }
+  ],
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+  "asset_report": "analysis/firered-it-rev0-game-title-logo.json"
+}

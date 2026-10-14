@@ -1,0 +1,39 @@
+{
+  "asset": {
+    "source_offset": 15376864,
+    "source_pointer": 149594592,
+    "decompressed_length": 16384
+  },
+  "pointer_locations": [
+    494076
+  ],
+  "thumb_references": [
+    {
+      "instruction_offset": 493920,
+      "literal_offset": 494076,
+      "destination_register": 1
+    }
+  ],
+  "raw_bytes_published": false,
+  "background_loads": [
+    {
+      "instruction_offset": 493920,
+      "literal_offset": 494076,
+      "asset_argument_register": 1,
+      "register_immediates": {
+        "r4": 0,
+        "r0": 0,
+        "r2": 0,
+        "r3": 0
+      },
+      "call_offset": 493932,
+      "call_target": 135228172,
+      "loader_sequence_length": 16,
+      "loader_sequence_sha256": "741443ba823c7704acad3f294993869c980ce0c312fc71081e08fbc9cea30830"
+    }
+  ],
+  "schema_version": 1,
+  "source_size": 16777216,
+  "source_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+  "asset_report": "analysis/firered-de-rev0-game-title-logo.json"
+}

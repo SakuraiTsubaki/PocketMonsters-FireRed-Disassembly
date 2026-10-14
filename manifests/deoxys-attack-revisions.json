@@ -1,0 +1,18 @@
+{
+  "schema_version":1,"asset":"Deoxys Attack Forme remaining revisions","releases":["firered-jp-rev1","firered-en-rev1"],
+  "outputs":[
+    {"path":"analysis/firered-jp-rev1-deoxys-palette.json","sha256":"9ee1fcfc78f73a5dc14c8e069b4d2ad27daa43eef3022016481602ac11e820d8"},
+    {"path":"analysis/firered-jp-rev1-deoxys-attack-front.json","sha256":"561ff263ab6e987d6dd444c3bab72ccd454372b692ab8173c8b4655f9f5d98e9"},
+    {"path":"analysis/firered-jp-rev1-deoxys-attack-back.json","sha256":"be4a266b9f06019403b016dc06ab842d710142a935339ac2cd9abb2f266202d1"},
+    {"path":"analysis/firered-jp-rev1-deoxys-front-table.json","sha256":"8abdf3820f5adf41ea6a0f7f255b879e89e6e686d49e31613e4ec732cc6cca56"},
+    {"path":"analysis/firered-jp-rev1-deoxys-back-table.json","sha256":"744f1e863b241949fa13dca72ffef802419e5114d2cc23320eaa4ce88c89f7d0"},
+    {"path":"analysis/firered-en-rev1-deoxys-palette.json","sha256":"3ab7a56291d482ffdc3aad8cd28e823bb0dceb97507df54ef6487b2b18a1b7b4"},
+    {"path":"analysis/firered-en-rev1-deoxys-attack-front.json","sha256":"b199d056c85998088fe52d08f363d350e346eb7d0975c5c740ff9735d05101e1"},
+    {"path":"analysis/firered-en-rev1-deoxys-attack-back.json","sha256":"144a17bd28e2f498136fd40dcf871c22a1d68e08a0adcd988e85b41eaad673cf"},
+    {"path":"analysis/firered-en-rev1-deoxys-front-table.json","sha256":"2869677ddcdc69ff15c310abbf66007d8810829b63c50ef7ca9403270c6b7049"},
+    {"path":"analysis/firered-en-rev1-deoxys-back-table.json","sha256":"b3167343e97a54468f1bbc29aa4cedeab7e12ec24b9d25b4d88a83c0a1f39a55"},
+    {"path":"src/deoxys_species_sprite_revisions.asm","sha256":"53c1deb0cb27beda0845167136b109709fa013315873b3c240de48730308658b"},
+    {"path":"research/deoxys-attack-revisions.md","sha256":"2a8d6b2781d5e4af3347269da45c89755f9b667158803e44cea183ae80f29097"},
+    {"path":"tests/test_deoxys_attack_revisions.py","sha256":"da238d8a424f6466527a647a54ab2a2c963205b18f757cea0d4b415a90758ee2"}
+  ],"raw_rom_bytes_included":false
+}

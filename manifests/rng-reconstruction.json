@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "functions": [
+    "Random",
+    "SeedRng"
+  ],
+  "releases": [
+    "firered-jp-rev0",
+    "firered-jp-rev1",
+    "firered-en-rev0",
+    "firered-en-rev1",
+    "firered-de-rev0",
+    "firered-fr-rev0",
+    "firered-it-rev0",
+    "firered-es-rev0"
+  ],
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_rng.py",
+    "tool_sha256": "e3dbe698aefd7acbe469fae096361c2d965d677c6ef927dbfb08c9b230b43309"
+  },
+  "outputs": [
+    {
+      "path": "src/random.asm",
+      "sha256": "df07039ef61761ce89366d8a158dbbc320acceac17e0ee2fd16ea9c3cadeda5b"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-rng.json",
+      "sha256": "9bd6c7440fec8b027afb9b078ead52393e0d6340238b645005b61e34a234dc9d"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-rng.json",
+      "sha256": "6f6c2b184e12f0bd594b1b5c55bfeeb4553d814ef134cce9e18d309b41fb7a79"
+    },
+    {
+      "path": "analysis/firered-en-rev0-rng.json",
+      "sha256": "d23241cceeb9b42b3444d5d2116206790c860a8f0c739b5d415c87ad52537fc4"
+    },
+    {
+      "path": "analysis/firered-en-rev1-rng.json",
+      "sha256": "dea1e076e207b60f66afd7c7237ef63a5219ac26190d34b97ec289c26956ffba"
+    },
+    {
+      "path": "analysis/firered-de-rev0-rng.json",
+      "sha256": "1ddc239f620abeef7abb895114f651ea8f62a522bb3ec9362ca91b421217b83d"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-rng.json",
+      "sha256": "2c3b255b1a08af8e9e6b567a6b533032286e4e653afb869d8c841037ba612afb"
+    },
+    {
+      "path": "analysis/firered-it-rev0-rng.json",
+      "sha256": "dc0a86e57bf89556de480bb55129d9e5492bf6f65b37f733303261568268ffe4"
+    },
+    {
+      "path": "analysis/firered-es-rev0-rng.json",
+      "sha256": "afa165d3a49375844c579f883d7cd6544528a80d0c126916169bca592f06f29a"
+    },
+    {
+      "path": "research/rng-reconstruction.md",
+      "sha256": "03b5f5cdbe78714f58fbfd35cdda997e7f06ca34002486421075cdb62ddc1eb5"
+    },
+    {
+      "path": "tests/test_rng_reconstruction.py",
+      "sha256": "f41a085f49f452cb3477cfd1ed54a2b7b456bb27bebdb00638ec5ca6f99f2f13"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

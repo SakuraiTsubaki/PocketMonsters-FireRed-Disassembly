@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "firered-it-rev0",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "variant": "standard",
+  "globals": {
+    "gRngValue": "0x03004F50"
+  },
+  "functions": {
+    "Random": {
+      "address": "0x08044DB8",
+      "rom_offset": 282040,
+      "range_end_exclusive": "0x08044DCA",
+      "length": 18,
+      "code_sha256": "72526af8af03e60317e6ac115ece4a9415af188772c5432ec1c145e0acaf09fb"
+    },
+    "SeedRng": {
+      "address": "0x08044DD8",
+      "rom_offset": 282072,
+      "range_end_exclusive": "0x08044DE2",
+      "length": 10,
+      "code_sha256": "77dddf4b6256d28fe54fe4fa7c41a15d549d1d3e086013e03c7919823fda7edb"
+    }
+  },
+  "algorithm": {
+    "state_bits": 32,
+    "multiplier": 1103515245,
+    "increment": 24691,
+    "return_bits": "state[31:16]"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/random.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

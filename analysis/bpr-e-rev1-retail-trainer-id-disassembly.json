@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-e-rev1-retail",
+    "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170"
+  },
+  "variant": "frlg",
+  "source": "src/trainer_id_helpers.s",
+  "source_sha256": "34a85bf599c23bec6670c2c54847cf9a7bf6b9259e9cb7eaa05397d5d1a6da44",
+  "byte_order": "little-endian",
+  "trainer_id_length": 4,
+  "functions": [
+    {
+      "name": "SetTrainerId",
+      "address": "0x08054910",
+      "range_end_exclusive": "0x08054920",
+      "rom_code_range": {
+        "start_offset": 346384,
+        "end_offset_exclusive": 346400,
+        "length": 16,
+        "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/bpr-e-rev1-retail-settrainerid-cfg.json",
+      "edge_count": 0,
+      "return_count": 1
+    },
+    {
+      "name": "CopyTrainerId",
+      "address": "0x08054920",
+      "range_end_exclusive": "0x0805493C",
+      "rom_code_range": {
+        "start_offset": 346400,
+        "end_offset_exclusive": 346428,
+        "length": 28,
+        "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+        "raw_bytes_published": false
+      },
+      "cfg": "analysis/bpr-e-rev1-retail-copytrainerid-cfg.json",
+      "edge_count": 2,
+      "return_count": 1
+    }
+  ],
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/new_game.c",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

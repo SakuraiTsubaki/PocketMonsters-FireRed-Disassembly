@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "axis": "Disassembly",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "variant": "frlg",
+  "functions": [
+    "SetTrainerId",
+    "CopyTrainerId"
+  ],
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "origin_reference": true,
+      "evidence": {
+        "map": "analysis/bpr-j-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-j-rev0-retail-settrainerid-cfg.json",
+          "analysis/bpr-j-rev0-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x080541C0",
+          "range_end_exclusive": "0x080541D0",
+          "rom_code_range": {
+            "start_offset": 344512,
+            "end_offset_exclusive": 344528,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-j-rev0-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x080541D0",
+          "range_end_exclusive": "0x080541EC",
+          "rom_code_range": {
+            "start_offset": 344528,
+            "end_offset_exclusive": 344556,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-j-rev0-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-j-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-j-rev1-retail-settrainerid-cfg.json",
+          "analysis/bpr-j-rev1-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x0805419C",
+          "range_end_exclusive": "0x080541AC",
+          "rom_code_range": {
+            "start_offset": 344476,
+            "end_offset_exclusive": 344492,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-j-rev1-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x080541AC",
+          "range_end_exclusive": "0x080541C8",
+          "rom_code_range": {
+            "start_offset": 344492,
+            "end_offset_exclusive": 344520,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-j-rev1-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-e-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-e-rev0-retail-settrainerid-cfg.json",
+          "analysis/bpr-e-rev0-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x080548FC",
+          "range_end_exclusive": "0x0805490C",
+          "rom_code_range": {
+            "start_offset": 346364,
+            "end_offset_exclusive": 346380,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-e-rev0-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x0805490C",
+          "range_end_exclusive": "0x08054928",
+          "rom_code_range": {
+            "start_offset": 346380,
+            "end_offset_exclusive": 346408,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-e-rev0-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-e-rev1-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-e-rev1-retail-settrainerid-cfg.json",
+          "analysis/bpr-e-rev1-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x08054910",
+          "range_end_exclusive": "0x08054920",
+          "rom_code_range": {
+            "start_offset": 346384,
+            "end_offset_exclusive": 346400,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-e-rev1-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x08054920",
+          "range_end_exclusive": "0x0805493C",
+          "rom_code_range": {
+            "start_offset": 346400,
+            "end_offset_exclusive": 346428,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-e-rev1-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-d-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-d-rev0-retail-settrainerid-cfg.json",
+          "analysis/bpr-d-rev0-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x0805491C",
+          "range_end_exclusive": "0x0805492C",
+          "rom_code_range": {
+            "start_offset": 346396,
+            "end_offset_exclusive": 346412,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-d-rev0-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x0805492C",
+          "range_end_exclusive": "0x08054948",
+          "rom_code_range": {
+            "start_offset": 346412,
+            "end_offset_exclusive": 346440,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-d-rev0-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-f-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-f-rev0-retail-settrainerid-cfg.json",
+          "analysis/bpr-f-rev0-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x080549DC",
+          "range_end_exclusive": "0x080549EC",
+          "rom_code_range": {
+            "start_offset": 346588,
+            "end_offset_exclusive": 346604,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-f-rev0-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x080549EC",
+          "range_end_exclusive": "0x08054A08",
+          "rom_code_range": {
+            "start_offset": 346604,
+            "end_offset_exclusive": 346632,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-f-rev0-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-i-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-i-rev0-retail-settrainerid-cfg.json",
+          "analysis/bpr-i-rev0-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x08054908",
+          "range_end_exclusive": "0x08054918",
+          "rom_code_range": {
+            "start_offset": 346376,
+            "end_offset_exclusive": 346392,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-i-rev0-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x08054918",
+          "range_end_exclusive": "0x08054934",
+          "rom_code_range": {
+            "start_offset": 346392,
+            "end_offset_exclusive": 346420,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-i-rev0-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "origin_reference": false,
+      "evidence": {
+        "map": "analysis/bpr-s-rev0-retail-trainer-id-disassembly.json",
+        "cfgs": [
+          "analysis/bpr-s-rev0-retail-settrainerid-cfg.json",
+          "analysis/bpr-s-rev0-retail-copytrainerid-cfg.json"
+        ]
+      },
+      "functions": [
+        {
+          "name": "SetTrainerId",
+          "address": "0x080549F0",
+          "range_end_exclusive": "0x08054A00",
+          "rom_code_range": {
+            "start_offset": 346608,
+            "end_offset_exclusive": 346624,
+            "length": 16,
+            "sha256": "b219139d5a72a06b84b59c718f14ddff68a10a2a3e7c77994251bbc8cd5ca40b",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-s-rev0-retail-settrainerid-cfg.json",
+          "edge_count": 0,
+          "return_count": 1
+        },
+        {
+          "name": "CopyTrainerId",
+          "address": "0x08054A00",
+          "range_end_exclusive": "0x08054A1C",
+          "rom_code_range": {
+            "start_offset": 346624,
+            "end_offset_exclusive": 346652,
+            "length": 28,
+            "sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+            "raw_bytes_published": false
+          },
+          "cfg": "analysis/bpr-s-rev0-retail-copytrainerid-cfg.json",
+          "edge_count": 2,
+          "return_count": 1
+        }
+      ]
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

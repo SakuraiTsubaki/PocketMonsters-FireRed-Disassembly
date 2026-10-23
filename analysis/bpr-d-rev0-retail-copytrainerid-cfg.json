@@ -1,0 +1,103 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 346412,
+  "start_address": 134564140,
+  "scan_limit_address": 134564168,
+  "instruction_halfwords": 14,
+  "canonical_instruction_bytes_sha256": "e2ede032f2797356414ff7d8a4c5803c4350847c7d86acc47bf4ba92bb5e75e5",
+  "range_start": 134564140,
+  "range_end": 134564168,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134564140,
+      "source_offset": 346412,
+      "kind": "other"
+    },
+    {
+      "address": 134564142,
+      "source_offset": 346414,
+      "kind": "other"
+    },
+    {
+      "address": 134564144,
+      "source_offset": 346416,
+      "kind": "other"
+    },
+    {
+      "address": 134564146,
+      "source_offset": 346418,
+      "kind": "other"
+    },
+    {
+      "address": 134564148,
+      "source_offset": 346420,
+      "kind": "other"
+    },
+    {
+      "address": 134564150,
+      "source_offset": 346422,
+      "kind": "other"
+    },
+    {
+      "address": 134564152,
+      "source_offset": 346424,
+      "kind": "other"
+    },
+    {
+      "address": 134564154,
+      "source_offset": 346426,
+      "kind": "other"
+    },
+    {
+      "address": 134564156,
+      "source_offset": 346428,
+      "kind": "other"
+    },
+    {
+      "address": 134564158,
+      "source_offset": 346430,
+      "kind": "other"
+    },
+    {
+      "address": 134564160,
+      "source_offset": 346432,
+      "kind": "conditional-branch",
+      "target": 134564148
+    },
+    {
+      "address": 134564162,
+      "source_offset": 346434,
+      "kind": "other"
+    },
+    {
+      "address": 134564164,
+      "source_offset": 346436,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134564166,
+      "source_offset": 346438,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [
+    {
+      "source": 134564160,
+      "target": 134564148,
+      "kind": "conditional-taken"
+    },
+    {
+      "source": 134564160,
+      "target": 134564162,
+      "kind": "conditional-fallthrough"
+    }
+  ],
+  "calls": [],
+  "returns": [
+    134564166
+  ],
+  "source_size": 16777216,
+  "source_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+}

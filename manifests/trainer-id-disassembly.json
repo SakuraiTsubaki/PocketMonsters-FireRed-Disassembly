@@ -1,0 +1,131 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "axis": "Disassembly",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_trainer_id_helpers.py",
+    "tool_sha256": "3946d9310df307e516f899fea1854eedadaf85aaab839c5e5fa74edcedf40e0c"
+  },
+  "outputs": [
+    {
+      "path": "src/trainer_id_helpers.s",
+      "sha256": "34a85bf599c23bec6670c2c54847cf9a7bf6b9259e9cb7eaa05397d5d1a6da44"
+    },
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "095f68173d6f8a8a097c2d35d84dca750b55851be133a0f05d2b09cdfa7ce81c"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-settrainerid-cfg.json",
+      "sha256": "d2aa372dc1c233b8b4366dc2d1ea6a807bd333e4bee0cff3f47cdd9faf8fd519"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "dbad8e2623f52ab3f4f750d72ea69547bf05d1eee5fbeddb1eda0ae78668b7e2"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "dea7fe8662eaf1a6a19f84dab0ca8f2331926d2a10406733e60c0d113342396e"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-settrainerid-cfg.json",
+      "sha256": "3fdc819d401b4aa04f38ecf2846acd01a7247560b0917209aa45d1ffa84a4dfb"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-copytrainerid-cfg.json",
+      "sha256": "88bfbfb83458ee2cf1bc2926601783c2c19d5cf153dd4501fd3d5f2d93df53f1"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "a8533dd8f1cbdb1eae7f3a23585e3897861841af779993d9c006d1afcd55851f"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-settrainerid-cfg.json",
+      "sha256": "fc41bf5640815024b530290304506c5518d4c6705601606c665bc0bbd31f374b"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "fc257b2ab6352c13a3380f08840e1e1db15bb6279c519c93d027f7913f66dfa1"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-trainer-id-disassembly.json",
+      "sha256": "3df3d42e489f0bcbf228b09a076e8487e8341fd3cef028158ce9d37d6364d484"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-settrainerid-cfg.json",
+      "sha256": "66e5be0b39bcef6c6ca813b18c56c3b25a8950901413cfffa9ef6c6fc7816980"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-copytrainerid-cfg.json",
+      "sha256": "fa647ade80f319b5fdc8e12ac5d3b21a6889012c138e368b89bbaefb0c1aa5f6"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "1133a5f496af2eafc594380a0ce19c0acb057ff5b72b2ece44a567f746864e09"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-settrainerid-cfg.json",
+      "sha256": "534c40a5cdea967c1a334b7872d304a54c386810b5cb6d5b8559b4f9b2945682"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "cdcfa67e04959329c4f0256e79455c668a8bea21af120a8c48096de6aeb1b993"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "201ebb9e72e7b254c443da2f5ecc9c95a6654395abb30a02e5cf3dfc8f9d67bb"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-settrainerid-cfg.json",
+      "sha256": "8d4d73f54405694c9162dd13a2bc1c0c4f4d27dd5bcf37cfe85d0e5dbe489d59"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "63148cc4c98439d9df6af2af1f27d6406f272e39bf3a426c5fa55ca505b8a481"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "8977e681291ea9edf02c2f4d2d5c916cb153797b9624ac8045b5fcf950d0bc94"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-settrainerid-cfg.json",
+      "sha256": "8c77c03b7b2a685dc674b06aff46ee5e14f1e3e2c55c0d0725867c26f30a16bf"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "9c9af34241c8d2a907c7714828aef9d3c666d91b8a32b0d4a9d76e2655ba86cf"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-trainer-id-disassembly.json",
+      "sha256": "03676788f49e495b3efe1674a6b7ef7a5732370ae4ac5d0ab64ff40cdcebdc87"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-settrainerid-cfg.json",
+      "sha256": "25d575f4fa174797464f15890c88b0019c52001e8375f6979d8e35afcd1197fb"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-copytrainerid-cfg.json",
+      "sha256": "38b1d6b8a577978050f0565bfaa44895130fc47ccce6cd2112a7c8cd4c94f373"
+    },
+    {
+      "path": "analysis/trainer-id-disassembly-summary.json",
+      "sha256": "a7a5168af41b4c174e43735c0db7073dab2601bf7961278c6ca0bd0e38ccbe38"
+    },
+    {
+      "path": "research/trainer-id-disassembly.md",
+      "sha256": "3d8b4ea66e9f1dcad18a3bcbf674d8974b83140e4dccd218d2d958de07ace275"
+    },
+    {
+      "path": "tests/test_trainer_id_disassembly.py",
+      "sha256": "e41891dc7c2af5ac7e80d127bacd40f889f0b163fed924d117f666f06fb156c8"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

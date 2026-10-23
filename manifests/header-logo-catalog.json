@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "asset": "GbaHeaderNintendoLogo",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_header_logo.py",
+    "tool_sha256": "eb2e5b89a999e23e7f58721a2fd62c3ce667cba58406e2ee7e17617750a1aa41",
+    "decoder": "tools/extract_gba_header_logo.py",
+    "decoder_sha256": "5f12c4e7e40aa81ff2d7a71cea2b4b59d0b2a79663bb22b07a3f62d62ee55245"
+  },
+  "outputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "analysis/firered-jp-header-logo.json",
+      "sha256": "0d748f97cdbfce6ff1e155fef5c799973db13271438122e0b6addfaaa87b2e89"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-header-logo.json",
+      "sha256": "7199d20169f76829841988914f199989c0e4c9231871f2df076c1ab8903c071d"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-header-logo.json",
+      "sha256": "b2c946441a64e2eafb14f1d8f499aebe81448c3f005d74e032c98aea6a445775"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-header-logo.json",
+      "sha256": "b7928b9b2a00c6913e0f3c3cfc35f77041289ee7e2cf2790c4b54828ce339046"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-header-logo.json",
+      "sha256": "b41019b34717faea09a02da369643351de7ee1fa17a54c962c3abc229a509935"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-header-logo.json",
+      "sha256": "537fb23628c1cb16282177ca383670de74c6ae93f6d6ce292aa97e08794a02d9"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-header-logo.json",
+      "sha256": "3de39e8e19dbfaff36e8a2b41693489675f627820a6492d16babb130535633c7"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-header-logo.json",
+      "sha256": "31a2466303c93baf35eaa5e6a6f7fbfcb2e8b8a57702055b65c2320db9ae0791"
+    },
+    {
+      "path": "analysis/header-logo-catalog-summary.json",
+      "sha256": "94f49fd133a2e96ca165436454bbd8a2ea1d7537c28139fba39c24aa925c7cbd"
+    },
+    {
+      "path": "research/header-logo-catalog.md",
+      "sha256": "b17c70e1a0dd85ce22df0e251ba07305982944d32c690dea60958d1ff766f80f"
+    },
+    {
+      "path": "tests/test_header_logo_catalog.py",
+      "sha256": "7a5d6f92362b116f7eb7ad10ddc718ab2ddfbc2843c30e7751f493af9b78e10f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

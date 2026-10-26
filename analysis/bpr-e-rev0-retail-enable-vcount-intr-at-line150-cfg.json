@@ -1,0 +1,137 @@
+{
+  "schema_version": 1,
+  "rom_base": 134217728,
+  "start_offset": 1432,
+  "start_address": 134219160,
+  "scan_limit_address": 134219200,
+  "instruction_halfwords": 20,
+  "canonical_instruction_bytes_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+  "range_start": 134219160,
+  "range_end": 134219200,
+  "return_observed": true,
+  "instructions": [
+    {
+      "address": 134219160,
+      "source_offset": 1432,
+      "kind": "other"
+    },
+    {
+      "address": 134219162,
+      "source_offset": 1434,
+      "kind": "other"
+    },
+    {
+      "address": 134219164,
+      "source_offset": 1436,
+      "kind": "call",
+      "target": 134220484
+    },
+    {
+      "address": 134219166,
+      "source_offset": 1438,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219168,
+      "source_offset": 1440,
+      "kind": "other"
+    },
+    {
+      "address": 134219170,
+      "source_offset": 1442,
+      "kind": "other"
+    },
+    {
+      "address": 134219172,
+      "source_offset": 1444,
+      "kind": "other"
+    },
+    {
+      "address": 134219174,
+      "source_offset": 1446,
+      "kind": "other"
+    },
+    {
+      "address": 134219176,
+      "source_offset": 1448,
+      "kind": "other"
+    },
+    {
+      "address": 134219178,
+      "source_offset": 1450,
+      "kind": "other"
+    },
+    {
+      "address": 134219180,
+      "source_offset": 1452,
+      "kind": "other"
+    },
+    {
+      "address": 134219182,
+      "source_offset": 1454,
+      "kind": "other"
+    },
+    {
+      "address": 134219184,
+      "source_offset": 1456,
+      "kind": "other"
+    },
+    {
+      "address": 134219186,
+      "source_offset": 1458,
+      "kind": "call",
+      "target": 134220344
+    },
+    {
+      "address": 134219188,
+      "source_offset": 1460,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219190,
+      "source_offset": 1462,
+      "kind": "other"
+    },
+    {
+      "address": 134219192,
+      "source_offset": 1464,
+      "kind": "call",
+      "target": 134220648
+    },
+    {
+      "address": 134219194,
+      "source_offset": 1466,
+      "kind": "bl-suffix"
+    },
+    {
+      "address": 134219196,
+      "source_offset": 1468,
+      "kind": "return-pop"
+    },
+    {
+      "address": 134219198,
+      "source_offset": 1470,
+      "kind": "return-branch"
+    }
+  ],
+  "edges": [],
+  "calls": [
+    {
+      "source": 134219164,
+      "target": 134220484
+    },
+    {
+      "source": 134219186,
+      "target": 134220344
+    },
+    {
+      "source": 134219192,
+      "target": 134220648
+    }
+  ],
+  "returns": [
+    134219198
+  ],
+  "source_size": 16777216,
+  "source_sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00"
+}

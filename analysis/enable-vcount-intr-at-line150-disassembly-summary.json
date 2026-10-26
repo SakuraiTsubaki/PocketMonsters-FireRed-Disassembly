@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "game": "Pokemon FireRed",
+  "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "source": "src/enable_vcount_intr_at_line150.s",
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "origin_reference": true,
+      "address": "0x08000598",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x0800059C",
+          "target": "0x08000AC4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005B2",
+          "target": "0x08000A38"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B8",
+          "target": "0x08000B68"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "origin_reference": false,
+      "address": "0x08000594",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x08000598",
+          "target": "0x08000AC0"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005AE",
+          "target": "0x08000A34"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B4",
+          "target": "0x08000B64"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-j-rev1-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-j-rev1-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "origin_reference": false,
+      "address": "0x08000598",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x0800059C",
+          "target": "0x08000AC4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005B2",
+          "target": "0x08000A38"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B8",
+          "target": "0x08000B68"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "origin_reference": false,
+      "address": "0x080005AC",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080005B0",
+          "target": "0x08000AD8"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005C6",
+          "target": "0x08000A4C"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005CC",
+          "target": "0x08000B7C"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-e-rev1-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-e-rev1-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "origin_reference": false,
+      "address": "0x080005A8",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080005AC",
+          "target": "0x08000AD4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005C2",
+          "target": "0x08000A48"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005C8",
+          "target": "0x08000B78"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "origin_reference": false,
+      "address": "0x08000594",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x08000598",
+          "target": "0x08000AC0"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005AE",
+          "target": "0x08000A34"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B4",
+          "target": "0x08000B64"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "origin_reference": false,
+      "address": "0x080005A8",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x080005AC",
+          "target": "0x08000AD4"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005C2",
+          "target": "0x08000A48"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005C8",
+          "target": "0x08000B78"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "origin_reference": false,
+      "address": "0x08000594",
+      "code_sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "calls": [
+        {
+          "name": "GetGpuReg",
+          "source": "0x08000598",
+          "target": "0x08000AC0"
+        },
+        {
+          "name": "SetGpuReg",
+          "source": "0x080005AE",
+          "target": "0x08000A34"
+        },
+        {
+          "name": "EnableInterrupts",
+          "source": "0x080005B4",
+          "target": "0x08000B64"
+        }
+      ],
+      "evidence": {
+        "map": "analysis/bpr-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+        "cfg": "analysis/bpr-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

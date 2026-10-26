@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "source": "src/enable_vcount_intr_at_line150.s",
+  "source_sha256": "cbf66a7151a4349b19c3049a9b285a3d96a71524b7ee7c48195c3eaccf7ceeb6",
+  "function": {
+    "name": "EnableVCountIntrAtLine150",
+    "address": "0x080005A8",
+    "range_end_exclusive": "0x080005D0",
+    "rom_code_range": {
+      "start_offset": 1448,
+      "end_offset_exclusive": 1488,
+      "length": 40,
+      "sha256": "a59dd56ae94fedf4a5d5251c3e34289823fdfc517ad6c0ef630832a521dcf8e6",
+      "raw_bytes_published": false
+    },
+    "cfg": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json"
+  },
+  "calls": [
+    {
+      "name": "GetGpuReg",
+      "source": "0x080005AC",
+      "target": "0x08000AD4"
+    },
+    {
+      "name": "SetGpuReg",
+      "source": "0x080005C2",
+      "target": "0x08000A48"
+    },
+    {
+      "name": "EnableInterrupts",
+      "source": "0x080005C8",
+      "target": "0x08000B78"
+    }
+  ],
+  "constants": {
+    "dispstat_offset": "0x0004",
+    "preserved_low_byte_mask": "0x00FF",
+    "vcount_compare_line": 150,
+    "vcount_enable_bit": "0x0020",
+    "interrupt_flag": "0x0004"
+  },
+  "origin_reference": false,
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "Thumb instruction sequence, constants, and call order",
+    "raw_rom_bytes_published": false
+  },
+  "raw_rom_bytes_included": false
+}

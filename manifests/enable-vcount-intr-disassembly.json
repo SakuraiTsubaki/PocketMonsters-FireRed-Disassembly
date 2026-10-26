@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "axis": "disassembly",
+  "game": "Pokemon FireRed",
+  "function": "EnableVCountIntrAtLine150",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/locate_gba_vcount_intr.py",
+    "tool_sha256": "f32464560dc67deb502eb6c069386626d85ff66d51c944c9a5bb100ab13f9807"
+  },
+  "outputs": [
+    {
+      "path": "src/enable_vcount_intr_at_line150.s",
+      "sha256": "cbf66a7151a4349b19c3049a9b285a3d96a71524b7ee7c48195c3eaccf7ceeb6"
+    },
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "d45005b377782fd09eba8b9f1778230b0c20fa1708babbdb0b4d2c9d99e21dca"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "d62d19ed6c98d295935d859ace6c8fb907962ba24b72143f9482126a7f9ec91d"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "656636d1d493d648b33c37491d13485ff8f987e74a6b51add0fb260371530113"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "c7d52d2c0cb8ee39bacfcdc7b413b4618fd2ba9df6f5fdfd1430fddf01f09228"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "ffb0aa4b47330f0700c9df4a7d60551aa9d0ae410e4e40e0772e6ed82d01c1fc"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "bf2404fac5e27b22aa348e880859116319f75d9c5f3a83b77b5fa48793b47904"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "90366bd7c9c844f50fd9bd237116e03e5b81018aa72d6c25d1c9c391f8fb9ede"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "158c12b2e702ae19b04f75018fccb0a7674f91829bc0e1020f3577b9e46e16ee"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "de76410444d5fb4173c15436f5d95e8d5c8c3b2e933f9288838e566f2c29da85"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "d5504f1dceb07164caf385eb9126fc31ffafed141a256a45c3d9dfca2254014c"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "ec3639c3342a11e83f17e6d83150cd3334b39e517606660e277f6ff59834b669"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "5ad3e1a1c1a88e97fbead2ccd989e3789aed1c3a52c9ce2e5ed2fdc5921f98fc"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "e4c21e58d6d90b17e17b54539fab198bbd072c32d9d645053840d9c5d17ba0f6"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "722322eb4c243824fe0f0ff43fff9fb47adad47e488a969dbc864d9a0bf725ee"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-enable-vcount-intr-at-line150-cfg.json",
+      "sha256": "878f83e861c2f5c95e38aec54514be3b19881f172bbc92c92042359d3b3d4858"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-enable-vcount-intr-at-line150-map.json",
+      "sha256": "a77fc2798c75843dbba0a2076779df38748e488f2e0b68193f583e175623ee70"
+    },
+    {
+      "path": "analysis/enable-vcount-intr-at-line150-disassembly-summary.json",
+      "sha256": "f45529acb9d7c1c0acc43f54ee46660356f99d444e2a1974548f5c5016b8358d"
+    },
+    {
+      "path": "research/enable-vcount-intr-at-line150-disassembly.md",
+      "sha256": "e4678229c4310296204225fd23dbe0542ced07d2dd1fc8f3df54d788b1465731"
+    },
+    {
+      "path": "tests/test_enable_vcount_intr_disassembly.py",
+      "sha256": "27e94b8c4a0a67fd35cf744a545da0652df7dbc7b6fc0a3a38a2f27197bf6589"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

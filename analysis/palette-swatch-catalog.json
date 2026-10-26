@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "asset": "JASC palette swatches",
+  "palette_count": 11,
+  "official_korean_release_available": false,
+  "palettes": [
+    {
+      "language": "Japanese",
+      "origin_reference": true,
+      "source": "graphics/pokemon/deoxys-normal-jp.pal",
+      "source_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+      "color_count": 16,
+      "png": "graphics/pokemon/deoxys-normal-jp-swatch.png",
+      "png_sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c",
+      "evidence": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-jp.json"
+    },
+    {
+      "language": "English",
+      "origin_reference": false,
+      "source": "graphics/pokemon/deoxys-normal-en.pal",
+      "source_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+      "color_count": 16,
+      "png": "graphics/pokemon/deoxys-normal-en-swatch.png",
+      "png_sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c",
+      "evidence": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-en.json"
+    },
+    {
+      "language": "English",
+      "origin_reference": false,
+      "source": "graphics/title/game-title-logo-en.pal",
+      "source_sha256": "e4c37140ce42fafeac342cf43d665d3f23db0bd614eaa0d98f9e5a11f9f5c88c",
+      "color_count": 256,
+      "png": "graphics/title/game-title-logo-en-swatch.png",
+      "png_sha256": "8e712b1be59ed2949e7a9ace3d142e55c769658278a3e63bafe53d662a17807e",
+      "evidence": "analysis/palette-swatches/graphics-title-game-title-logo-en.json"
+    },
+    {
+      "language": "German",
+      "origin_reference": false,
+      "source": "graphics/pokemon/deoxys-normal-de.pal",
+      "source_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+      "color_count": 16,
+      "png": "graphics/pokemon/deoxys-normal-de-swatch.png",
+      "png_sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c",
+      "evidence": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-de.json"
+    },
+    {
+      "language": "German",
+      "origin_reference": false,
+      "source": "graphics/title/game-title-logo-de.pal",
+      "source_sha256": "39177fb40e2a3821fd854d63ade45b960c2fd99ebc3d3bd81679aadfb4143a52",
+      "color_count": 256,
+      "png": "graphics/title/game-title-logo-de-swatch.png",
+      "png_sha256": "34818291d91babdabf0c04a6102251e999377ca27e7a160ca60bc1ce441e5ba6",
+      "evidence": "analysis/palette-swatches/graphics-title-game-title-logo-de.json"
+    },
+    {
+      "language": "French",
+      "origin_reference": false,
+      "source": "graphics/pokemon/deoxys-normal-fr.pal",
+      "source_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+      "color_count": 16,
+      "png": "graphics/pokemon/deoxys-normal-fr-swatch.png",
+      "png_sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c",
+      "evidence": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-fr.json"
+    },
+    {
+      "language": "French",
+      "origin_reference": false,
+      "source": "graphics/title/game-title-logo-fr.pal",
+      "source_sha256": "989be5f0154ffca345ccd582dd2283ff57276d666dc887a3117c14d9620889bf",
+      "color_count": 256,
+      "png": "graphics/title/game-title-logo-fr-swatch.png",
+      "png_sha256": "d4ec601844e61f049f7c3cf070b89940b0b1fbb41201f0779994f6c186032998",
+      "evidence": "analysis/palette-swatches/graphics-title-game-title-logo-fr.json"
+    },
+    {
+      "language": "Italian",
+      "origin_reference": false,
+      "source": "graphics/pokemon/deoxys-normal-it.pal",
+      "source_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+      "color_count": 16,
+      "png": "graphics/pokemon/deoxys-normal-it-swatch.png",
+      "png_sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c",
+      "evidence": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-it.json"
+    },
+    {
+      "language": "Italian",
+      "origin_reference": false,
+      "source": "graphics/title/game-title-logo-it.pal",
+      "source_sha256": "e0800c253d03d2aaaf4a5cd76d5e147e6228132877cc930afc68b88cffcbd7dd",
+      "color_count": 256,
+      "png": "graphics/title/game-title-logo-it-swatch.png",
+      "png_sha256": "712b19737becf98a212e9070e6fa5a99f4a3b4e7f25ec455b6d6f6889760fb12",
+      "evidence": "analysis/palette-swatches/graphics-title-game-title-logo-it.json"
+    },
+    {
+      "language": "Spanish",
+      "origin_reference": false,
+      "source": "graphics/pokemon/deoxys-normal-es.pal",
+      "source_sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
+      "color_count": 16,
+      "png": "graphics/pokemon/deoxys-normal-es-swatch.png",
+      "png_sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c",
+      "evidence": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-es.json"
+    },
+    {
+      "language": "Spanish",
+      "origin_reference": false,
+      "source": "graphics/title/game-title-logo-es.pal",
+      "source_sha256": "ec30aee185c2cc9916b3f50381a999d7da06cdc51c4c285796206d4776f5e06d",
+      "color_count": 256,
+      "png": "graphics/title/game-title-logo-es-swatch.png",
+      "png_sha256": "09eee41f9ac2abef1d74d48a6eb702d023c2aafd3a9db8dde8b4a98e0e171cce",
+      "evidence": "analysis/palette-swatches/graphics-title-game-title-logo-es.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

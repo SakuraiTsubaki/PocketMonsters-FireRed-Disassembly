@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "game": "Pokemon FireRed",
+  "asset": "JASC palette swatch",
+  "language": "English",
+  "origin_reference": false,
+  "source": {
+    "path": "graphics/title/game-title-logo-en.pal",
+    "sha256": "e4c37140ce42fafeac342cf43d665d3f23db0bd614eaa0d98f9e5a11f9f5c88c",
+    "format": "JASC-PAL 0100",
+    "color_count": 256,
+    "provenance_manifests": [
+      {
+        "path": "manifests/game-title-logo-en.json",
+        "sha256": "73b06e019740113bf8d2bc82d1466dcd399b040c2a9258487178f9fec5c9028b"
+      }
+    ]
+  },
+  "output": {
+    "path": "graphics/title/game-title-logo-en-swatch.png",
+    "sha256": "8e712b1be59ed2949e7a9ace3d142e55c769658278a3e63bafe53d662a17807e",
+    "format": "PNG RGB8",
+    "width": 256,
+    "height": 256,
+    "columns": 16,
+    "cell_size": 16
+  },
+  "raw_rom_bytes_included": false
+}

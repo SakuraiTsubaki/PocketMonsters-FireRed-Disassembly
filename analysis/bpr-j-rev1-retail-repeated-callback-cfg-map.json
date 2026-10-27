@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-j-rev1-retail",
+    "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06"
+  },
+  "origin_reference": false,
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "repeated_direct_call_count": 3,
+    "target_address": "0x080004AC"
+  },
+  "function": {
+    "name": "repeated_callback_target",
+    "address": "0x080004AC",
+    "range_end_exclusive": "0x080004C0",
+    "rom_code_range": {
+      "start_offset": 1196,
+      "end_offset_exclusive": 1216,
+      "length": 20,
+      "sha256": "b03dda604175d5111e983e328fe12214f30e1ae49cfb3b6fd507aef7d8adf138",
+      "raw_bytes_published": false
+    }
+  },
+  "control_flow": {
+    "instruction_halfwords": 10,
+    "edge_count": 2,
+    "edge_kinds": {
+      "conditional-fallthrough": 1,
+      "conditional-taken": 1
+    },
+    "direct_call_count": 2,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "b03dda604175d5111e983e328fe12214f30e1ae49cfb3b6fd507aef7d8adf138",
+    "raw_halfwords_omitted": true
+  },
+  "raw_rom_bytes_included": false
+}

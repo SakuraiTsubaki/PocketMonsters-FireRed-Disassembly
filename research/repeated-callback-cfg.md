@@ -1,3 +1,3 @@
-# Repeated callback CFG
+# FireRed repeated callback CFG
 
-The repeatedly called local target at `$080004b0` was traced independently from BPRJ revision zero. The conservative Thumb CFG contains 82 reachable halfwords, seven calls, an observed return, and canonical instruction hash `e81e278c…f0eeb`. The public report omits instruction halfwords and byte strings.
+The Japanese release `bpr-j-rev0-retail` remains the origin reference. For all 8 cataloged releases (Japanese, English, German, French, Italian, Spanish), the reachable Thumb main body has exactly one direct-call target referenced three times. Each per-release map independently traces that target through its observed return and preserves addresses, structure, and hashes without publishing ROM bytes or instruction halfwords.

@@ -1,2 +1,67 @@
-{"schema_version":1,"id":"firered-jp-rev0-entrypoint","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_entry.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486","offset":0,"length":4}],"outputs":[{"path":"analysis/firered-jp-rev0-entrypoint.json","sha256":"88a7c8c567806cfeaae38c0d750eb6e1105adc102a354a430972c2115be99830"},{"path":"src/rom_entry.s","sha256":"01628f1418cdec5232cdc7b8f761a03bd6dbae2ccb58d4bf5f44333912498966"}]}
-
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "evidence_kind": "entrypoint",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/rom_entry.s",
+      "sha256": "27a30e1068c28234649b61369463438d58eb4642c4e3c83261ec12942621888e"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "a4f6394f8393abcf4325fa9d4dc9f58244563ee01b1fbbda908d31e078811849"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-entrypoint-map.json",
+      "sha256": "a39f5b09f2d88e09c2b392d75efb6cfb60c2094869e4e42e495ce24c8ccd6eb8"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-entrypoint-map.json",
+      "sha256": "7bb0b6619f8af14c265a11142b04cb1a606e566c067f8479b49c2b786e87a0f9"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-entrypoint-map.json",
+      "sha256": "77da1f1e1ed24d57a58430d40e6eae1ec17bcfe04f493402314ee4a9b7e2f9a7"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-entrypoint-map.json",
+      "sha256": "19feb9c9d7b02b575ebd2fb90f8cf68d41436ac30b2908d1adedd08aa02e5bfb"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-entrypoint-map.json",
+      "sha256": "79bba70af0e02e80b2a3fe446b047b70d5bbe73ac91608bde6352fd91ae9f258"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-entrypoint-map.json",
+      "sha256": "bb1bc60b4afc5fd4b0862eb9c503bd0f5d4dbbf049f656d96eac13bde8417f91"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-entrypoint-map.json",
+      "sha256": "02635e01415511bde60d3f02c8aa4d40083727dde25e23cae7af4791c2679fbc"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-entrypoint-map.json",
+      "sha256": "91b337f989e481ca77b1f13840515d294a66ed2f30e10a3546cc09197bb9c245"
+    },
+    {
+      "path": "research/entrypoint-reconstruction.md",
+      "sha256": "bfd74cf38c4aca24812b270b55e636396df4926799381dc6f657e5fc156c2098"
+    },
+    {
+      "path": "tests/test_entrypoint.py",
+      "sha256": "ef47231fd98bebad2e5825e79932fe7245c86d85a7c082841e2b6ca75fa5209a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

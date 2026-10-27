@@ -1,2 +1,67 @@
-{"schema_version":1,"id":"firered-jp-rev0-bootstrap","generator":{"repository":"SakuraiTsubaki/Disassembly","tool":"tools/disassemble_gba_bootstrap.py","version":"1.0.0"},"inputs":[{"size":16777216,"sha256":"1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486","start_address":"0x08000204","instruction_count":12,"instruction_bytes_sha256":"d351dac18b97db56c30ec6b71463a08edde9480d27fb2c48bdda135efec937e6"}],"outputs":[{"path":"analysis/firered-jp-rev0-bootstrap.json","sha256":"80cee245802360429573996b69eff5a920e5eae16cf4142dc3891fb725ef6db6"},{"path":"src/rom_bootstrap.s","sha256":"bb67206792112d3cbe31ea347cc8de4ad2199e1273c32b095c235bc29f218c49"}]}
-
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "evidence_kind": "bootstrap",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/rom_bootstrap.s",
+      "sha256": "afc1df2c94de8fcc8017e76c4c22d282d4aedaf0784b1753741eba192135c5c9"
+    },
+    {
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "a4f6394f8393abcf4325fa9d4dc9f58244563ee01b1fbbda908d31e078811849"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-bootstrap-map.json",
+      "sha256": "98646743ccf28b8c01beac37a1b7ddff458ab3ea3e0ef7d8cba118f58b73ebae"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-bootstrap-map.json",
+      "sha256": "5f65d1ea8ab4af8844a1d6239d6bc5f07b8dc3c096a5e1667866434ef7c42778"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-bootstrap-map.json",
+      "sha256": "ed4e617726c0d7ad44f8cd4e1fc913c86691743c79b267f4150d489125b38058"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-bootstrap-map.json",
+      "sha256": "dd3ae777007b420d4c50a9bbc1a2ce45ef03fc4abff2cbf1dca00270c968966b"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-bootstrap-map.json",
+      "sha256": "45aef250dafc288b3e9ad086d7f37425d0192771e5917e7d0e37149068318262"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-bootstrap-map.json",
+      "sha256": "4319504d2afe67adbe4418ec34a649386cd194efa818c8b57179b6b8051f5687"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-bootstrap-map.json",
+      "sha256": "54ab4e74c92d6e5236b61ba1110fd8cc02158ff9c4c731f9f990ba5734bfc3cb"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-bootstrap-map.json",
+      "sha256": "37c0a2831f3967161180928813214f7e96559cbf1bbe51c788b531dab01228cd"
+    },
+    {
+      "path": "research/bootstrap-transition.md",
+      "sha256": "657b02f90fe292ed3d2c42b3dd72bc77f5886f7da400f284c21dcc3e1d254c3a"
+    },
+    {
+      "path": "tests/test_bootstrap.py",
+      "sha256": "aa605aa26f3c66cec97b2a01bbfd05f49ba9c62d9c60ce10d1245259f8c5844b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

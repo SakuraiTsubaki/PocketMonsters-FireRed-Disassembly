@@ -1,26 +1,63 @@
 {
   "schema_version": 1,
-  "id": "firered-jp-rev0-thumb-cfg",
+  "game": "FireRed",
+  "evidence_kind": "thumb-cfg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
-    "tool": "tools/disassemble_thumb_cfg.py",
-    "version": "1.0.0"
+    "tool": "tools/catalog_gba_entry_bootstrap.py",
+    "tool_sha256": "34cd25fe3fe0624e80b3d3f3b82e38a273f27dfe2b7781c2a4780aa657c27986"
   },
-  "inputs": [
-    {
-      "size": 16777216,
-      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
-      "start_address": "0x080003a4"
-    }
-  ],
   "outputs": [
     {
-      "path": "analysis/firered-jp-rev0-thumb-cfg.json",
-      "sha256": "a2fb1a454660f0655175b0a36bf2861ff46c26294cabce2e5626fd7c6c181284"
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
     },
     {
-      "path": "src/thumb_entry_reachable.s",
-      "sha256": "de6d23b7febb687310430d613b8da39800d20c1695a2b41d086bb6fec895c69c"
+      "path": "analysis/entry-bootstrap-disassembly-summary.json",
+      "sha256": "a4f6394f8393abcf4325fa9d4dc9f58244563ee01b1fbbda908d31e078811849"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "538867628bacc65dbe088684fd433c3d1f97ca4a1a1c9e970ff337ec796bc99b"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "d835a18e1492b271bf871185acc53874a6ceea7c6f531a28769f471bf40de2e7"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "83e9db16ac576bf45b90dd3dd3414636833848b6f2881864b008c6c18420ea90"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-thumb-entry-cfg-map.json",
+      "sha256": "21fec3968db8d1c97320138a89cf51da34085d262a0ade5a34915aaf65230268"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "94b13311716bbfba2dea515c862016035e188e69b4fd9e30f21c361483c8c1cc"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "fd32f30e6a73315fecd0cc709fd77fbc1d09c350abdfc29735541c007cab268c"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "bc90c1a525010928243184c67d531140cd687a7f0feaacad1e5182b3ebe3e659"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-thumb-entry-cfg-map.json",
+      "sha256": "03aae3e809cd5045e75e3933b17a41db3825dcc1be2e632a89eda9f57035ca9f"
+    },
+    {
+      "path": "research/thumb-entry-cfg.md",
+      "sha256": "d0a71aab0197d136d20fcde3e92a8cf3d570ce9f82c32c5676a89c8169f7b258"
+    },
+    {
+      "path": "tests/test_thumb_cfg.py",
+      "sha256": "f86bd065cfc68ca63cefe6bfe4bd3cd8124a28a7ea0a366e6f4e6492fa8d7fc7"
     }
-  ]
+  ],
+  "raw_rom_bytes_included": false
 }

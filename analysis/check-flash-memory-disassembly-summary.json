@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "CheckForFlashMemory",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "source": "src/check_flash_memory.s",
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "origin_reference": true,
+      "address": "0x0804B79C",
+      "code_sha256": "a545892211ef3c1ee780fa90700c15684c4a2808cb0c1220ad674885851077bf",
+      "evidence": "analysis/bpr-j-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "origin_reference": false,
+      "address": "0x0804B778",
+      "code_sha256": "2c56e949963a779b5215e8d748798d1aeaa41ffc62244015bbca686ad36e50ce",
+      "evidence": "analysis/bpr-j-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "origin_reference": false,
+      "address": "0x0804BFE4",
+      "code_sha256": "88f369ef14807f6c3ea0108ee62cdebaf6dab8f29685644a8a94372068c42dc0",
+      "evidence": "analysis/bpr-e-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "origin_reference": false,
+      "address": "0x0804BFF8",
+      "code_sha256": "edc96cc570ed584b86cc3574922f575baec08828303cb5d692169528ff1b08c0",
+      "evidence": "analysis/bpr-e-rev1-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "origin_reference": false,
+      "address": "0x0804C004",
+      "code_sha256": "06fff2c18a1ba066e763565a1ac81b5abfa6fef50401e70203a4073ff231f9e1",
+      "evidence": "analysis/bpr-d-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "origin_reference": false,
+      "address": "0x0804C0C4",
+      "code_sha256": "ebbbc0ebc851b7d653c2aa4880df0cefcf69d9810ce71b5b8ee44e74fdd70d8f",
+      "evidence": "analysis/bpr-f-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "origin_reference": false,
+      "address": "0x0804BFF0",
+      "code_sha256": "2b01681c99ce1794f104d93dbff49ed9f89e7e145bb29895653171c993ce5317",
+      "evidence": "analysis/bpr-i-rev0-retail-check-flash-memory-disassembly.json"
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "origin_reference": false,
+      "address": "0x0804C0D8",
+      "code_sha256": "3b3b0ca2e50686d1ba68cf9382eb74502d201748ffc0f15bea8ebd6a810b9dc3",
+      "evidence": "analysis/bpr-s-rev0-retail-check-flash-memory-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

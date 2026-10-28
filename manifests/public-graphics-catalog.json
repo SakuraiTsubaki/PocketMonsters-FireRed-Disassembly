@@ -1,0 +1,239 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "asset_count": 52,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_public_graphics.py",
+    "tool_sha256": "0bb31b5f9c6f2127467ea25f582a2d7a59e13b36d8c1f81c8d49e740b5c86819"
+  },
+  "inputs": [
+    {
+      "path": "graphics/header/nintendo-logo-jp.png",
+      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-back-jp.png",
+      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-front-jp.png",
+      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-jp.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-back-en.png",
+      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-front-en.png",
+      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-en.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-back-de.png",
+      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-front-de.png",
+      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-de.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-back-fr.png",
+      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-front-fr.png",
+      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-fr.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-back-it.png",
+      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-front-it.png",
+      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-it.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-back-es.png",
+      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-attack-front-es.png",
+      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-es.pal",
+      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-de-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-en-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-es-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-fr-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-it-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "graphics/pokemon/deoxys-normal-jp-swatch.png",
+      "sha256": "eb02b518552821e787ac6953d94ad781081257b944370785ea407321e3d7f47c"
+    },
+    {
+      "path": "graphics/title/game-title-logo-en.pal",
+      "sha256": "e4c37140ce42fafeac342cf43d665d3f23db0bd614eaa0d98f9e5a11f9f5c88c"
+    },
+    {
+      "path": "graphics/title/game-title-logo-en.png",
+      "sha256": "9fc0ca8f171a833e0919652b7bad783050a9233d37a8d87e9ef6c968f58708d8"
+    },
+    {
+      "path": "graphics/title/game-title-logo-de.pal",
+      "sha256": "39177fb40e2a3821fd854d63ade45b960c2fd99ebc3d3bd81679aadfb4143a52"
+    },
+    {
+      "path": "graphics/title/game-title-logo-de.png",
+      "sha256": "391799cb35e5070d5658df91b6639409ca44399b6a62c4c9ae476fa2c6aecc0f"
+    },
+    {
+      "path": "graphics/title/game-title-logo-fr.pal",
+      "sha256": "989be5f0154ffca345ccd582dd2283ff57276d666dc887a3117c14d9620889bf"
+    },
+    {
+      "path": "graphics/title/game-title-logo-fr.png",
+      "sha256": "cef4662a5fc5e4f1687cca2e26dca7adf38c789e2dca9d4b66be78d65ad03037"
+    },
+    {
+      "path": "graphics/title/game-title-logo-it.pal",
+      "sha256": "e0800c253d03d2aaaf4a5cd76d5e147e6228132877cc930afc68b88cffcbd7dd"
+    },
+    {
+      "path": "graphics/title/game-title-logo-it.png",
+      "sha256": "80b9c45c106d0ae8de01aca91e1012df4a399f53fd62e317ce82398c2b00ccf6"
+    },
+    {
+      "path": "graphics/title/game-title-logo-es.pal",
+      "sha256": "ec30aee185c2cc9916b3f50381a999d7da06cdc51c4c285796206d4776f5e06d"
+    },
+    {
+      "path": "graphics/title/game-title-logo-es.png",
+      "sha256": "6f832d8857eae7e490649e3d314aa1519056e8e63e65fe275922a1c7a2b43b03"
+    },
+    {
+      "path": "graphics/title/de-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/de-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    },
+    {
+      "path": "graphics/title/en-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/en-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    },
+    {
+      "path": "graphics/title/es-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/es-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    },
+    {
+      "path": "graphics/title/fr-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/fr-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    },
+    {
+      "path": "graphics/title/game-title-logo-de-swatch.png",
+      "sha256": "34818291d91babdabf0c04a6102251e999377ca27e7a160ca60bc1ce441e5ba6"
+    },
+    {
+      "path": "graphics/title/game-title-logo-en-swatch.png",
+      "sha256": "8e712b1be59ed2949e7a9ace3d142e55c769658278a3e63bafe53d662a17807e"
+    },
+    {
+      "path": "graphics/title/game-title-logo-es-swatch.png",
+      "sha256": "09eee41f9ac2abef1d74d48a6eb702d023c2aafd3a9db8dde8b4a98e0e171cce"
+    },
+    {
+      "path": "graphics/title/game-title-logo-fr-swatch.png",
+      "sha256": "d4ec601844e61f049f7c3cf070b89940b0b1fbb41201f0779994f6c186032998"
+    },
+    {
+      "path": "graphics/title/game-title-logo-it-swatch.png",
+      "sha256": "712b19737becf98a212e9070e6fa5a99f4a3b4e7f25ec455b6d6f6889760fb12"
+    },
+    {
+      "path": "graphics/title/it-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/it-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    },
+    {
+      "path": "graphics/title/jp-version-sprite-sheet-0.png",
+      "sha256": "77682dd651165b8dfc7a4e75de177247e7d6f7f7e220bfba31a2b141d0d220ef"
+    },
+    {
+      "path": "graphics/title/jp-version-sprite-sheet-1.png",
+      "sha256": "e8089662e8e0380230c9a3e3d2300f3c27861c9b053bbe6e1ae2ee667dd2fbee"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "analysis/public-graphics-catalog.json",
+      "sha256": "bde03f211136a0e803c685868b32c4d2b328e3a2beceed819d66860da058c3e9"
+    },
+    {
+      "path": "ASSETS.md",
+      "sha256": "04ac74062bb4907d8e028ad17d116a3452baae25c684d1fa799778e14864f4d6"
+    },
+    {
+      "path": "research/public-graphics-catalog.md",
+      "sha256": "a921c2a4845d11e8fe4ae97e7681662edc5c6349efd88b55fea99a3c389ef327"
+    },
+    {
+      "path": "tests/test_public_graphics_catalog.py",
+      "sha256": "618cd99bb42f701d9a443fed514b25d4489710e9e16619b8b27734befb5fc30f"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

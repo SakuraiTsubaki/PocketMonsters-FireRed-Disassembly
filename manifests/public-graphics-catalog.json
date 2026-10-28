@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "FireRed",
-  "asset_count": 52,
+  "asset_count": 76,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
     "tool": "tools/catalog_public_graphics.py",
@@ -25,6 +25,30 @@
       "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
     },
     {
+      "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-jp.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-jp.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-jp.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-jp.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-jp.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
       "path": "graphics/pokemon/deoxys-attack-back-en.png",
       "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
     },
@@ -35,6 +59,30 @@
     {
       "path": "graphics/pokemon/deoxys-normal-en.pal",
       "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-en.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-en.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-en.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-en.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-en.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-en.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-de.png",
@@ -49,6 +97,18 @@
       "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
     },
     {
+      "path": "graphics/pokemon/pikachu-back-rev0-de.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-de.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-de.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
       "path": "graphics/pokemon/deoxys-attack-back-fr.png",
       "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
     },
@@ -59,6 +119,18 @@
     {
       "path": "graphics/pokemon/deoxys-normal-fr.pal",
       "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-fr.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-fr.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-it.png",
@@ -73,6 +145,18 @@
       "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
     },
     {
+      "path": "graphics/pokemon/pikachu-back-rev0-it.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-it.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-it.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
       "path": "graphics/pokemon/deoxys-attack-back-es.png",
       "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
     },
@@ -83,6 +167,18 @@
     {
       "path": "graphics/pokemon/deoxys-normal-es.pal",
       "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev0-es.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-front-rev0-es.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0"
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev0-es.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
       "path": "graphics/pokemon/deoxys-normal-de-swatch.png",
@@ -220,15 +316,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "bde03f211136a0e803c685868b32c4d2b328e3a2beceed819d66860da058c3e9"
+      "sha256": "ef97481041e9c8ea9a139339ad1d2e0629bdae7409b3fca349d13c48d6e6a180"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "04ac74062bb4907d8e028ad17d116a3452baae25c684d1fa799778e14864f4d6"
+      "sha256": "3c6c3b46990eaacc3a6cfafe9d610b400004a2f0d36e2e19a9e9b11304951c2f"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "a921c2a4845d11e8fe4ae97e7681662edc5c6349efd88b55fea99a3c389ef327"
+      "sha256": "998b486901e61a5e7c870fadaa93155fbae2538655bb5d039b3e371462f6ccb1"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

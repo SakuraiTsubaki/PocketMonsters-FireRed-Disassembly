@@ -1,5 +1,5 @@
 # FireRed public graphics catalog
 
-The catalog inventories all 52 files currently stored below `graphics/`: 41 rendered PNG assets, 11 JASC palettes, and 0 JSON sidecars. Each entry records its full hash and points to the pre-existing ROM-derived analysis or manifest that establishes provenance. `ASSETS.md` supplies a browsable GitHub preview.
+The catalog inventories all 76 files currently stored below `graphics/`: 57 rendered PNG assets, 19 JASC palettes, and 0 JSON sidecars. Each entry records its full hash and points to the pre-existing ROM-derived analysis or manifest that establishes provenance. `ASSETS.md` supplies a browsable GitHub preview.
 
 The catalog does not infer a language when the filename does not declare one, and it does not embed ROM bytes.

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-j-rev1-retail",
+    "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 25,
+    "name": "pikachu"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2031472,
+      "table_offset": 2031272,
+      "source_offset": 12845824,
+      "size": 2048,
+      "tag": 25
+    },
+    "back": {
+      "entry_offset": 2036752,
+      "table_offset": 2036552,
+      "source_offset": 12846584,
+      "size": 2048,
+      "tag": 25
+    },
+    "palette": {
+      "entry_offset": 2040272,
+      "table_offset": 2040072,
+      "source_offset": 12846544,
+      "tag": 25
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-jp-rev1-deoxys-front-table.json",
+      "sha256": "8abdf3820f5adf41ea6a0f7f255b879e89e6e686d49e31613e4ec732cc6cca56"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-deoxys-back-table.json",
+      "sha256": "744f1e863b241949fa13dca72ffef802419e5114d2cc23320eaa4ce88c89f7d0"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-deoxys-palette.json",
+      "sha256": "9ee1fcfc78f73a5dc14c8e069b4d2ad27daa43eef3022016481602ac11e820d8"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/pikachu-front-rev1-jp.png",
+      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+        "source_offset": 12845824,
+        "compressed_length": 720,
+        "compressed_sha256": "399b26b72f47c5d519f9348909d4aa69e7f19643016e79d5947c03272310c644",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "2372c7fa6542c3475b958678a5263b37b79f8226ef4bf59be8ee084331c4c5a7",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-back-rev1-jp.png",
+      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+        "source_offset": 12846584,
+        "compressed_length": 726,
+        "compressed_sha256": "e575da7b0f1b1d9d702c7078680343ee7d0ef28cd21dcdb171e737903fea63b8",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "6019e3c33cbf9975d7361613ceb6937173ae2bf2863c04ac80f75b1058fa94dd",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+      }
+    },
+    {
+      "path": "graphics/pokemon/pikachu-rev1-jp.pal",
+      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+        "source_offset": 12846544,
+        "compressed_length": 38,
+        "compressed_sha256": "1d513bd323619b4d75d4a88077800d855e842d0981a62d53620b77263dcbca7a",
+        "decompressed_length": 32,
+        "decompressed_sha256": "34a219c99e5f2601f1025ebe0b83982204c68fedabac3407bf8057186e95bc62",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

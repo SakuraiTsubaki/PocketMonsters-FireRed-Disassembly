@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpr-e-rev1-retail",
+    "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170"
+  },
+  "origin_reference": false,
+  "source": "src/reset_bgs.s",
+  "source_sha256": "56871b265dd153b0a256f599f6dc7aa045dbc21f9362ffcdd43fce3084b9ac17",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003EA",
+    "rule": "direct boot call immediately after ClearDma3Requests"
+  },
+  "function": {
+    "name": "ResetBgs",
+    "address": "0x0800103C",
+    "range_end_exclusive": "0x08001050",
+    "rom_code_range": {
+      "start_offset": 4156,
+      "end_offset_exclusive": 4176,
+      "length": 20,
+      "sha256": "207faafca3dea4425c98f96af10603e7af3a7ab870cafa18abdcdf89c6b860e4",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "ResetBgControlStructs",
+        "source": "0x0800103E",
+        "target": "0x08001080"
+      },
+      {
+        "name": "SetTextModeAndHideBgs",
+        "source": "0x08001048",
+        "target": "0x08001408"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 10,
+    "edge_count": 0,
+    "direct_call_count": 2,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "207faafca3dea4425c98f96af10603e7af3a7ab870cafa18abdcdf89c6b860e4",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "reset-structs-clear-dispcnt-hide-bgs",
+    "sGpuBgConfigs_address": "0x030008D0",
+    "bgVisibilityAndMode_address": "0x030008E0",
+    "bgVisibilityAndMode_value": 0,
+    "callee_relative_offsets": [
+      68,
+      972
+    ]
+  },
+  "cross_reference": {
+    "clear_dma3_requests_map": "analysis/bpr-e-rev1-retail-clear-dma3-requests-disassembly.json",
+    "clear_dma3_requests_map_sha256": "488993cbd2eccbeab226dc6beaf0d1257e69bacd68cafc0ef7cc116152f96046"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/bg.c"
+  },
+  "raw_rom_bytes_included": false
+}

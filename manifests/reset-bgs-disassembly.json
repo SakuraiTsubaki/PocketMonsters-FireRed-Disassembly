@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "ResetBgs",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_reset_bgs.py",
+    "tool_sha256": "a0a127a61f97126aab1dfc36af69fbfa462ab372d99c7afb066872fa9a875467"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/reset_bgs.s",
+      "sha256": "56871b265dd153b0a256f599f6dc7aa045dbc21f9362ffcdd43fce3084b9ac17"
+    },
+    {
+      "path": "analysis/reset-bgs-disassembly-summary.json",
+      "sha256": "23bdc525009620639d40967a7ed3c1a56dd25cd9b974bbc90670470420695ba8"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-reset-bgs-disassembly.json",
+      "sha256": "89dd529ddcea011f8ddcc3a29475b445ce98374ad5de59ae996c75500850b632"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-reset-bgs-disassembly.json",
+      "sha256": "3216cca8cc1bf41594a71b307b9b23d1467fc78daa332c1eebfd9d42c84ecaee"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-reset-bgs-disassembly.json",
+      "sha256": "ed339226276c247e2fc3633ee09f3fa57b5dd800b19e48f30c97dbd3fa5fb305"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-reset-bgs-disassembly.json",
+      "sha256": "83b7be6f333b30d88a55fbfa822e0d4f4d140f3be31391bb2a9f2ab716bd79d4"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-reset-bgs-disassembly.json",
+      "sha256": "0673c40e40c190bd50572a0cdae4e748ba751a4296963add07428455d9c203bf"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-reset-bgs-disassembly.json",
+      "sha256": "6f1a12fc3003780426f412b8add2ee6363727c32445260d3ea9b4e1301a72bb7"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-reset-bgs-disassembly.json",
+      "sha256": "ffa2819af1406ed602ddc52dd8e6cf7f8e614168e28e8d1e13d07534b16243de"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-reset-bgs-disassembly.json",
+      "sha256": "161a48a977dc4a70461b2870866358bd20a37e371d18a061100488ccb75ecc02"
+    },
+    {
+      "path": "research/reset-bgs-disassembly.md",
+      "sha256": "bd201805a5050fd8b00ba2926af35b2040f0085ce530452bbc7d4553e354256b"
+    },
+    {
+      "path": "tests/test_reset_bgs_disassembly.py",
+      "sha256": "4ee8b9e755da84ad1c05e0f47d07034cec3df564138e4a6173323d2440df9758"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

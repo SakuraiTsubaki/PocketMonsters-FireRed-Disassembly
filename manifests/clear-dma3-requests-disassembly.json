@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "ClearDma3Requests",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_clear_dma3_requests.py",
+    "tool_sha256": "65920c5065510f56dec45703cda854251d0faa70de8a143e5a74654d788ac7b6"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/clear_dma3_requests.s",
+      "sha256": "e28a306b5e0b96378bbe2313634d51ebbd63cfdde0c84fec16d58153dcf66701"
+    },
+    {
+      "path": "analysis/clear-dma3-requests-disassembly-summary.json",
+      "sha256": "9865217a0b34ef80af7262ccdccbf51b643bf99bfe98fba99db486d256c985bd"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "8f97c004398c263e997b75ccd211f2e63dfdf273a0eec4bf2e5929c7e50c1e55"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "5015ca9d6d4b3175a4335f3513f1223823cccb36429b16cf886ba912c3cba741"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "adb8a73b4ab6a723c9881910fe37626b3422983f7cc6c4a1f31d5b0dec40ef84"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "488993cbd2eccbeab226dc6beaf0d1257e69bacd68cafc0ef7cc116152f96046"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "b6ea986465aa9f361a08fcfe698555a6b51e59adf9cef63d4ae9ef8b8de98304"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "be938fdc07d48cc55b9310424b45622cfa57d1a791805bea7ba99121f039c7b8"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "7707a124f4880233695840b8361822dbd43dbc9cfbdab416b9071d579f191c62"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-clear-dma3-requests-disassembly.json",
+      "sha256": "a7e5ce0a6e58161b646772a7c1d4c6f5e8b9e4e1f6f7aacba6cbd7d95a379e96"
+    },
+    {
+      "path": "research/clear-dma3-requests-disassembly.md",
+      "sha256": "047e2c95de665aefe4eec02215a3b13f0e42b7315d032d18e109b8b93e1f5e0f"
+    },
+    {
+      "path": "tests/test_clear_dma3_requests_disassembly.py",
+      "sha256": "177bd291c47acc89232444ed00287ff2d9224512bfc078cf7cb89ca5b7308988"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

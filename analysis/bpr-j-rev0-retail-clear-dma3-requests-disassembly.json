@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpr-j-rev0-retail",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "origin_reference": true,
+  "source": "src/clear_dma3_requests.s",
+  "source_sha256": "e28a306b5e0b96378bbe2313634d51ebbd63cfdde0c84fec16d58153dcf66701",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003E6",
+    "rule": "direct boot call immediately after InitMapMusic"
+  },
+  "function": {
+    "name": "ClearDma3Requests",
+    "address": "0x08000BFC",
+    "range_end_exclusive": "0x08000C26",
+    "rom_code_range": {
+      "start_offset": 3068,
+      "end_offset_exclusive": 3110,
+      "length": 42,
+      "sha256": "68bf9eee097054dd1e9e83e0679d0b201faff8b90eb6ffaf609e3c6c71d184f6",
+      "raw_bytes_published": false
+    }
+  },
+  "control_flow": {
+    "instruction_halfwords": 21,
+    "edge_count": 2,
+    "direct_call_count": 0,
+    "return_count": 1,
+    "loop_back_edge": {
+      "source": "0x08000C1C",
+      "target": "0x08000C10"
+    },
+    "canonical_instruction_bytes_sha256": "68bf9eee097054dd1e9e83e0679d0b201faff8b90eb6ffaf609e3c6c71d184f6",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "lock-clear-128-requests-unlock",
+    "locks_manager_during_reset": true,
+    "resets_request_cursor": true,
+    "request_count": 128,
+    "request_stride": 16,
+    "cleared_offsets": [
+      8,
+      0,
+      4
+    ],
+    "global_addresses": {
+      "sDma3ManagerLocked": "0x030008C8",
+      "sDma3RequestCursor": "0x030008C9",
+      "sDma3Requests": "0x030000C8"
+    }
+  },
+  "cross_reference": {
+    "init_map_music_map": "analysis/bpr-j-rev0-retail-init-map-music-disassembly.json",
+    "init_map_music_map_sha256": "4e1b551997de695571147a1f2a1795df97070f6dbafe75c9fe2bf071b5e5d09c"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/dma3_manager.c"
+  },
+  "raw_rom_bytes_included": false
+}

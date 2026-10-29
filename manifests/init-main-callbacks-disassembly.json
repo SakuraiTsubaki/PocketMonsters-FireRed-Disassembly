@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "axis": "Disassembly",
+  "function": "InitMainCallbacks",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_main_callbacks.py",
+    "tool_sha256": "6fc93ef816e04f780ef724c37044e912bb0e925192036342ec7755622b4f8080"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/init_main_callbacks.s",
+      "sha256": "72f2ee6c69dc33e1a19e3022734a35d893408558ad3094a3c66385c5a1d946ca"
+    },
+    {
+      "path": "analysis/init-main-callbacks-disassembly-summary.json",
+      "sha256": "acfc2f19718282f16bd3de8a5bc818245775ab0e014ee32bab68bf3d73bce656"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "221bb0bf7bf06ba64208132d12d81a3ee40ed9ab3a7d674b4854bafbcac01653"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "29e320cb1e31f3a1a8547a07401013438db3b8cb0c6f02dfec6592a6f3a325d2"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "327139070622bdccfd8e46e19919ee6db686a6f0cf4c6778537e0464c82e3c1c"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-init-main-callbacks-disassembly.json",
+      "sha256": "90ab69800758e8c977bf5edff6d4fba10d461b33f28f71a96c9f76341029a5ce"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "9c59707fd32f7b14abded5f63ca24c23f296cfff4fc55c887d46345038ec74aa"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "e9464a3ffe9a41182ed7a580571e7ba80c6c867b8358aaa710939d88e91e0c7e"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "1502ae940c627a5e924c75a85c8fbd25b3d583439fce7ee90c05e015ce74b611"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-init-main-callbacks-disassembly.json",
+      "sha256": "5405b08ef1d1e8c94e8b249584cd1fc106f9a7445937b36e0f7bec504a66f380"
+    },
+    {
+      "path": "research/init-main-callbacks-disassembly.md",
+      "sha256": "37f0df0cb67801144e0dc87be9169d63b21d46f28a556de73d68358091e17852"
+    },
+    {
+      "path": "tests/test_init_main_callbacks_disassembly.py",
+      "sha256": "a4a4be96ccc7f8704b63db73f5ec2968a87bb74a44e81744416506c00fc6f1a0"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

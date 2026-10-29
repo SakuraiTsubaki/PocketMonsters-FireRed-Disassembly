@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-e-rev0-retail",
+    "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00"
+  },
+  "origin_reference": false,
+  "axis": "Disassembly",
+  "source": "src/init_main_callbacks.s",
+  "source_sha256": "72f2ee6c69dc33e1a19e3022734a35d893408558ad3094a3c66385c5a1d946ca",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003DE",
+    "rule": "direct boot call immediately after CheckForFlashMemory"
+  },
+  "function": {
+    "name": "InitMainCallbacks",
+    "address": "0x080004C4",
+    "range_end_exclusive": "0x080004F4",
+    "rom_code_range": {
+      "start_offset": 1220,
+      "end_offset_exclusive": 1268,
+      "length": 48,
+      "sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "SetMainCallback2",
+        "source": "0x080004D2",
+        "target": "0x08000544"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 24,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "34c3f960b4f1d2ad0ceee71c633db0579915296e92daeaba442adfd3d9cdfb34",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "frlg-save-blocks",
+    "zeroed_state": [
+      "gMain.vblankCounter1",
+      "gMain.vblankCounter2",
+      "gMain.callback1",
+      "gSaveBlock2EncryptionKey",
+      "gQuestLogPlaybackState"
+    ],
+    "initialized_pointers": [
+      "gSaveBlock2Ptr",
+      "gSaveBlock1Ptr"
+    ],
+    "callback2_initializer": "copyright-screen initializer"
+  },
+  "cross_reference": {
+    "check_flash_memory_map": "analysis/bpr-e-rev0-retail-check-flash-memory-disassembly.json",
+    "check_flash_memory_map_sha256": "48e28a0ca19c65b7ff7d0eead7d297c22b8abf917086bd574cbef4987aa5f036"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "SetDefaultFontsPointer",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_default_fonts_pointer.py",
+    "tool_sha256": "c1b8dd9344f88210e1df41dc0822cb02cb795ac519627fd65eba01e125098731"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/set_default_fonts_pointer.s",
+      "sha256": "b09deacc72cc9138443118c6495c3e20779460c0ad5e163f70e115aa6957c454"
+    },
+    {
+      "path": "analysis/default-fonts-pointer-disassembly-summary.json",
+      "sha256": "470b765a4f3dcb7b44b75027249d07f5d8bf373899d9dc43bbf9e1b594940129"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "4ec2e2523e15fdff754cab2c4602e1c1692252caa764a388d020126aefce7dad"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "5f6bda56e4bf4d32af09a99953ed0246d6925aa08fbbf3274cf3c10a77927e70"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "1a08dbce2e85d6a149952739fdfd54306ac4e69319b8a51721834eec42508ccb"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "b1f5e3240c0dd75dba5111b05fce792013f8bdf6cbfcc92a9f583296abf1aec8"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "8af0090dd9640d37ddec0e5666ddce10492db21f2afe97b12804fc257f6a2525"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "c2cce7e0ef5a8777047f7c104e3d7166dcbcca13d4df49d3a3e4b9380471789c"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "75b54425bda28f9ffa7c195dc1c38af0fec5f5742cd5766ee1e105f3a74a29df"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-default-fonts-pointer-disassembly.json",
+      "sha256": "d9a1af8de749a1604056949399e2dcf9948f211e2f7428f2767abbc1d733609a"
+    },
+    {
+      "path": "research/default-fonts-pointer-disassembly.md",
+      "sha256": "4b687f225d503bd68efc01784b91c00a952e89579c205a28a0a8851fed4c7134"
+    },
+    {
+      "path": "tests/test_default_fonts_pointer_disassembly.py",
+      "sha256": "d62a29e86ed11b3300576f166f147d80fc831860069289f90c2d631ac33449c4"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

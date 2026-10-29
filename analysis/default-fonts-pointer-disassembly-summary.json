@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "SetDefaultFontsPointer",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "source": "src/set_default_fonts_pointer.s",
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "origin_reference": true,
+      "address": "0x080F8A28",
+      "default_table_address": "0x083E30E8",
+      "code_sha256": "5550a017230add8335fcb0763b16e6973119698797af1aef13a062b857c79e34",
+      "evidence": "analysis/bpr-j-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "origin_reference": false,
+      "address": "0x080F8A6C",
+      "default_table_address": "0x083DEA40",
+      "code_sha256": "9313737a09a89160d8bf50450fa00beb14953cc436d16aaa0b0cf5338b9cbf17",
+      "evidence": "analysis/bpr-j-rev1-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "origin_reference": false,
+      "address": "0x080F79C8",
+      "default_table_address": "0x0841F444",
+      "code_sha256": "503a0badb2a647699a549534074ca9d0ca325c81f518ea5f938c1dbe8c4c5c0b",
+      "evidence": "analysis/bpr-e-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "origin_reference": false,
+      "address": "0x080F7A40",
+      "default_table_address": "0x0841F4B4",
+      "code_sha256": "f5db288e590f27ba39f2068514531d6bd2cf931eb86435fb752aa09e2a9e86ff",
+      "evidence": "analysis/bpr-e-rev1-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "origin_reference": false,
+      "address": "0x080F7C5C",
+      "default_table_address": "0x0841F780",
+      "code_sha256": "abe3d32e41059f54e90cea74795f14a0c4ef9081f968eeffcd5ac9fea7c83ffb",
+      "evidence": "analysis/bpr-d-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "origin_reference": false,
+      "address": "0x080F7D1C",
+      "default_table_address": "0x08417918",
+      "code_sha256": "aef546150a784e531c5803cec8a239df19babfa51b3fb38a18c5b3cdcc2537de",
+      "evidence": "analysis/bpr-f-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "origin_reference": false,
+      "address": "0x080F7C5C",
+      "default_table_address": "0x08416A04",
+      "code_sha256": "abe3d32e41059f54e90cea74795f14a0c4ef9081f968eeffcd5ac9fea7c83ffb",
+      "evidence": "analysis/bpr-i-rev0-retail-default-fonts-pointer-disassembly.json"
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "origin_reference": false,
+      "address": "0x080F7D44",
+      "default_table_address": "0x0841A0AC",
+      "code_sha256": "8b5a7bf133f3dc1c29649256c064526820f2f11b8f98e43f880fd4f8faec95db",
+      "evidence": "analysis/bpr-s-rev0-retail-default-fonts-pointer-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

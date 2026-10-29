@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "axis": "Disassembly",
+  "function": "InitMapMusic",
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_init_map_music.py",
+    "tool_sha256": "60b3160625669bae31e50dfea0812a61e3efa807a00ac9aabe6a18489b85e0f1"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/init_map_music.s",
+      "sha256": "a1b10ebeb64848c765dacd1d153e55c97727a8cf19f4119611d9f08f7e3dacb0"
+    },
+    {
+      "path": "analysis/init-map-music-disassembly-summary.json",
+      "sha256": "c2fb7726290885df051adb140e90260ed265ac7872bda00482ba576d796cace8"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "4e1b551997de695571147a1f2a1795df97070f6dbafe75c9fe2bf071b5e5d09c"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "e106655c68233b1d85f7b7e1fb8906e00f1bce4f6e59f1cfcdfc4713c4b23e2b"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "e8707cf313bffbdad7b185d74f1a7b2885320d8d17983781558a66280b95baaa"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-init-map-music-disassembly.json",
+      "sha256": "ea3f27b03b41adb11c2887374925b703e5adab5a3ff125c1b9c0b08ca47ba6e7"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "b68624f6fbf32f45ce7af34bceb3626ee771072efea01d55f1964cd41bd2a505"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "958c7af25d6a0e541ea88818adf2a6189764233bab47643de13c32e9588f3da6"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "1c03ecfebc9cabd9da27bd798ff8cc71c17d7fc631e9bd418309ae7be035921f"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-init-map-music-disassembly.json",
+      "sha256": "96084ae499d96e54bcda2f0a4d7b8c5b1f138db9481c54df27a6e9350b4d7b30"
+    },
+    {
+      "path": "research/init-map-music-disassembly.md",
+      "sha256": "d526005228ee992b19069367a076d8327428029fdae4891ee80bfec5d0380881"
+    },
+    {
+      "path": "tests/test_init_map_music_disassembly.py",
+      "sha256": "5eadf9a5b341fc8aad363273c3380bd02ccbb05fb8449d0d52927f9b746bf7c7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

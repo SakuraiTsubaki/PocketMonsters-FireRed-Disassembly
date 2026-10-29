@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "origin_reference": false,
+  "source": "src/init_heap.s",
+  "source_sha256": "4aa39e48e325fc644d22d4398077cd2a77bf428b8d6946bf6b3e335dd5e3b1bb",
+  "discovery": {
+    "caller": "thumb_entry_reachable",
+    "caller_address": "0x080003A4",
+    "boot_call_source": "0x080003F4",
+    "calls_after_reset_bgs": 1
+  },
+  "function": {
+    "name": "InitHeap",
+    "address": "0x08002B00",
+    "range_end_exclusive": "0x08002B12",
+    "rom_code_range": {
+      "start_offset": 11008,
+      "end_offset_exclusive": 11026,
+      "length": 18,
+      "sha256": "58a6d1974fbd23162804361a6d107a95e0f4cca282c2d37bd0e5ab80e08bdda7",
+      "raw_bytes_published": false
+    },
+    "calls": [
+      {
+        "name": "PutFirstMemBlockHeader",
+        "source": "0x08002B0A",
+        "target": "0x08002958",
+        "relative_offset": -424,
+        "callee_code_sha256": "e43b5d086a5b439ab771e75d26508677814d3d3cb3fbdf7a3c1019e74231db32"
+      }
+    ]
+  },
+  "control_flow": {
+    "instruction_halfwords": 9,
+    "edge_count": 0,
+    "direct_call_count": 1,
+    "return_count": 1,
+    "canonical_instruction_bytes_sha256": "58a6d1974fbd23162804361a6d107a95e0f4cca282c2d37bd0e5ab80e08bdda7",
+    "raw_halfwords_omitted": true
+  },
+  "verified_behavior": {
+    "instruction_form": "record-arena-then-first-block",
+    "records_heap_start_and_size": true,
+    "sHeapStart_address": "0x03000A38",
+    "sHeapSize_address": "0x03000A3C",
+    "callee_shape": [
+      18,
+      9,
+      1,
+      1,
+      0
+    ]
+  },
+  "cross_reference": {
+    "reset_bgs_map": "analysis/bpr-i-rev0-retail-reset-bgs-disassembly.json",
+    "reset_bgs_map_sha256": "ffa2819af1406ed602ddc52dd8e6cf7f8e614168e28e8d1e13d07534b16243de"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/malloc.c"
+  },
+  "raw_rom_bytes_included": false
+}

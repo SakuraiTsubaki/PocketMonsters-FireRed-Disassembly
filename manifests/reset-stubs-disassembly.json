@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "functions": [
+    "RegisterRamReset",
+    "SoftReset"
+  ],
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_reset_stubs.py",
+    "tool_sha256": "82440844efd64a739145ee009454885aab9a7b83892f194aa6bd8efec87e0ef6"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/reset_stubs.s",
+      "sha256": "b021ad0ef730b45a1b119ef54e0977cd742ee7839062257557e0fcf5539a7ae0"
+    },
+    {
+      "path": "analysis/reset-stubs-summary.json",
+      "sha256": "792e3dbc043636b52c91ec1ac2da736abaa7ff26ae251f72b9fee94205f999ae"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-reset-stubs.json",
+      "sha256": "9ddb5d9a95cbe9de029e7dc9d4db6b8a61f03f03c53f72a6d3964c5b1303d94b"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-reset-stubs.json",
+      "sha256": "e83e740697f2b3dd47ee2be750de8f0e36b7360295acfce4b079577f999c44a5"
+    },
+    {
+      "path": "analysis/firered-en-rev0-reset-stubs.json",
+      "sha256": "23d227108596d0b001a4d61711fb483415d6b927ef1940e18d4b96d023174b5e"
+    },
+    {
+      "path": "analysis/firered-en-rev1-reset-stubs.json",
+      "sha256": "7847f417cff921100d82ac0e4c4a41613d21feb98a3f956d9bf6ed7bd9109b4b"
+    },
+    {
+      "path": "analysis/firered-de-rev0-reset-stubs.json",
+      "sha256": "d843f960daf75c08ea630b187c973ce5468fa4fd6bc95d6ba09d1594522151f5"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-reset-stubs.json",
+      "sha256": "887b3e9270bfd8366d59fb360adb2e8f7d43ff8edda3e7cb62725cb169bc2a9a"
+    },
+    {
+      "path": "analysis/firered-it-rev0-reset-stubs.json",
+      "sha256": "d4c230b86f530b3fb93e200dcd0ffffeceed2ce6df46f47e8c9df1e4c719c4d3"
+    },
+    {
+      "path": "analysis/firered-es-rev0-reset-stubs.json",
+      "sha256": "efbbd62db130c7d1c8143fbf834cc9fd0338047234265ee5a916bc4a921e0c8b"
+    },
+    {
+      "path": "research/reset-stubs-disassembly.md",
+      "sha256": "c1f605cfbf4428ca418c7d354a00db7a9a813b54cb5d9f0e98257cf25f9c38ee"
+    },
+    {
+      "path": "tests/test_reset_stubs_disassembly.py",
+      "sha256": "a279f62619a501122ae690ca32033d9e7d3c83e1abe58286ec4aff3c36ab932e"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

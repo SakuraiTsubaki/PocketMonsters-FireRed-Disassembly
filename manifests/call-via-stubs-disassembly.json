@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "library": "libgcc",
+  "object": "_call_via_rX.o",
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "function_count": 15,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_call_via_stubs.py",
+    "tool_sha256": "55f40cb2265a9ad4a6ff56ce228e331837b0d2b75936a973f03b0db0d326ea3b"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/call_via_stubs.s",
+      "sha256": "949d4f0bd48d0e6948271bebb1994478ae2bea90dca5c566f8a88aaaf7f5f908"
+    },
+    {
+      "path": "analysis/call-via-stubs-summary.json",
+      "sha256": "ebf6cb0c8fd949f971b0627de2520f838da453252434a9e9286836fd3bc3b3d7"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-call-via-stubs.json",
+      "sha256": "d6f1281e6595ebd951d3b04d8a33861563fdf2e26e501d77b1ef82ce3d809fb6"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-call-via-stubs.json",
+      "sha256": "49b9dc39d4a33002213dd5d1fba0a9a5a5d67e94bc6935904e705d06c06d3cc7"
+    },
+    {
+      "path": "analysis/firered-en-rev0-call-via-stubs.json",
+      "sha256": "4c17f5c05523fefc5ab405a46f107d98c98cd0bff85423dd6d1a48cb30278b3e"
+    },
+    {
+      "path": "analysis/firered-en-rev1-call-via-stubs.json",
+      "sha256": "dd88be120d68fe4e531fce06b7b52b40351701a16fdd112c5dcdce5dfb51412e"
+    },
+    {
+      "path": "analysis/firered-de-rev0-call-via-stubs.json",
+      "sha256": "e8f3e74eadeacb95b3902ae70a7dc5d9492fa7c2c8cba1377d4b587048a537b5"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-call-via-stubs.json",
+      "sha256": "c6dfabad5beaf20b9b40ba5f999a4ba4b0e85cfd48625e3574608c456f3f2e60"
+    },
+    {
+      "path": "analysis/firered-it-rev0-call-via-stubs.json",
+      "sha256": "57e14e6e8dd36c024b4fcc3a2fa70cbbcc13c3af9f059ba24f07ca50a51a4ea4"
+    },
+    {
+      "path": "analysis/firered-es-rev0-call-via-stubs.json",
+      "sha256": "d17f2c81af5989351a0f63fdcc0b92124c4608d72af0b4865cb3fc70b2e8a75e"
+    },
+    {
+      "path": "research/call-via-stubs-disassembly.md",
+      "sha256": "cee7b544781072ecb4e35edc9e24e0dd01fc7800769675c9e61ab7d5dd1d6a63"
+    },
+    {
+      "path": "tests/test_call_via_stubs_disassembly.py",
+      "sha256": "cf05fd90821563f3eb342835669c9c0126f910b5fed72dcc4852bddef4f39385"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

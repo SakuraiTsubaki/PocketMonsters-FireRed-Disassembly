@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "frlg",
+  "target": {
+    "release": "firered-jp-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "source": "src/sqrt_vblank_stubs.s",
+  "source_sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b",
+  "functions": {
+    "Sqrt": {
+      "rom_offset": 1866428,
+      "address": "0x081C7ABC",
+      "range_end_exclusive": "0x081C7AC0",
+      "length": 4,
+      "code_sha256": "de4a71d0d630472b454682d19fb9bad740be092c8543ac383d1aab54f492cff4",
+      "software_interrupt": 8,
+      "return": "bx lr",
+      "argument_register": "r0",
+      "result_register": "r0"
+    },
+    "VBlankIntrWait": {
+      "rom_offset": 1866432,
+      "address": "0x081C7AC0",
+      "range_end_exclusive": "0x081C7AC6",
+      "length": 6,
+      "code_sha256": "bf9fc420439437739d9c6b74b51fbe54a172af5a3d24fd499ba4acd0bc9c4050",
+      "temporary_register": "r2",
+      "temporary_value": 0,
+      "software_interrupt": 5,
+      "return": "bx lr"
+    }
+  },
+  "verified_layout": {
+    "adjacent": true,
+    "suite_length": 10,
+    "reset_suite_to_sqrt_delta": 28
+  },
+  "cross_reference": {
+    "reset_stubs_map": "analysis/firered-jp-rev0-reset-stubs.json",
+    "reset_stubs_map_sha256": "9ddb5d9a95cbe9de029e7dc9d4db6b8a61f03f03c53f72a6d3964c5b1303d94b"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c"
+  },
+  "raw_rom_bytes_included": false
+}

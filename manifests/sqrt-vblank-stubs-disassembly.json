@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "functions": [
+    "Sqrt",
+    "VBlankIntrWait"
+  ],
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_sqrt_vblank_stubs.py",
+    "tool_sha256": "0db9d9d0414c978db443aafa77b5d3f0cf65d10e0c08bdd390a7bc507ff9cb8f"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/sqrt_vblank_stubs.s",
+      "sha256": "25fc3c3a7cf444b8efd114ac7de4b5ab25c974f523de8797a13bad010399373b"
+    },
+    {
+      "path": "analysis/sqrt-vblank-stubs-summary.json",
+      "sha256": "f5e1057e3f9bee3179983e57d7354502d2af72c1bec973e825d193bc13c21b6d"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-sqrt-vblank-stubs.json",
+      "sha256": "b547235db942913e4aac4802f1e6ec6986f7490bdb894cda331fa47b7d45a46f"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-sqrt-vblank-stubs.json",
+      "sha256": "523561280e2de011c45e70a58de231c7429a8b54b77e9adb75ab4be75b8bf350"
+    },
+    {
+      "path": "analysis/firered-en-rev0-sqrt-vblank-stubs.json",
+      "sha256": "03379be6fe9ff1b46d3fd4bb00e0cddc7da8ac2fad8b0d791296016dc2fd3b3a"
+    },
+    {
+      "path": "analysis/firered-en-rev1-sqrt-vblank-stubs.json",
+      "sha256": "d8208465b99f4e7b9bad70eef98f882a60f873861d4d009d6c8dc4f5a20fb2a7"
+    },
+    {
+      "path": "analysis/firered-de-rev0-sqrt-vblank-stubs.json",
+      "sha256": "35b1389180134ee228df0ef0e95eed27259fd3e2c8fc6b48f7accf8b233f229d"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-sqrt-vblank-stubs.json",
+      "sha256": "817837e8d0998cb83f9d0acfb5e62c209b39fbf229d7a39cbcac4133c95ed032"
+    },
+    {
+      "path": "analysis/firered-it-rev0-sqrt-vblank-stubs.json",
+      "sha256": "e4e61028ba7a1f5a350aaf0e79545409424234fb97f86cf607686a7557a04108"
+    },
+    {
+      "path": "analysis/firered-es-rev0-sqrt-vblank-stubs.json",
+      "sha256": "cbc6bad682ddc83c313e98dea3deaf54aa0008c96f1d9a4291fbb979047cdd6f"
+    },
+    {
+      "path": "research/sqrt-vblank-stubs-disassembly.md",
+      "sha256": "47861804f83a148979529a04876c5b2c080eab7b093ea3a5084fbf9087603bf2"
+    },
+    {
+      "path": "tests/test_sqrt_vblank_stubs_disassembly.py",
+      "sha256": "e0188c084c1450949a1f68120c1fa0869d90c4927561f121fb24d1cfee15bd3b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

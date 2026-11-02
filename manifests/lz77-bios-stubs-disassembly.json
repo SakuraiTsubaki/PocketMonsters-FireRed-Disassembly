@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "functions": [
+    "LZ77UnCompVram",
+    "LZ77UnCompWram"
+  ],
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_lz77_bios_stubs.py",
+    "tool_sha256": "cf0084a4f60f1f1f71ae5803df9a80874a071bdbb00d12e6465a6d41f4e5cc06"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/lz77_bios_stubs.s",
+      "sha256": "d3bbc762342fbe9da694f5a19a433a532cd94ba9053664d5cc4dfa07205fae50"
+    },
+    {
+      "path": "analysis/lz77-bios-stubs-disassembly-summary.json",
+      "sha256": "483d1cdf15584a64759b6af8083b7fe22da83c84fb785936e1b63d3b2fe93d40"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "6934fb1f2ab762e7038b49e1e08824ef871aa05f90509afb420566c67327c9bd"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "171197613dff2b7979f6222ca521d2c3e980a84a45f02d633d74fcd5d094bcfd"
+    },
+    {
+      "path": "analysis/firered-en-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "3661e412890eb55ac3c26d90b6321a80347025656bdd056fba787a5d8e47106a"
+    },
+    {
+      "path": "analysis/firered-en-rev1-lz77-bios-stubs-disassembly.json",
+      "sha256": "8fad7af8cd814a0c5c6173a2f97d699425666905119f3993a4067a9388ef123d"
+    },
+    {
+      "path": "analysis/firered-de-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "027040d28fa82edc422f3c46d0034c94d5e7187bb5ca70dbc851ac3c0b29933b"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "c8a017c9fcdb1a3b26af18b5874e56c43a266f7473b4fd919677b034f40145be"
+    },
+    {
+      "path": "analysis/firered-it-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "d8139ad02d47c090814f20927697687720cca97018b8841760c7ed89a8d8bb72"
+    },
+    {
+      "path": "analysis/firered-es-rev0-lz77-bios-stubs-disassembly.json",
+      "sha256": "57604b4e0a33ed4f976b2d045a4a565ae74e466e8a6fc95f62fc39c897bd27d9"
+    },
+    {
+      "path": "research/lz77-bios-stubs-disassembly.md",
+      "sha256": "409e96519825141843c9a1bf35a637a1f916160d06a1da933c3051982c0c7c68"
+    },
+    {
+      "path": "tests/test_lz77_bios_stubs_disassembly.py",
+      "sha256": "5a9792cb7526f9f5b184d20e02140bfc6335c6303fc228234adfe2029ab64c9b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

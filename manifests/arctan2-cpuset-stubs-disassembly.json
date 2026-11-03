@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "functions": [
+    "ArcTan2",
+    "CpuSet"
+  ],
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_arctan2_cpuset_stubs.py",
+    "tool_sha256": "011082c36dc18fbaeb8325934d07ef4a0342cc270c75b331bf94a000263f2df9"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/arctan2_cpuset_bios_stubs.s",
+      "sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814"
+    },
+    {
+      "path": "analysis/arctan2-cpuset-stubs-disassembly-summary.json",
+      "sha256": "6ef5e9c47c4d674316cd49d07e05f20af9ff79731aee3a261ae3a444b1432d5d"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "784a8715f6a1348a91f5d374931c3d04598a1899b96e5f40635d34208b0e47d4"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "f98b23dec54cc2d2f146ffea9df6ccf8ddce3ec76c758efd58d4b0f272800c9b"
+    },
+    {
+      "path": "analysis/firered-en-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "a23ea765a339d24f2b30675add50b602324c4269c1838956f53b1637c8b9ae26"
+    },
+    {
+      "path": "analysis/firered-en-rev1-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "d26e3be48cdb495f9799932b2b48eefd17a934a4451793e92e451d2a0d842195"
+    },
+    {
+      "path": "analysis/firered-de-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "26880359d884988c837bca1a32b4ef448c02795d43d205a32678023853be599e"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "53721f641c08f849b83c9f4d305cd99b8674cb8aa9324f092c9d565cfd08fd78"
+    },
+    {
+      "path": "analysis/firered-it-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "492a7de52f6485c2dfc828f8811aebefa95fd54c006e37a18b7f26824e147639"
+    },
+    {
+      "path": "analysis/firered-es-rev0-arctan2-cpuset-stubs-disassembly.json",
+      "sha256": "7d9f2bec63453ff2bf2d7d0ff27862b9bb6bec83b88771b3044c5e3124b81d75"
+    },
+    {
+      "path": "research/arctan2-cpuset-stubs-disassembly.md",
+      "sha256": "e6668f68f368a3da52abe3ee9332eee5c1fba01a8fa02f2174612c7eabb3601f"
+    },
+    {
+      "path": "tests/test_arctan2_cpuset_stubs_disassembly.py",
+      "sha256": "fcc07ae248ba69c86e951a3f310d90c7098437c767f7aa56466204f0b7134c2b"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

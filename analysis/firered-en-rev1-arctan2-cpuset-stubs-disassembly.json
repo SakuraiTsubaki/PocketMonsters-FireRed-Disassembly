@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "frlg",
+  "target": {
+    "release": "firered-en-rev1",
+    "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "source": "src/arctan2_cpuset_bios_stubs.s",
+  "source_sha256": "b3689ce4b50099a5be86bec1d6421258bc6bdc20053b7dff5c8a08be8c858814",
+  "functions": {
+    "ArcTan2": {
+      "rom_offset": 1981384,
+      "address": "0x081E3BC8",
+      "range_end_exclusive": "0x081E3BCC",
+      "length": 4,
+      "code_sha256": "d0c2ec82c5f5d65a013e773fd2f3eb012f5930f37efbf594d8e08b2afd3c3154",
+      "software_interrupt": 10,
+      "arguments": [
+        "r0:x",
+        "r1:y"
+      ],
+      "result_register": "r0",
+      "return": "bx lr",
+      "signature_match_count": 1,
+      "lz77_vram_relative_offset": -20,
+      "selected_by_verified_sdk_layout": true
+    },
+    "CpuSet": {
+      "rom_offset": 1981396,
+      "address": "0x081E3BD4",
+      "range_end_exclusive": "0x081E3BD8",
+      "length": 4,
+      "code_sha256": "07967ebdc3979cd4fd4de37fd22b3e6de8965b00dae4ac5585577c9709839652",
+      "software_interrupt": 11,
+      "arguments": [
+        "r0:source",
+        "r1:destination",
+        "r2:mode"
+      ],
+      "result_register": null,
+      "return": "bx lr",
+      "signature_match_count": 2,
+      "lz77_vram_relative_offset": -8,
+      "selected_by_verified_sdk_layout": true
+    }
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081E3BDC",
+    "allowed_family_relative_offsets": {
+      "ArcTan2": [
+        -20,
+        -16
+      ],
+      "CpuSet": [
+        -8,
+        -4
+      ]
+    }
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/firered-en-rev1-lz77-bios-stubs-disassembly.json",
+    "sha256": "8fad7af8cd814a0c5c6173a2f97d699425666905119f3993a4067a9388ef123d"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

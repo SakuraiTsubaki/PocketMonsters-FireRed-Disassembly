@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "function": "MultiBoot",
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_multiboot_stub.py",
+    "tool_sha256": "a5e57eb392c7726c0e9f3898657b62efa1bfafdb54f0d876237739309c963f62"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/multiboot_bios_stub.s",
+      "sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683"
+    },
+    {
+      "path": "analysis/multiboot-stub-disassembly-summary.json",
+      "sha256": "f8bce4a7f454e30d8f8888f9a7569238a1cddb5cd8f0241cb4f552e41cd45646"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-multiboot-stub-disassembly.json",
+      "sha256": "fc247a338dedf90ecf1372c2eedf68356308f0987f84e838bdaac838708d3053"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-multiboot-stub-disassembly.json",
+      "sha256": "ce4c20a397d9a4c7ed831a5037cf59fc21ad82dbca628dd281af9b54283fa943"
+    },
+    {
+      "path": "analysis/firered-en-rev0-multiboot-stub-disassembly.json",
+      "sha256": "dfc4f5209919d3c46bb97853d1e34642372d6e43c70147c73695aeb4fc3836db"
+    },
+    {
+      "path": "analysis/firered-en-rev1-multiboot-stub-disassembly.json",
+      "sha256": "895671ea26ca946fcb4c6d6b8079f5207120d03fb7c3a3fafc20128d0f5bc81b"
+    },
+    {
+      "path": "analysis/firered-de-rev0-multiboot-stub-disassembly.json",
+      "sha256": "5d193012c775665fe920c534907da6e34f15dafa81dd4ecb07bcf821dd494ece"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-multiboot-stub-disassembly.json",
+      "sha256": "374eb77f0b790ff17d4341ca4d93a8cda5b2eb286b38bbaa312bbccfcb0a10f6"
+    },
+    {
+      "path": "analysis/firered-it-rev0-multiboot-stub-disassembly.json",
+      "sha256": "4dbdf12b6dde0b106c31690db2c392d6ba1189b62312ba4a1e2dbcfb44fffac4"
+    },
+    {
+      "path": "analysis/firered-es-rev0-multiboot-stub-disassembly.json",
+      "sha256": "4a9372ea0eb85e696b385cf8fa71fbfb4bbc6a01b5b8c09df84b83ef79e9d35c"
+    },
+    {
+      "path": "research/multiboot-stub-disassembly.md",
+      "sha256": "fcc9bb292065c1b9f6a531261afa4d805ac0d97393d1f906577b54993e020830"
+    },
+    {
+      "path": "tests/test_multiboot_stub_disassembly.py",
+      "sha256": "cdd15699529806fde0379e2b6c4848be19e44150f557c43dc1c29627e3036bb7"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

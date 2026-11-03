@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "frlg",
+  "target": {
+    "release": "firered-jp-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "source": "src/multiboot_bios_stub.s",
+  "source_sha256": "2ed8f848b1a2db14f543d1f2ec774d06696eca4feebdd9d6752d0044a7394683",
+  "function": {
+    "name": "MultiBoot",
+    "rom_offset": 1866388,
+    "address": "0x081C7A94",
+    "range_end_exclusive": "0x081C7A9A",
+    "length": 6,
+    "code_sha256": "1a0c04e017cf4403e3b9453e951104a6a7f633f89aab670cde478cc915c58a78",
+    "mode_register": "r1",
+    "mode_value": 1,
+    "parameter_register": "r0",
+    "result_register": "r0",
+    "software_interrupt": 37,
+    "return": "bx lr",
+    "signature_match_count": 1,
+    "lz77_vram_relative_offset": 8,
+    "selected_by_verified_sdk_layout": true
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081C7A8C",
+    "family_relative_offset": 8
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/firered-jp-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "6934fb1f2ab762e7038b49e1e08824ef871aa05f90509afb420566c67327c9bd"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

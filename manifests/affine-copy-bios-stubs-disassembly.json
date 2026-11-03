@@ -1,0 +1,74 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "library": "libagbsyscall",
+  "functions": [
+    "BgAffineSet",
+    "CpuFastSet",
+    "ObjAffineSet"
+  ],
+  "profile": "frlg",
+  "origin_reference": "firered-jp-rev0",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_affine_copy_bios_stubs.py",
+    "tool_sha256": "68098fe54fac1eee1af36825818965e8b81c81d26fc916859265ee6e895095fb"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/affine_copy_bios_stubs.s",
+      "sha256": "b82b0e3ba6932e426f4dba67964a8a012030802ba6f46b10697aaf7c7dfb48f7"
+    },
+    {
+      "path": "analysis/affine-copy-bios-stubs-disassembly-summary.json",
+      "sha256": "aeeaf8af1f719e1c31196091634479c3b2ba6d5b35c9f46606c1bf0f798adde8"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "87185a620f5ccae00fb174ab5f65c207f654f0ca0c693dd8cdaeda40fa14db9f"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "1e356b5be3129f5158f07506d4f9354e3b03b5fa70f8e0dfe34864f5bc25adff"
+    },
+    {
+      "path": "analysis/firered-en-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "30afa5fd8c3292c76134dc9f1d21ac588685cbeae9795355a8ecd6e6ce9b8ec6"
+    },
+    {
+      "path": "analysis/firered-en-rev1-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "b189c3825529ab46bb5ffe35c4a35a0cb042743e183da1ee49d06e173ae43f71"
+    },
+    {
+      "path": "analysis/firered-de-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "7bd161196274fe76d02c4537ab18b69b83341a4261ff3913e7307180f81c5ed1"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "3034b8659e1ece5fbf6342954d6129597ae53e1feb8ae134c2790def50c5e5cb"
+    },
+    {
+      "path": "analysis/firered-it-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "121c10cf0770dbb7f60c7143c7671fa6268d55145eb7da5fdeeb2b6d067c6836"
+    },
+    {
+      "path": "analysis/firered-es-rev0-affine-copy-bios-stubs-disassembly.json",
+      "sha256": "4d6a85cf823ddc5e4616104d77523b110536f7e90c7ec1894d99d40881d23a71"
+    },
+    {
+      "path": "research/affine-copy-bios-stubs-disassembly.md",
+      "sha256": "957b59dbce6b5e546ee2f785c8c3f0d8eba19d6ce52d5fefd10797ea9c9777c4"
+    },
+    {
+      "path": "tests/test_affine_copy_bios_stubs_disassembly.py",
+      "sha256": "bc5e81bc80ca599b80359a1b9c104e1932548d3d46659d90397bbf283cb29578"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

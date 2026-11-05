@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 1,
+    "name": "bulbasaur"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2285912,
+      "table_offset": 2285904,
+      "source_offset": 13827020,
+      "size": 2048,
+      "tag": 1
+    },
+    "back": {
+      "entry_offset": 2291192,
+      "table_offset": 2291184,
+      "source_offset": 13827736,
+      "size": 2048,
+      "tag": 1
+    },
+    "palette": {
+      "entry_offset": 2294712,
+      "table_offset": 2294704,
+      "source_offset": 13827696,
+      "tag": 1
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-it-rev0-deoxys-front-table.json",
+      "sha256": "e66385a886e272d9c7904bfbb0248e58aad9c3387eece7ccdcc7c3d399828709"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-back-table.json",
+      "sha256": "7b91f7a6266e9bbfbccac899b1d30fae31012a6f49e2085f5abb9d0559f4ff02"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-palette.json",
+      "sha256": "8d5013a3b7702e71847552b86a9e945209ce273be2cd85995a3ef0af84687f75"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-it.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13827020,
+        "compressed_length": 674,
+        "compressed_sha256": "f6129779acc6d97698b46a07307060362ac8c0f6fc834d7cd97233cb9bb28569",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "368698322f3594e81f0f02d949ae905810effeaa231e500891423449f11f77bd",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13827736,
+        "compressed_length": 707,
+        "compressed_sha256": "ca46b3095d1aa36c26fc173e756255dc51eb80ac9a7b3c4a7e5cf69a7dd24cdf",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "c3f4a64b83ff1f7048cb3b6b5d4da4fe83c67b89626741334c8e26bc03b2df41",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+      }
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13827696,
+        "compressed_length": 40,
+        "compressed_sha256": "ca5aaeaa0b69aebefc21e614a3294a629785b36d0db32dc68ff7877a3b32f9ac",
+        "decompressed_length": 32,
+        "decompressed_sha256": "1c3af0846ccae51783ed33e18f160ac1fe8e56d1a3ae687d8a947cad2dfd962b",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

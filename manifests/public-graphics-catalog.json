@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "FireRed",
-  "asset_count": 76,
+  "asset_count": 100,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
     "tool": "tools/catalog_public_graphics.py",
@@ -11,6 +11,30 @@
     {
       "path": "graphics/header/nintendo-logo-jp.png",
       "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-jp.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-jp.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-jp.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-jp.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-jp.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-jp.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-jp.png",
@@ -49,6 +73,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev1-en.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-en.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev1-en.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-en.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev1-en.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
       "path": "graphics/pokemon/deoxys-attack-back-en.png",
       "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
     },
@@ -85,6 +133,18 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-de.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-de.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
       "path": "graphics/pokemon/deoxys-attack-back-de.png",
       "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
     },
@@ -107,6 +167,18 @@
     {
       "path": "graphics/pokemon/pikachu-rev0-de.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-fr.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-fr.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-fr.png",
@@ -133,6 +205,18 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-it.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
       "path": "graphics/pokemon/deoxys-attack-back-it.png",
       "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1"
     },
@@ -155,6 +239,18 @@
     {
       "path": "graphics/pokemon/pikachu-rev0-it.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-back-rev0-es.png",
+      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-front-rev0-es.png",
+      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449"
+    },
+    {
+      "path": "graphics/pokemon/bulbasaur-rev0-es.pal",
+      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-es.png",
@@ -316,15 +412,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "ef97481041e9c8ea9a139339ad1d2e0629bdae7409b3fca349d13c48d6e6a180"
+      "sha256": "094c9b0bb8fa1c32a1fa0eba41d63b7782c19e5c7fbc765093853c4a9ea95d41"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "3c6c3b46990eaacc3a6cfafe9d610b400004a2f0d36e2e19a9e9b11304951c2f"
+      "sha256": "ad751f06fad90f57d3b750edba7ba21fcea5b7653cf535dfe258960288f544d9"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "998b486901e61a5e7c870fadaa93155fbae2538655bb5d039b3e371462f6ccb1"
+      "sha256": "4f79dd512eded03786ea062adf41fd8d6c59b788a6a5b25b1001b6b6e3f0abd8"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

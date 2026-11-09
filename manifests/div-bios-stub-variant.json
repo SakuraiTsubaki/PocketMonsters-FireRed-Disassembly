@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "Div",
+  "profile": "frlg-language-variant",
+  "origin_reference": "firered-jp-rev0",
+  "origin_availability": "absent",
+  "release_count": 8,
+  "present_release_count": 6,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gen3_frlg_div_variant.py",
+    "tool_sha256": "47db9f9dc18ea1f4cd6eaf2843cd80a093d6bc3f975b96772ebd1174f3db8432"
+  },
+  "outputs": [
+    {
+      "path": "research/releases.csv",
+      "sha256": "7fa3e525796a2d0edc5032f0329f05ed16a3513553b7607e8dbbd9018e845ec0"
+    },
+    {
+      "path": "src/div_bios_stub.s",
+      "sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0"
+    },
+    {
+      "path": "analysis/div-bios-stub-variant-summary.json",
+      "sha256": "6067c473a6f7bbf57631dde0f8b78085b89eec130c743347d3ebe6c06d508cc3"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-div-bios-stub-variant.json",
+      "sha256": "c02ba90191b2088da52c9b0077645e39c3cb7e4559762591603ea0abe20c00ae"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-div-bios-stub-variant.json",
+      "sha256": "53d8a1644378cf78298784356ff490bd92150ec52d52ccbd65882b2778c5d97c"
+    },
+    {
+      "path": "analysis/firered-en-rev0-div-bios-stub-variant.json",
+      "sha256": "28d43f21ae97170c8300818cf449f7447f71b02d592f8d0d57f14fb7b4761489"
+    },
+    {
+      "path": "analysis/firered-en-rev1-div-bios-stub-variant.json",
+      "sha256": "6893d97995ce68a737b5cfef9232e728df81797e5f8b40a4b9dd935fbdb60e86"
+    },
+    {
+      "path": "analysis/firered-de-rev0-div-bios-stub-variant.json",
+      "sha256": "3bd0620948c59617d11599f3fc3bfbd8f98ed15f3015117bcdccb2a8fc9c74d4"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-div-bios-stub-variant.json",
+      "sha256": "1513e5d33e8de267cd243ae9b29aa524fef4e6069b676b7006b63a568ae5512b"
+    },
+    {
+      "path": "analysis/firered-it-rev0-div-bios-stub-variant.json",
+      "sha256": "fd837595ddfefa041a3308700c8a5c78c615f4f9cef9a9eb4765ef03bcdd7c2d"
+    },
+    {
+      "path": "analysis/firered-es-rev0-div-bios-stub-variant.json",
+      "sha256": "1664a9e5eb2de35efaf3fa75a4abd3ed32aec7577b0a6f8b86f42a71c1c0a16b"
+    },
+    {
+      "path": "research/div-bios-stub-language-variant.md",
+      "sha256": "f1e601f54b36f2b0ef4b63acae4b7293efcce611fa2fc930ce3d3d3edef78d03"
+    },
+    {
+      "path": "tests/test_div_bios_stub_variant.py",
+      "sha256": "d9e358269a5ce3a4e0a9751df7979fa2db00b25d17a3634c001026676a047699"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

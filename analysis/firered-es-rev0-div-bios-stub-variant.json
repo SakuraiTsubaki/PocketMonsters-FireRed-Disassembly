@@ -1,0 +1,46 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "frlg-language-variant",
+  "target": {
+    "release": "firered-es-rev0",
+    "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+    "status": "candidate"
+  },
+  "origin_reference": false,
+  "availability": "present",
+  "source_applies": true,
+  "source": "src/div_bios_stub.s",
+  "source_sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0",
+  "function": {
+    "name": "Div",
+    "rom_offset": 1979116,
+    "address": "0x081E32EC",
+    "range_end_exclusive": "0x081E32F0",
+    "length": 4,
+    "code_sha256": "8e93a1720c694e06005b83e2dbaf36a800649ab8948fc4e15efa39309f4c5ce6",
+    "numerator_register": "r0",
+    "denominator_register": "r1",
+    "quotient_register": "r0",
+    "remainder_register": "r1",
+    "absolute_quotient_register": "r3",
+    "software_interrupt": 6,
+    "return": "bx lr",
+    "lz77_vram_relative_offset": -4
+  },
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081E32F0",
+    "expected_relative_offset_when_present": -4,
+    "signature_match_count": 1
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/firered-es-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "57604b4e0a33ed4f976b2d045a4a565ae74e466e8a6fc95f62fc39c897bd27d9"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

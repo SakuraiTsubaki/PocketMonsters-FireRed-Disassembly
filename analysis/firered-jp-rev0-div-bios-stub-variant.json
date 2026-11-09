@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "profile": "frlg-language-variant",
+  "target": {
+    "release": "firered-jp-rev0",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+    "status": "candidate"
+  },
+  "origin_reference": true,
+  "availability": "absent",
+  "source_applies": false,
+  "source": "src/div_bios_stub.s",
+  "source_sha256": "e6ab2a8ec3c5a673606b0565f3d8495f9b56a43bf5346096e6907753675cf8e0",
+  "function": null,
+  "verified_layout": {
+    "lz77_vram_anchor": "0x081C7A8C",
+    "expected_relative_offset_when_present": -4,
+    "signature_match_count": 0
+  },
+  "cross_reference": {
+    "lz77_bios_stubs": "analysis/firered-jp-rev0-lz77-bios-stubs-disassembly.json",
+    "sha256": "6934fb1f2ab762e7038b49e1e08824ef871aa05f90509afb420566c67327c9bd"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "ce6406d8c2eaf46d543c8a2606de0c3cb1951982",
+    "path": "src/libagbsyscall.s"
+  },
+  "raw_rom_bytes_included": false
+}

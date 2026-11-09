@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 9,
+    "name": "blastoise"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2285976,
+      "table_offset": 2285904,
+      "source_offset": 13850160,
+      "size": 2048,
+      "tag": 9
+    },
+    "back": {
+      "entry_offset": 2291256,
+      "table_offset": 2291184,
+      "source_offset": 13851484,
+      "size": 2048,
+      "tag": 9
+    },
+    "palette": {
+      "entry_offset": 2294776,
+      "table_offset": 2294704,
+      "source_offset": 13851444,
+      "tag": 9
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-it-rev0-deoxys-front-table.json",
+      "sha256": "e66385a886e272d9c7904bfbb0248e58aad9c3387eece7ccdcc7c3d399828709"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-back-table.json",
+      "sha256": "7b91f7a6266e9bbfbccac899b1d30fae31012a6f49e2085f5abb9d0559f4ff02"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-palette.json",
+      "sha256": "8d5013a3b7702e71847552b86a9e945209ce273be2cd85995a3ef0af84687f75"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-it.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13850160,
+        "compressed_length": 1283,
+        "compressed_sha256": "5437b09a91defe01353af29e0021b3f280f7a7cb197a15af82f35a250ff477ce",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "f3e727b7ad5f219af91cab0c7a73cdb853770b49a746c0f5874de7212160172c",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+      }
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-it.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13851484,
+        "compressed_length": 1041,
+        "compressed_sha256": "5fe6e169a18540b770fb0a1ab6ec3d450ea4d434b21f87f783afbe1e72146866",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "b88c8c7a2124072a459084a201576f5ddf16011030780a8ef22dc093defa272f",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+      }
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-it.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13851444,
+        "compressed_length": 40,
+        "compressed_sha256": "121f02001375debec908f7c16408461b29f42ae1315e44db707e3a6984c0ffe8",
+        "decompressed_length": 32,
+        "decompressed_sha256": "03304089e6064958259ca17819011b61ceefd3e8eb656fe97222f6139f3c6cc4",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

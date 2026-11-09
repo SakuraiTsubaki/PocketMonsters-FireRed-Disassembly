@@ -12,6 +12,10 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 
 | Preview | File | Language | Size | SHA-256 |
 | --- | --- | --- | --- | --- |
+| <img src="graphics/pokemon/blastoise-back-rev0-jp.png" alt="blastoise-back-rev0-jp" width="128"> | [`graphics/pokemon/blastoise-back-rev0-jp.png`](graphics/pokemon/blastoise-back-rev0-jp.png) | Japanese | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-back-rev1-jp.png" alt="blastoise-back-rev1-jp" width="128"> | [`graphics/pokemon/blastoise-back-rev1-jp.png`](graphics/pokemon/blastoise-back-rev1-jp.png) | Japanese | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-front-rev0-jp.png" alt="blastoise-front-rev0-jp" width="128"> | [`graphics/pokemon/blastoise-front-rev0-jp.png`](graphics/pokemon/blastoise-front-rev0-jp.png) | Japanese | 128x128 | `c788ba8062288428...` |
+| <img src="graphics/pokemon/blastoise-front-rev1-jp.png" alt="blastoise-front-rev1-jp" width="128"> | [`graphics/pokemon/blastoise-front-rev1-jp.png`](graphics/pokemon/blastoise-front-rev1-jp.png) | Japanese | 128x128 | `c788ba8062288428...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev0-jp.png" alt="bulbasaur-back-rev0-jp" width="128"> | [`graphics/pokemon/bulbasaur-back-rev0-jp.png`](graphics/pokemon/bulbasaur-back-rev0-jp.png) | Japanese | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev1-jp.png" alt="bulbasaur-back-rev1-jp" width="128"> | [`graphics/pokemon/bulbasaur-back-rev1-jp.png`](graphics/pokemon/bulbasaur-back-rev1-jp.png) | Japanese | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-front-rev0-jp.png" alt="bulbasaur-front-rev0-jp" width="128"> | [`graphics/pokemon/bulbasaur-front-rev0-jp.png`](graphics/pokemon/bulbasaur-front-rev0-jp.png) | Japanese | 128x128 | `d65f4b47f56189d0...` |
@@ -46,6 +50,14 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | <img src="graphics/pokemon/venusaur-back-rev1-jp.png" alt="venusaur-back-rev1-jp" width="128"> | [`graphics/pokemon/venusaur-back-rev1-jp.png`](graphics/pokemon/venusaur-back-rev1-jp.png) | Japanese | 128x128 | `aa858c755cfb3ca3...` |
 | <img src="graphics/pokemon/venusaur-front-rev0-jp.png" alt="venusaur-front-rev0-jp" width="128"> | [`graphics/pokemon/venusaur-front-rev0-jp.png`](graphics/pokemon/venusaur-front-rev0-jp.png) | Japanese | 128x128 | `1b5b6d32061cba12...` |
 | <img src="graphics/pokemon/venusaur-front-rev1-jp.png" alt="venusaur-front-rev1-jp" width="128"> | [`graphics/pokemon/venusaur-front-rev1-jp.png`](graphics/pokemon/venusaur-front-rev1-jp.png) | Japanese | 128x128 | `1b5b6d32061cba12...` |
+| <img src="graphics/pokemon/wartortle-back-rev0-jp.png" alt="wartortle-back-rev0-jp" width="128"> | [`graphics/pokemon/wartortle-back-rev0-jp.png`](graphics/pokemon/wartortle-back-rev0-jp.png) | Japanese | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-back-rev1-jp.png" alt="wartortle-back-rev1-jp" width="128"> | [`graphics/pokemon/wartortle-back-rev1-jp.png`](graphics/pokemon/wartortle-back-rev1-jp.png) | Japanese | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-front-rev0-jp.png" alt="wartortle-front-rev0-jp" width="128"> | [`graphics/pokemon/wartortle-front-rev0-jp.png`](graphics/pokemon/wartortle-front-rev0-jp.png) | Japanese | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/wartortle-front-rev1-jp.png" alt="wartortle-front-rev1-jp" width="128"> | [`graphics/pokemon/wartortle-front-rev1-jp.png`](graphics/pokemon/wartortle-front-rev1-jp.png) | Japanese | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/blastoise-back-rev0-en.png" alt="blastoise-back-rev0-en" width="128"> | [`graphics/pokemon/blastoise-back-rev0-en.png`](graphics/pokemon/blastoise-back-rev0-en.png) | English | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-back-rev1-en.png" alt="blastoise-back-rev1-en" width="128"> | [`graphics/pokemon/blastoise-back-rev1-en.png`](graphics/pokemon/blastoise-back-rev1-en.png) | English | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-front-rev0-en.png" alt="blastoise-front-rev0-en" width="128"> | [`graphics/pokemon/blastoise-front-rev0-en.png`](graphics/pokemon/blastoise-front-rev0-en.png) | English | 128x128 | `c788ba8062288428...` |
+| <img src="graphics/pokemon/blastoise-front-rev1-en.png" alt="blastoise-front-rev1-en" width="128"> | [`graphics/pokemon/blastoise-front-rev1-en.png`](graphics/pokemon/blastoise-front-rev1-en.png) | English | 128x128 | `c788ba8062288428...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev0-en.png" alt="bulbasaur-back-rev0-en" width="128"> | [`graphics/pokemon/bulbasaur-back-rev0-en.png`](graphics/pokemon/bulbasaur-back-rev0-en.png) | English | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev1-en.png" alt="bulbasaur-back-rev1-en" width="128"> | [`graphics/pokemon/bulbasaur-back-rev1-en.png`](graphics/pokemon/bulbasaur-back-rev1-en.png) | English | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-front-rev0-en.png" alt="bulbasaur-front-rev0-en" width="128"> | [`graphics/pokemon/bulbasaur-front-rev0-en.png`](graphics/pokemon/bulbasaur-front-rev0-en.png) | English | 128x128 | `d65f4b47f56189d0...` |
@@ -80,6 +92,12 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | <img src="graphics/pokemon/venusaur-back-rev1-en.png" alt="venusaur-back-rev1-en" width="128"> | [`graphics/pokemon/venusaur-back-rev1-en.png`](graphics/pokemon/venusaur-back-rev1-en.png) | English | 128x128 | `aa858c755cfb3ca3...` |
 | <img src="graphics/pokemon/venusaur-front-rev0-en.png" alt="venusaur-front-rev0-en" width="128"> | [`graphics/pokemon/venusaur-front-rev0-en.png`](graphics/pokemon/venusaur-front-rev0-en.png) | English | 128x128 | `1b5b6d32061cba12...` |
 | <img src="graphics/pokemon/venusaur-front-rev1-en.png" alt="venusaur-front-rev1-en" width="128"> | [`graphics/pokemon/venusaur-front-rev1-en.png`](graphics/pokemon/venusaur-front-rev1-en.png) | English | 128x128 | `1b5b6d32061cba12...` |
+| <img src="graphics/pokemon/wartortle-back-rev0-en.png" alt="wartortle-back-rev0-en" width="128"> | [`graphics/pokemon/wartortle-back-rev0-en.png`](graphics/pokemon/wartortle-back-rev0-en.png) | English | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-back-rev1-en.png" alt="wartortle-back-rev1-en" width="128"> | [`graphics/pokemon/wartortle-back-rev1-en.png`](graphics/pokemon/wartortle-back-rev1-en.png) | English | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-front-rev0-en.png" alt="wartortle-front-rev0-en" width="128"> | [`graphics/pokemon/wartortle-front-rev0-en.png`](graphics/pokemon/wartortle-front-rev0-en.png) | English | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/wartortle-front-rev1-en.png" alt="wartortle-front-rev1-en" width="128"> | [`graphics/pokemon/wartortle-front-rev1-en.png`](graphics/pokemon/wartortle-front-rev1-en.png) | English | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/blastoise-back-rev0-de.png" alt="blastoise-back-rev0-de" width="128"> | [`graphics/pokemon/blastoise-back-rev0-de.png`](graphics/pokemon/blastoise-back-rev0-de.png) | German | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-front-rev0-de.png" alt="blastoise-front-rev0-de" width="128"> | [`graphics/pokemon/blastoise-front-rev0-de.png`](graphics/pokemon/blastoise-front-rev0-de.png) | German | 128x128 | `c788ba8062288428...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev0-de.png" alt="bulbasaur-back-rev0-de" width="128"> | [`graphics/pokemon/bulbasaur-back-rev0-de.png`](graphics/pokemon/bulbasaur-back-rev0-de.png) | German | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-front-rev0-de.png" alt="bulbasaur-front-rev0-de" width="128"> | [`graphics/pokemon/bulbasaur-front-rev0-de.png`](graphics/pokemon/bulbasaur-front-rev0-de.png) | German | 128x128 | `d65f4b47f56189d0...` |
 | <img src="graphics/pokemon/charizard-back-rev0-de.png" alt="charizard-back-rev0-de" width="128"> | [`graphics/pokemon/charizard-back-rev0-de.png`](graphics/pokemon/charizard-back-rev0-de.png) | German | 128x128 | `4dc808c02b5790fc...` |
@@ -98,6 +116,10 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | <img src="graphics/pokemon/squirtle-front-rev0-de.png" alt="squirtle-front-rev0-de" width="128"> | [`graphics/pokemon/squirtle-front-rev0-de.png`](graphics/pokemon/squirtle-front-rev0-de.png) | German | 128x128 | `44701e1c6a1bb54e...` |
 | <img src="graphics/pokemon/venusaur-back-rev0-de.png" alt="venusaur-back-rev0-de" width="128"> | [`graphics/pokemon/venusaur-back-rev0-de.png`](graphics/pokemon/venusaur-back-rev0-de.png) | German | 128x128 | `aa858c755cfb3ca3...` |
 | <img src="graphics/pokemon/venusaur-front-rev0-de.png" alt="venusaur-front-rev0-de" width="128"> | [`graphics/pokemon/venusaur-front-rev0-de.png`](graphics/pokemon/venusaur-front-rev0-de.png) | German | 128x128 | `1b5b6d32061cba12...` |
+| <img src="graphics/pokemon/wartortle-back-rev0-de.png" alt="wartortle-back-rev0-de" width="128"> | [`graphics/pokemon/wartortle-back-rev0-de.png`](graphics/pokemon/wartortle-back-rev0-de.png) | German | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-front-rev0-de.png" alt="wartortle-front-rev0-de" width="128"> | [`graphics/pokemon/wartortle-front-rev0-de.png`](graphics/pokemon/wartortle-front-rev0-de.png) | German | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/blastoise-back-rev0-fr.png" alt="blastoise-back-rev0-fr" width="128"> | [`graphics/pokemon/blastoise-back-rev0-fr.png`](graphics/pokemon/blastoise-back-rev0-fr.png) | French | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-front-rev0-fr.png" alt="blastoise-front-rev0-fr" width="128"> | [`graphics/pokemon/blastoise-front-rev0-fr.png`](graphics/pokemon/blastoise-front-rev0-fr.png) | French | 128x128 | `c788ba8062288428...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev0-fr.png" alt="bulbasaur-back-rev0-fr" width="128"> | [`graphics/pokemon/bulbasaur-back-rev0-fr.png`](graphics/pokemon/bulbasaur-back-rev0-fr.png) | French | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-front-rev0-fr.png" alt="bulbasaur-front-rev0-fr" width="128"> | [`graphics/pokemon/bulbasaur-front-rev0-fr.png`](graphics/pokemon/bulbasaur-front-rev0-fr.png) | French | 128x128 | `d65f4b47f56189d0...` |
 | <img src="graphics/pokemon/charizard-back-rev0-fr.png" alt="charizard-back-rev0-fr" width="128"> | [`graphics/pokemon/charizard-back-rev0-fr.png`](graphics/pokemon/charizard-back-rev0-fr.png) | French | 128x128 | `4dc808c02b5790fc...` |
@@ -116,6 +138,10 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | <img src="graphics/pokemon/squirtle-front-rev0-fr.png" alt="squirtle-front-rev0-fr" width="128"> | [`graphics/pokemon/squirtle-front-rev0-fr.png`](graphics/pokemon/squirtle-front-rev0-fr.png) | French | 128x128 | `44701e1c6a1bb54e...` |
 | <img src="graphics/pokemon/venusaur-back-rev0-fr.png" alt="venusaur-back-rev0-fr" width="128"> | [`graphics/pokemon/venusaur-back-rev0-fr.png`](graphics/pokemon/venusaur-back-rev0-fr.png) | French | 128x128 | `aa858c755cfb3ca3...` |
 | <img src="graphics/pokemon/venusaur-front-rev0-fr.png" alt="venusaur-front-rev0-fr" width="128"> | [`graphics/pokemon/venusaur-front-rev0-fr.png`](graphics/pokemon/venusaur-front-rev0-fr.png) | French | 128x128 | `1b5b6d32061cba12...` |
+| <img src="graphics/pokemon/wartortle-back-rev0-fr.png" alt="wartortle-back-rev0-fr" width="128"> | [`graphics/pokemon/wartortle-back-rev0-fr.png`](graphics/pokemon/wartortle-back-rev0-fr.png) | French | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-front-rev0-fr.png" alt="wartortle-front-rev0-fr" width="128"> | [`graphics/pokemon/wartortle-front-rev0-fr.png`](graphics/pokemon/wartortle-front-rev0-fr.png) | French | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/blastoise-back-rev0-it.png" alt="blastoise-back-rev0-it" width="128"> | [`graphics/pokemon/blastoise-back-rev0-it.png`](graphics/pokemon/blastoise-back-rev0-it.png) | Italian | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-front-rev0-it.png" alt="blastoise-front-rev0-it" width="128"> | [`graphics/pokemon/blastoise-front-rev0-it.png`](graphics/pokemon/blastoise-front-rev0-it.png) | Italian | 128x128 | `c788ba8062288428...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev0-it.png" alt="bulbasaur-back-rev0-it" width="128"> | [`graphics/pokemon/bulbasaur-back-rev0-it.png`](graphics/pokemon/bulbasaur-back-rev0-it.png) | Italian | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-front-rev0-it.png" alt="bulbasaur-front-rev0-it" width="128"> | [`graphics/pokemon/bulbasaur-front-rev0-it.png`](graphics/pokemon/bulbasaur-front-rev0-it.png) | Italian | 128x128 | `d65f4b47f56189d0...` |
 | <img src="graphics/pokemon/charizard-back-rev0-it.png" alt="charizard-back-rev0-it" width="128"> | [`graphics/pokemon/charizard-back-rev0-it.png`](graphics/pokemon/charizard-back-rev0-it.png) | Italian | 128x128 | `4dc808c02b5790fc...` |
@@ -134,6 +160,10 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | <img src="graphics/pokemon/squirtle-front-rev0-it.png" alt="squirtle-front-rev0-it" width="128"> | [`graphics/pokemon/squirtle-front-rev0-it.png`](graphics/pokemon/squirtle-front-rev0-it.png) | Italian | 128x128 | `44701e1c6a1bb54e...` |
 | <img src="graphics/pokemon/venusaur-back-rev0-it.png" alt="venusaur-back-rev0-it" width="128"> | [`graphics/pokemon/venusaur-back-rev0-it.png`](graphics/pokemon/venusaur-back-rev0-it.png) | Italian | 128x128 | `aa858c755cfb3ca3...` |
 | <img src="graphics/pokemon/venusaur-front-rev0-it.png" alt="venusaur-front-rev0-it" width="128"> | [`graphics/pokemon/venusaur-front-rev0-it.png`](graphics/pokemon/venusaur-front-rev0-it.png) | Italian | 128x128 | `1b5b6d32061cba12...` |
+| <img src="graphics/pokemon/wartortle-back-rev0-it.png" alt="wartortle-back-rev0-it" width="128"> | [`graphics/pokemon/wartortle-back-rev0-it.png`](graphics/pokemon/wartortle-back-rev0-it.png) | Italian | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-front-rev0-it.png" alt="wartortle-front-rev0-it" width="128"> | [`graphics/pokemon/wartortle-front-rev0-it.png`](graphics/pokemon/wartortle-front-rev0-it.png) | Italian | 128x128 | `4670579c77c2f824...` |
+| <img src="graphics/pokemon/blastoise-back-rev0-es.png" alt="blastoise-back-rev0-es" width="128"> | [`graphics/pokemon/blastoise-back-rev0-es.png`](graphics/pokemon/blastoise-back-rev0-es.png) | Spanish | 128x128 | `31205e00150f5d51...` |
+| <img src="graphics/pokemon/blastoise-front-rev0-es.png" alt="blastoise-front-rev0-es" width="128"> | [`graphics/pokemon/blastoise-front-rev0-es.png`](graphics/pokemon/blastoise-front-rev0-es.png) | Spanish | 128x128 | `c788ba8062288428...` |
 | <img src="graphics/pokemon/bulbasaur-back-rev0-es.png" alt="bulbasaur-back-rev0-es" width="128"> | [`graphics/pokemon/bulbasaur-back-rev0-es.png`](graphics/pokemon/bulbasaur-back-rev0-es.png) | Spanish | 128x128 | `447c4eb1a5771b84...` |
 | <img src="graphics/pokemon/bulbasaur-front-rev0-es.png" alt="bulbasaur-front-rev0-es" width="128"> | [`graphics/pokemon/bulbasaur-front-rev0-es.png`](graphics/pokemon/bulbasaur-front-rev0-es.png) | Spanish | 128x128 | `d65f4b47f56189d0...` |
 | <img src="graphics/pokemon/charizard-back-rev0-es.png" alt="charizard-back-rev0-es" width="128"> | [`graphics/pokemon/charizard-back-rev0-es.png`](graphics/pokemon/charizard-back-rev0-es.png) | Spanish | 128x128 | `4dc808c02b5790fc...` |
@@ -152,6 +182,8 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | <img src="graphics/pokemon/squirtle-front-rev0-es.png" alt="squirtle-front-rev0-es" width="128"> | [`graphics/pokemon/squirtle-front-rev0-es.png`](graphics/pokemon/squirtle-front-rev0-es.png) | Spanish | 128x128 | `44701e1c6a1bb54e...` |
 | <img src="graphics/pokemon/venusaur-back-rev0-es.png" alt="venusaur-back-rev0-es" width="128"> | [`graphics/pokemon/venusaur-back-rev0-es.png`](graphics/pokemon/venusaur-back-rev0-es.png) | Spanish | 128x128 | `aa858c755cfb3ca3...` |
 | <img src="graphics/pokemon/venusaur-front-rev0-es.png" alt="venusaur-front-rev0-es" width="128"> | [`graphics/pokemon/venusaur-front-rev0-es.png`](graphics/pokemon/venusaur-front-rev0-es.png) | Spanish | 128x128 | `1b5b6d32061cba12...` |
+| <img src="graphics/pokemon/wartortle-back-rev0-es.png" alt="wartortle-back-rev0-es" width="128"> | [`graphics/pokemon/wartortle-back-rev0-es.png`](graphics/pokemon/wartortle-back-rev0-es.png) | Spanish | 128x128 | `82c800e674671ea7...` |
+| <img src="graphics/pokemon/wartortle-front-rev0-es.png" alt="wartortle-front-rev0-es" width="128"> | [`graphics/pokemon/wartortle-front-rev0-es.png`](graphics/pokemon/wartortle-front-rev0-es.png) | Spanish | 128x128 | `4670579c77c2f824...` |
 | <img src="graphics/pokemon/deoxys-normal-de-swatch.png" alt="deoxys-normal-de-swatch" width="128"> | [`graphics/pokemon/deoxys-normal-de-swatch.png`](graphics/pokemon/deoxys-normal-de-swatch.png) | Unspecified | 256x16 | `eb02b518552821e7...` |
 | <img src="graphics/pokemon/deoxys-normal-en-swatch.png" alt="deoxys-normal-en-swatch" width="128"> | [`graphics/pokemon/deoxys-normal-en-swatch.png`](graphics/pokemon/deoxys-normal-en-swatch.png) | Unspecified | 256x16 | `eb02b518552821e7...` |
 | <img src="graphics/pokemon/deoxys-normal-es-swatch.png" alt="deoxys-normal-es-swatch" width="128"> | [`graphics/pokemon/deoxys-normal-es-swatch.png`](graphics/pokemon/deoxys-normal-es-swatch.png) | Unspecified | 256x16 | `eb02b518552821e7...` |
@@ -161,6 +193,8 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 
 | Palette | Language | Colors | SHA-256 |
 | --- | --- | --- | --- |
+| [`graphics/pokemon/blastoise-rev0-jp.pal`](graphics/pokemon/blastoise-rev0-jp.pal) | Japanese | 16 | `4e0d231e45584d88...` |
+| [`graphics/pokemon/blastoise-rev1-jp.pal`](graphics/pokemon/blastoise-rev1-jp.pal) | Japanese | 16 | `4e0d231e45584d88...` |
 | [`graphics/pokemon/bulbasaur-rev0-jp.pal`](graphics/pokemon/bulbasaur-rev0-jp.pal) | Japanese | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/bulbasaur-rev1-jp.pal`](graphics/pokemon/bulbasaur-rev1-jp.pal) | Japanese | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/charizard-rev0-jp.pal`](graphics/pokemon/charizard-rev0-jp.pal) | Japanese | 16 | `2e5f1cecd3854feb...` |
@@ -178,6 +212,10 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | [`graphics/pokemon/squirtle-rev1-jp.pal`](graphics/pokemon/squirtle-rev1-jp.pal) | Japanese | 16 | `dcee2dee811ff0f8...` |
 | [`graphics/pokemon/venusaur-rev0-jp.pal`](graphics/pokemon/venusaur-rev0-jp.pal) | Japanese | 16 | `3f69efcb38c0bab5...` |
 | [`graphics/pokemon/venusaur-rev1-jp.pal`](graphics/pokemon/venusaur-rev1-jp.pal) | Japanese | 16 | `3f69efcb38c0bab5...` |
+| [`graphics/pokemon/wartortle-rev0-jp.pal`](graphics/pokemon/wartortle-rev0-jp.pal) | Japanese | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/wartortle-rev1-jp.pal`](graphics/pokemon/wartortle-rev1-jp.pal) | Japanese | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/blastoise-rev0-en.pal`](graphics/pokemon/blastoise-rev0-en.pal) | English | 16 | `4e0d231e45584d88...` |
+| [`graphics/pokemon/blastoise-rev1-en.pal`](graphics/pokemon/blastoise-rev1-en.pal) | English | 16 | `4e0d231e45584d88...` |
 | [`graphics/pokemon/bulbasaur-rev0-en.pal`](graphics/pokemon/bulbasaur-rev0-en.pal) | English | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/bulbasaur-rev1-en.pal`](graphics/pokemon/bulbasaur-rev1-en.pal) | English | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/charizard-rev0-en.pal`](graphics/pokemon/charizard-rev0-en.pal) | English | 16 | `2e5f1cecd3854feb...` |
@@ -195,6 +233,9 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | [`graphics/pokemon/squirtle-rev1-en.pal`](graphics/pokemon/squirtle-rev1-en.pal) | English | 16 | `dcee2dee811ff0f8...` |
 | [`graphics/pokemon/venusaur-rev0-en.pal`](graphics/pokemon/venusaur-rev0-en.pal) | English | 16 | `3f69efcb38c0bab5...` |
 | [`graphics/pokemon/venusaur-rev1-en.pal`](graphics/pokemon/venusaur-rev1-en.pal) | English | 16 | `3f69efcb38c0bab5...` |
+| [`graphics/pokemon/wartortle-rev0-en.pal`](graphics/pokemon/wartortle-rev0-en.pal) | English | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/wartortle-rev1-en.pal`](graphics/pokemon/wartortle-rev1-en.pal) | English | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/blastoise-rev0-de.pal`](graphics/pokemon/blastoise-rev0-de.pal) | German | 16 | `4e0d231e45584d88...` |
 | [`graphics/pokemon/bulbasaur-rev0-de.pal`](graphics/pokemon/bulbasaur-rev0-de.pal) | German | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/charizard-rev0-de.pal`](graphics/pokemon/charizard-rev0-de.pal) | German | 16 | `2e5f1cecd3854feb...` |
 | [`graphics/pokemon/charmander-rev0-de.pal`](graphics/pokemon/charmander-rev0-de.pal) | German | 16 | `36c6417eb7e1bc9f...` |
@@ -204,6 +245,8 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | [`graphics/pokemon/pikachu-rev0-de.pal`](graphics/pokemon/pikachu-rev0-de.pal) | German | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/squirtle-rev0-de.pal`](graphics/pokemon/squirtle-rev0-de.pal) | German | 16 | `dcee2dee811ff0f8...` |
 | [`graphics/pokemon/venusaur-rev0-de.pal`](graphics/pokemon/venusaur-rev0-de.pal) | German | 16 | `3f69efcb38c0bab5...` |
+| [`graphics/pokemon/wartortle-rev0-de.pal`](graphics/pokemon/wartortle-rev0-de.pal) | German | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/blastoise-rev0-fr.pal`](graphics/pokemon/blastoise-rev0-fr.pal) | French | 16 | `4e0d231e45584d88...` |
 | [`graphics/pokemon/bulbasaur-rev0-fr.pal`](graphics/pokemon/bulbasaur-rev0-fr.pal) | French | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/charizard-rev0-fr.pal`](graphics/pokemon/charizard-rev0-fr.pal) | French | 16 | `2e5f1cecd3854feb...` |
 | [`graphics/pokemon/charmander-rev0-fr.pal`](graphics/pokemon/charmander-rev0-fr.pal) | French | 16 | `36c6417eb7e1bc9f...` |
@@ -213,6 +256,8 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | [`graphics/pokemon/pikachu-rev0-fr.pal`](graphics/pokemon/pikachu-rev0-fr.pal) | French | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/squirtle-rev0-fr.pal`](graphics/pokemon/squirtle-rev0-fr.pal) | French | 16 | `dcee2dee811ff0f8...` |
 | [`graphics/pokemon/venusaur-rev0-fr.pal`](graphics/pokemon/venusaur-rev0-fr.pal) | French | 16 | `3f69efcb38c0bab5...` |
+| [`graphics/pokemon/wartortle-rev0-fr.pal`](graphics/pokemon/wartortle-rev0-fr.pal) | French | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/blastoise-rev0-it.pal`](graphics/pokemon/blastoise-rev0-it.pal) | Italian | 16 | `4e0d231e45584d88...` |
 | [`graphics/pokemon/bulbasaur-rev0-it.pal`](graphics/pokemon/bulbasaur-rev0-it.pal) | Italian | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/charizard-rev0-it.pal`](graphics/pokemon/charizard-rev0-it.pal) | Italian | 16 | `2e5f1cecd3854feb...` |
 | [`graphics/pokemon/charmander-rev0-it.pal`](graphics/pokemon/charmander-rev0-it.pal) | Italian | 16 | `36c6417eb7e1bc9f...` |
@@ -222,6 +267,8 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | [`graphics/pokemon/pikachu-rev0-it.pal`](graphics/pokemon/pikachu-rev0-it.pal) | Italian | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/squirtle-rev0-it.pal`](graphics/pokemon/squirtle-rev0-it.pal) | Italian | 16 | `dcee2dee811ff0f8...` |
 | [`graphics/pokemon/venusaur-rev0-it.pal`](graphics/pokemon/venusaur-rev0-it.pal) | Italian | 16 | `3f69efcb38c0bab5...` |
+| [`graphics/pokemon/wartortle-rev0-it.pal`](graphics/pokemon/wartortle-rev0-it.pal) | Italian | 16 | `a787b5d4ede926c7...` |
+| [`graphics/pokemon/blastoise-rev0-es.pal`](graphics/pokemon/blastoise-rev0-es.pal) | Spanish | 16 | `4e0d231e45584d88...` |
 | [`graphics/pokemon/bulbasaur-rev0-es.pal`](graphics/pokemon/bulbasaur-rev0-es.pal) | Spanish | 16 | `77bb91fcdfd9f814...` |
 | [`graphics/pokemon/charizard-rev0-es.pal`](graphics/pokemon/charizard-rev0-es.pal) | Spanish | 16 | `2e5f1cecd3854feb...` |
 | [`graphics/pokemon/charmander-rev0-es.pal`](graphics/pokemon/charmander-rev0-es.pal) | Spanish | 16 | `36c6417eb7e1bc9f...` |
@@ -231,6 +278,7 @@ This page is generated from the repository's verified `graphics/` tree. Japanese
 | [`graphics/pokemon/pikachu-rev0-es.pal`](graphics/pokemon/pikachu-rev0-es.pal) | Spanish | 16 | `066a8707fdfbf027...` |
 | [`graphics/pokemon/squirtle-rev0-es.pal`](graphics/pokemon/squirtle-rev0-es.pal) | Spanish | 16 | `dcee2dee811ff0f8...` |
 | [`graphics/pokemon/venusaur-rev0-es.pal`](graphics/pokemon/venusaur-rev0-es.pal) | Spanish | 16 | `3f69efcb38c0bab5...` |
+| [`graphics/pokemon/wartortle-rev0-es.pal`](graphics/pokemon/wartortle-rev0-es.pal) | Spanish | 16 | `a787b5d4ede926c7...` |
 
 ## Title
 

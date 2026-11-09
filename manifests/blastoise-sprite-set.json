@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "species": {
+    "id": 9,
+    "name": "blastoise"
+  },
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_frlg_species_sprites.py",
+    "tool_sha256": "5328f65bb4e2b62d975a2f0c25c9be88e2f8163080ab262d7fcc5fb530e65b17"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-FireRed-Disassembly/analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/blastoise_species_sprite_tables.asm",
+      "sha256": "5171c30d767316535b4767071fc64c524b60a00228c644964dfcc8335b66d527"
+    },
+    {
+      "path": "analysis/blastoise-sprite-set-summary.json",
+      "sha256": "8b54503ffbce069599c14c22505fffaf0522103074564ebf80426a7994c5b2c8"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-blastoise-sprite-set.json",
+      "sha256": "5bd8adc8dcaba1329c26286f941bb5bb6f0bd30954247d62ea88f8871be2e1fd"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-blastoise-sprite-set.json",
+      "sha256": "ef239ea013c92975eeef48c9d8bc5f597f9c07fe487ec33dc1ef85713d375d69"
+    },
+    {
+      "path": "analysis/firered-en-rev0-blastoise-sprite-set.json",
+      "sha256": "5d660748c6e734d1693c389be1a68cab549137225cf82c9e1ce7254afcc47820"
+    },
+    {
+      "path": "analysis/firered-en-rev1-blastoise-sprite-set.json",
+      "sha256": "024333c0be3e7c4f301b59beff395034316c65212cdcf9d232668130268b2e14"
+    },
+    {
+      "path": "analysis/firered-de-rev0-blastoise-sprite-set.json",
+      "sha256": "d65f484ce7e291f328cc669627d2eafd2ad107b952ce9e50ae83a293463e4221"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-blastoise-sprite-set.json",
+      "sha256": "363846319e7544e342eea81826579eb930db6b58cff35684122495f7119cf7cf"
+    },
+    {
+      "path": "analysis/firered-it-rev0-blastoise-sprite-set.json",
+      "sha256": "3e8bb08b171f36df693e3b58451cd7a0ce120b5bbfa5d374faf097e38fa0c2e5"
+    },
+    {
+      "path": "analysis/firered-es-rev0-blastoise-sprite-set.json",
+      "sha256": "2d16d77c06f44cbc49270bb89b9e9635e8912232f3ed3bf5b625d7897ff0c77c"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-jp.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-jp.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-jp.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev1-jp.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev1-jp.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev1-jp.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-en.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-en.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-en.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev1-en.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev1-en.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev1-en.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-de.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-de.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-de.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-fr.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-fr.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-fr.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-it.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-it.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-it.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-rev0-es.pal",
+      "sha256": "4e0d231e45584d889b26f7870245ce147d12ede955e28158823b1b5552045c33"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-front-rev0-es.png",
+      "sha256": "c788ba80622884286c8c4b8ccd10aee2640267be27080a7422117c796abc3ceb"
+    },
+    {
+      "path": "graphics/pokemon/blastoise-back-rev0-es.png",
+      "sha256": "31205e00150f5d51f727ab4299ae665cee183794976521876735e6d952fd90cd"
+    },
+    {
+      "path": "research/blastoise-sprite-set.md",
+      "sha256": "11d3971cc1a3159b5cb83a17698eac6051fd858a12909587168622e3d0b026c5"
+    },
+    {
+      "path": "tests/test_blastoise_sprite_set.py",
+      "sha256": "5fdc76e218467698d4ffc9fa32add31035ee8cf8016934b3c9f8d170b3618bbe"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

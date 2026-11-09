@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "species": {
+    "id": 5,
+    "name": "charmeleon"
+  },
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_frlg_species_sprites.py",
+    "tool_sha256": "5328f65bb4e2b62d975a2f0c25c9be88e2f8163080ab262d7fcc5fb530e65b17"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-FireRed-Disassembly/analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/charmeleon_species_sprite_tables.asm",
+      "sha256": "4d73b19a70f87598b3e8878f2da02a2d332a6edc9073359fe6e5e69fe9e94c5e"
+    },
+    {
+      "path": "analysis/charmeleon-sprite-set-summary.json",
+      "sha256": "90974660359d0e1fef3eca7ce59362d1ba5ca55863f998c8c1d817572fb0fcde"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-charmeleon-sprite-set.json",
+      "sha256": "1ac58d01c3196329cd1d37439b45be2ac17998925cd4f628d7e7c55b0ba6b37d"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-charmeleon-sprite-set.json",
+      "sha256": "99ca2560a859a0256a8a893671322f799d94be31e348bc467701cf7cfe98ede8"
+    },
+    {
+      "path": "analysis/firered-en-rev0-charmeleon-sprite-set.json",
+      "sha256": "f09b6c9c159e45672fa747ac3466c7cc618e3b575a573c425f269ecb6e232eeb"
+    },
+    {
+      "path": "analysis/firered-en-rev1-charmeleon-sprite-set.json",
+      "sha256": "9ed90013cbbd6f23c72e2aa214af91e9ec73e6a21e8272801be07104d5ea3eaf"
+    },
+    {
+      "path": "analysis/firered-de-rev0-charmeleon-sprite-set.json",
+      "sha256": "dc1bf0c09410b66105cbc35c4a61b88b0a6cd6a9e4a1b6f6ee04f4f667db17d1"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-charmeleon-sprite-set.json",
+      "sha256": "6972ec49c88fc5138827ad0c8681c75ea66eec5de717d0f894b458d77ed0c069"
+    },
+    {
+      "path": "analysis/firered-it-rev0-charmeleon-sprite-set.json",
+      "sha256": "eba98a7baa4933bb7bd5fbcf4f0e7b153192f25a0716dc4abac35cc8abf3a59f"
+    },
+    {
+      "path": "analysis/firered-es-rev0-charmeleon-sprite-set.json",
+      "sha256": "64ab9a7405d5fec640c74d9c1f766511512e3ef71e1f33a6c5817fe681c443d3"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-jp.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-jp.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-jp.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-jp.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-jp.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-jp.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-en.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-en.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-en.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev1-en.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev1-en.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev1-en.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-de.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-de.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-de.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-fr.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-fr.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-fr.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-it.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-it.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-it.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-es.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-es.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b"
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-es.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811"
+    },
+    {
+      "path": "research/charmeleon-sprite-set.md",
+      "sha256": "b007f28c5ca4b0cb3927abb17cbff707c97b228309a57ebcc3a9cd74857a108d"
+    },
+    {
+      "path": "tests/test_charmeleon_sprite_set.py",
+      "sha256": "d31df9d90896c97c0c928325acd90802f18a41bc7d7be4a9b20b0ca0b48fa05d"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

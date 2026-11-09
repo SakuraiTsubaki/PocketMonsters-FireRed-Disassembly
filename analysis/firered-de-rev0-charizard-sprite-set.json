@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-d-rev0-retail",
+    "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 6,
+    "name": "charizard"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2314156,
+      "table_offset": 2314108,
+      "source_offset": 13841340,
+      "size": 2048,
+      "tag": 6
+    },
+    "back": {
+      "entry_offset": 2319436,
+      "table_offset": 2319388,
+      "source_offset": 13842656,
+      "size": 2048,
+      "tag": 6
+    },
+    "palette": {
+      "entry_offset": 2322956,
+      "table_offset": 2322908,
+      "source_offset": 13842616,
+      "tag": 6
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-de-rev0-deoxys-front-table.json",
+      "sha256": "89ab74904ad0a9389ac8282d701a22c52943a1039fb2165b257d7cfbcaecf101"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-back-table.json",
+      "sha256": "3ca375934453b23104383e099e0549dcc3525b4ad76355da93aaa83b675f85af"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-palette.json",
+      "sha256": "5e6da2427837d1b8fadfaf93b4575503c928a2b24ef3d8999da038abaf4e57c7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-de.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13841340,
+        "compressed_length": 1274,
+        "compressed_sha256": "9e38450486694f741397b49f7ae269e821cf9bfda31d4a7b84ee11e293672421",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "209a94b2595e4d605f200a89f761cf60cd69f246d811dc4cfcbdda93446bf97c",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-de.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13842656,
+        "compressed_length": 1036,
+        "compressed_sha256": "0c8313bb1de98ab8836080baa7cfaa6319c05f885e579be003edd7e9dd1d332c",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "8ae0d4a0c2c441e85d6246be111cffac960625198e3432d209f27805726d4e86",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-de.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13842616,
+        "compressed_length": 40,
+        "compressed_sha256": "5bbb9495219f206701aa41b88555869852c16c7dc8ef518ee8220ed66996e66a",
+        "decompressed_length": 32,
+        "decompressed_sha256": "a879d45b16ca3c7fb4a8b2b1b700f8f4a0c1ac383cf381eee89e7efb55325089",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

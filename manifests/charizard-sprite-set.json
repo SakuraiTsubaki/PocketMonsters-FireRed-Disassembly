@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "species": {
+    "id": 6,
+    "name": "charizard"
+  },
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_frlg_species_sprites.py",
+    "tool_sha256": "5328f65bb4e2b62d975a2f0c25c9be88e2f8163080ab262d7fcc5fb530e65b17"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-FireRed-Disassembly/analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/charizard_species_sprite_tables.asm",
+      "sha256": "dc5dfdfa5f929a5ea71ba7591ea4f957445ee45ea4c2c8c50c3c4d2031e04c95"
+    },
+    {
+      "path": "analysis/charizard-sprite-set-summary.json",
+      "sha256": "857fcc8cd49e77d67706b81e845d44c13678980820e92d713ff7f780bd92a149"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-charizard-sprite-set.json",
+      "sha256": "2bfbb335c1bfcef185430ea09f0a8f475314e371106faae9c704e2f9088ef368"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-charizard-sprite-set.json",
+      "sha256": "0a61567287d0f9daaf39d58a0d0804885a77881a640c992d0e449b4892b5147c"
+    },
+    {
+      "path": "analysis/firered-en-rev0-charizard-sprite-set.json",
+      "sha256": "819d14feccdb4ffb988607b19cb28027d9540e0ab1d35e36884edb96170375e6"
+    },
+    {
+      "path": "analysis/firered-en-rev1-charizard-sprite-set.json",
+      "sha256": "1e8dace3de9a2537f93773120d4c9671c49b9ca5ac87088f21562e9c327d04ce"
+    },
+    {
+      "path": "analysis/firered-de-rev0-charizard-sprite-set.json",
+      "sha256": "b5c0713ebd0099e02f2aa00613dea939b392ef05116bc24d071fbeb94e5cc2c4"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-charizard-sprite-set.json",
+      "sha256": "a8744720cca45be331cbd54832bc74a14c6c51a3d8ccfb26b85471fdf472ebe2"
+    },
+    {
+      "path": "analysis/firered-it-rev0-charizard-sprite-set.json",
+      "sha256": "927717adade8a4549f32d87b9eaa0cb834d813f79fceda6cdbadbd4e77d88a63"
+    },
+    {
+      "path": "analysis/firered-es-rev0-charizard-sprite-set.json",
+      "sha256": "7aed2dfe49ed4b347ddaea644dcb6e6fa9ebc0bc4bb7bf19c7d6fea57c75e14d"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-jp.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-jp.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-jp.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev1-jp.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev1-jp.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev1-jp.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-en.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-en.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-en.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev1-en.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev1-en.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev1-en.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-de.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-de.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-de.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-fr.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-fr.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-fr.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-it.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-it.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-it.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "graphics/pokemon/charizard-rev0-es.pal",
+      "sha256": "2e5f1cecd3854febc8530748aa2ff10d4703c372e253284b0550e7a81979660c"
+    },
+    {
+      "path": "graphics/pokemon/charizard-front-rev0-es.png",
+      "sha256": "13c7398e943b91878ee99430c32d90cb27ae6fa21b996c3dfb2917869de07902"
+    },
+    {
+      "path": "graphics/pokemon/charizard-back-rev0-es.png",
+      "sha256": "4dc808c02b5790fc7bb47e372f70f7366ea989a3e2f14296c9b6ac481dfa44cb"
+    },
+    {
+      "path": "research/charizard-sprite-set.md",
+      "sha256": "675484f6c4141b508148ce2fcb9184a735f752c7319bc2775d02ae606b85e5dc"
+    },
+    {
+      "path": "tests/test_charizard_sprite_set.py",
+      "sha256": "ebe36329488e2413d103e86201f4a973aa11df9bc310042f7345409df89fdc56"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

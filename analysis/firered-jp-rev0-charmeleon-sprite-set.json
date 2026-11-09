@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-j-rev0-retail",
+    "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486"
+  },
+  "origin_reference": true,
+  "species": {
+    "id": 5,
+    "name": "charmeleon"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2049720,
+      "table_offset": 2049680,
+      "source_offset": 12789944,
+      "size": 2048,
+      "tag": 5
+    },
+    "back": {
+      "entry_offset": 2055000,
+      "table_offset": 2054960,
+      "source_offset": 12790924,
+      "size": 2048,
+      "tag": 5
+    },
+    "palette": {
+      "entry_offset": 2058520,
+      "table_offset": 2058480,
+      "source_offset": 12790884,
+      "tag": 5
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-jp-rev0-deoxys-front-table.json",
+      "sha256": "2388b7818480277b6f6daa1c8f2900a609e9806d5e247409a431b6e051a30f13"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-deoxys-back-table.json",
+      "sha256": "d1df84fc0c8a523fa8909bed571cf5390a8cc5f385cfdf6df79586bee300c9b6"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-deoxys-palette.json",
+      "sha256": "b8bb20f7156db591a40d9cfb3ce93554897045c8ce953af91adebd9d60d14d79"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charmeleon-front-rev0-jp.png",
+      "sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+        "source_offset": 12789944,
+        "compressed_length": 940,
+        "compressed_sha256": "928aadcc3731d90c4eeee81c2396b6f57a89081ef02a917696b99bf2e723ddd5",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "25f649961387b3c88d76266d213ee345a19ae7ad86f79f6ec053e0d430510e86",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "12cd5551ba08030eb57c8de89a3970a82b3e073a464223a82517090e6d871e1b",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-back-rev0-jp.png",
+      "sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+        "source_offset": 12790924,
+        "compressed_length": 756,
+        "compressed_sha256": "8fe6bbdefa7c8bd25197632790e0ebc7146e0b41eb526574cc119e328e65cc9e",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "571850faa4c361420896ae3b17ec3d6aeb6d17ece5e5f466e226970f07e7c978",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "8473550c4a6b6acfc605a680e3980c3337bf31ada41591bbb0946aff4aa04811",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmeleon-rev0-jp.pal",
+      "sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+        "source_offset": 12790884,
+        "compressed_length": 40,
+        "compressed_sha256": "a162b4b9e8973f3e6deaa1539f4555d9eabdcae96ef4a4258995c054605b6865",
+        "decompressed_length": 32,
+        "decompressed_sha256": "7876267f53f2298228add716a124a916565ea19627ccfc2b6ff59ce92d65107f",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "499ec2660bef5c3cb26b9fc0bd84792fc5d13e05a92f5f214efd4aead2da67a0",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

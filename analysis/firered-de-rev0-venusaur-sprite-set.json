@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-d-rev0-retail",
+    "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 3,
+    "name": "venusaur"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2314132,
+      "table_offset": 2314108,
+      "source_offset": 13832352,
+      "size": 2048,
+      "tag": 3
+    },
+    "back": {
+      "entry_offset": 2319412,
+      "table_offset": 2319388,
+      "source_offset": 13833736,
+      "size": 2048,
+      "tag": 3
+    },
+    "palette": {
+      "entry_offset": 2322932,
+      "table_offset": 2322908,
+      "source_offset": 13833696,
+      "tag": 3
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-de-rev0-deoxys-front-table.json",
+      "sha256": "89ab74904ad0a9389ac8282d701a22c52943a1039fb2165b257d7cfbcaecf101"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-back-table.json",
+      "sha256": "3ca375934453b23104383e099e0549dcc3525b4ad76355da93aaa83b675f85af"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-palette.json",
+      "sha256": "5e6da2427837d1b8fadfaf93b4575503c928a2b24ef3d8999da038abaf4e57c7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/venusaur-front-rev0-de.png",
+      "sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13832352,
+        "compressed_length": 1344,
+        "compressed_sha256": "6e0136cc1e2e81af605c5fcb5a2652af3426c52091bae18c9eee5a95139d62eb",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "70ded6670f9e44c527a68b259c1c71e6017457e2a00cc06e5a0d223494d9c2b2",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "1b5b6d32061cba122b246c8c31e0eb919bfee37c4bb529bc3002e1feb19508f3",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-back-rev0-de.png",
+      "sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13833736,
+        "compressed_length": 1224,
+        "compressed_sha256": "e56201c9881b6d92df35fcd21e8883430858167c9b91ac911285f2b179933315",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "1d831006fc9934de4774dba7b09a5427b3ca71acfb5ff97caf3f202e45509373",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "aa858c755cfb3ca38b30baa6af852f2ba9048f3cff3155ef173170fd71f88297",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646"
+      }
+    },
+    {
+      "path": "graphics/pokemon/venusaur-rev0-de.pal",
+      "sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13833696,
+        "compressed_length": 40,
+        "compressed_sha256": "9da0bae4f1f9877fef39fba2e3aa7a5057b7fc73463e1911f23b3fe0fd6d37c0",
+        "decompressed_length": 32,
+        "decompressed_sha256": "3e842291db25eb4e375beb0a569aa548d1f499058f2c469a7dcd276ad755efaf",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "3f69efcb38c0bab5c285498b6f0bdf3d7db4190d249a3a3d8a8960aa8a1f2646",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

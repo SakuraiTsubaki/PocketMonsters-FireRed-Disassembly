@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 2,
+    "name": "ivysaur"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2285920,
+      "table_offset": 2285904,
+      "source_offset": 13829540,
+      "size": 2048,
+      "tag": 2
+    },
+    "back": {
+      "entry_offset": 2291200,
+      "table_offset": 2291184,
+      "source_offset": 13830408,
+      "size": 2048,
+      "tag": 2
+    },
+    "palette": {
+      "entry_offset": 2294720,
+      "table_offset": 2294704,
+      "source_offset": 13830368,
+      "tag": 2
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-it-rev0-deoxys-front-table.json",
+      "sha256": "e66385a886e272d9c7904bfbb0248e58aad9c3387eece7ccdcc7c3d399828709"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-back-table.json",
+      "sha256": "7b91f7a6266e9bbfbccac899b1d30fae31012a6f49e2085f5abb9d0559f4ff02"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-palette.json",
+      "sha256": "8d5013a3b7702e71847552b86a9e945209ce273be2cd85995a3ef0af84687f75"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/ivysaur-front-rev0-it.png",
+      "sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13829540,
+        "compressed_length": 827,
+        "compressed_sha256": "67837e3e42f9eb04a1d6985ff2261759aec22e6d11916ab7674004ed4b7512f7",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "56c5842df4b6e9fc7a77ad3f131543ac27dfb77faef86f461ddd1a63ddb83236",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "c64b83dda8e8ee526e1bbba337ca9527d94fa5e904b9daca9fd8fb2f1010d94d",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-back-rev0-it.png",
+      "sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13830408,
+        "compressed_length": 850,
+        "compressed_sha256": "b5de2310828c42ce6b62605bad85316cc4c21278c4a4b7ba66c1658d0fdaaf78",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "4b18c812d6a6c9128d4f362234f83e7784824fb29132ca43d22e918ce26fef12",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "9bcbfd4c2bb865090ecbf9b673d0757b581a7ee0ffd624558e482b7872566439",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15"
+      }
+    },
+    {
+      "path": "graphics/pokemon/ivysaur-rev0-it.pal",
+      "sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13830368,
+        "compressed_length": 40,
+        "compressed_sha256": "5351f511a2715acde827853f36fb115c4bc7e6ff2f84fc692bb3c76dce65f90d",
+        "decompressed_length": 32,
+        "decompressed_sha256": "91b405c35e6d6dae0c91849c670f234ed0bcb11bd043706c8264e3726d485129",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "956eb27301c77a58b7cd3668e9e906575ce2c8400eb3022ab6193eec6e463b15",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-e-rev0-retail",
+    "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 4,
+    "name": "charmander"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2314444,
+      "table_offset": 2314412,
+      "source_offset": 13836068,
+      "size": 2048,
+      "tag": 4
+    },
+    "back": {
+      "entry_offset": 2319724,
+      "table_offset": 2319692,
+      "source_offset": 13836780,
+      "size": 2048,
+      "tag": 4
+    },
+    "palette": {
+      "entry_offset": 2323244,
+      "table_offset": 2323212,
+      "source_offset": 13836740,
+      "tag": 4
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-en-rev0-deoxys-front-table.json",
+      "sha256": "6ea932bcfe51621b474e773590e7042db8277f3c4d88b46458ce5a742db864fe"
+    },
+    {
+      "path": "analysis/firered-en-rev0-deoxys-back-table.json",
+      "sha256": "ba536e4da030de46ca348a5f7236ba162da635695d4ecd42381d039564bd7231"
+    },
+    {
+      "path": "analysis/firered-en-rev0-deoxys-palette.json",
+      "sha256": "ddf8b6c06f27e60e4b16d2031c07948f4d32918b341d53d3968d4e1709569af4"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-en.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+        "source_offset": 13836068,
+        "compressed_length": 670,
+        "compressed_sha256": "b2d6a996bb04977a720688ec047b7ab024058ac720deea3fd0726bbdb65d7c33",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "99512f72225d543bb4ce136380e424df45de4640b8a4c2098afa5010a2d2da64",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-en.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+        "source_offset": 13836780,
+        "compressed_length": 643,
+        "compressed_sha256": "2cedf39b5ec653d14f91aee2a8a791f5a6888018af3423e9cfd78ecbefd2c207",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "26903209adf6c1f18df6e155cfda9340eafb8f62bdc623f74a35ff23305fbd45",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-en.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+        "source_offset": 13836740,
+        "compressed_length": 40,
+        "compressed_sha256": "9442316da242f19cbd18440454665be71e67f88514dd190a2c87362e1c711cb0",
+        "decompressed_length": 32,
+        "decompressed_sha256": "766e7e39bdea4f311a8335306506792ee2d688ad0ef8bd5b67819de31f72d83b",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

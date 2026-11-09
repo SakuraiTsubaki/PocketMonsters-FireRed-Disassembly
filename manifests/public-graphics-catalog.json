@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "game": "FireRed",
-  "asset_count": 100,
+  "asset_count": 148,
   "generator": {
     "repository": "SakuraiTsubaki/Disassembly",
     "tool": "tools/catalog_public_graphics.py",
@@ -35,6 +35,30 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev1-jp.pal",
       "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-jp.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-jp.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-jp.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-jp.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-jp.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-jp.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-jp.png",
@@ -73,6 +97,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-jp.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-jp.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-jp.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-jp.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-jp.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-jp.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
       "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
     },
@@ -95,6 +143,30 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev1-en.pal",
       "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-en.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-en.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-en.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-en.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-en.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-en.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-en.png",
@@ -133,6 +205,30 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-en.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev1-en.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-en.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev1-en.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-en.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev1-en.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
       "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
     },
@@ -143,6 +239,18 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev0-de.pal",
       "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-de.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-de.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-de.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-de.png",
@@ -169,6 +277,18 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-de.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-de.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-de.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
       "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
     },
@@ -179,6 +299,18 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev0-fr.pal",
       "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-fr.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-fr.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-fr.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-fr.png",
@@ -205,6 +337,18 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-fr.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-fr.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-fr.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
       "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
     },
@@ -215,6 +359,18 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
       "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-it.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-it.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-it.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-it.png",
@@ -241,6 +397,18 @@
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
     },
     {
+      "path": "graphics/pokemon/squirtle-back-rev0-it.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-it.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-it.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+    },
+    {
       "path": "graphics/pokemon/bulbasaur-back-rev0-es.png",
       "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d"
     },
@@ -251,6 +419,18 @@
     {
       "path": "graphics/pokemon/bulbasaur-rev0-es.pal",
       "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-es.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-es.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-es.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
     },
     {
       "path": "graphics/pokemon/deoxys-attack-back-es.png",
@@ -275,6 +455,18 @@
     {
       "path": "graphics/pokemon/pikachu-rev0-es.pal",
       "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-es.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-es.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26"
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-es.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
     },
     {
       "path": "graphics/pokemon/deoxys-normal-de-swatch.png",
@@ -412,15 +604,15 @@
   "outputs": [
     {
       "path": "analysis/public-graphics-catalog.json",
-      "sha256": "094c9b0bb8fa1c32a1fa0eba41d63b7782c19e5c7fbc765093853c4a9ea95d41"
+      "sha256": "01459e835a83d85315b477323af04982b43e2bb6bc1536f25664e0913d07feb5"
     },
     {
       "path": "ASSETS.md",
-      "sha256": "ad751f06fad90f57d3b750edba7ba21fcea5b7653cf535dfe258960288f544d9"
+      "sha256": "8452aa4499337d63ae595eb4c972f9fc9e8560e6d13e99f0315551816a2a980c"
     },
     {
       "path": "research/public-graphics-catalog.md",
-      "sha256": "4f79dd512eded03786ea062adf41fd8d6c59b788a6a5b25b1001b6b6e3f0abd8"
+      "sha256": "7590f555dbd7ea48144aa1000cb97c38bd9900a08edbc5c7866f22694092d6b3"
     },
     {
       "path": "tests/test_public_graphics_catalog.py",

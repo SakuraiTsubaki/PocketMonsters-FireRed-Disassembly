@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "species": {
+    "id": 4,
+    "name": "charmander"
+  },
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_frlg_species_sprites.py",
+    "tool_sha256": "5328f65bb4e2b62d975a2f0c25c9be88e2f8163080ab262d7fcc5fb530e65b17"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/charmander_species_sprite_tables.asm",
+      "sha256": "7d2608175d41b38899ecc022f4ad0e773c1b5e70a0d927d0db0b90929375bfd6"
+    },
+    {
+      "path": "analysis/charmander-sprite-set-summary.json",
+      "sha256": "5330c29ecf5428bf7fd58c631416b17a6419b6dfa3464390b22b0a0a8559f463"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-charmander-sprite-set.json",
+      "sha256": "7f0caa46014f42d68a36baf57739d5432b923ea9c9eea972fc1117b72b0de99f"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-charmander-sprite-set.json",
+      "sha256": "09d06880232c52023f0aff94ab54d9f852155f7751fdebdea2393a19e1e8af4d"
+    },
+    {
+      "path": "analysis/firered-en-rev0-charmander-sprite-set.json",
+      "sha256": "73a6b088df3735e64a7d02a2502299d02a0c7adcbed2226b5f534037e6fdba6e"
+    },
+    {
+      "path": "analysis/firered-en-rev1-charmander-sprite-set.json",
+      "sha256": "80e0afac40e5ca67bcad5585c604c27d02b993a78b6aa97125ebf6e77bfe2f94"
+    },
+    {
+      "path": "analysis/firered-de-rev0-charmander-sprite-set.json",
+      "sha256": "a2a85fc901edd44ffcf391b7f6d5297c10593baec5dd41e89c6b246b394b2ba3"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-charmander-sprite-set.json",
+      "sha256": "6f4bd8a965e6f30db8df9557ae7e590965059a6e800691a9cc339051dca899a1"
+    },
+    {
+      "path": "analysis/firered-it-rev0-charmander-sprite-set.json",
+      "sha256": "01b93ce3fd641adf8a0a6689007c07f613cd39e075c6568ef40d0e96dc28dba8"
+    },
+    {
+      "path": "analysis/firered-es-rev0-charmander-sprite-set.json",
+      "sha256": "37394ce71d03bd8cf1d111cd61098ba22222dc305cbde2402dd01bacc7410fd0"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-jp.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-jp.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-jp.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-jp.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-jp.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-jp.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-en.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-en.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-en.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev1-en.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev1-en.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev1-en.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-de.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-de.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-de.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-fr.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-fr.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-fr.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-it.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-it.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-it.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-es.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940"
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-es.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5"
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-es.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5"
+    },
+    {
+      "path": "research/charmander-sprite-set.md",
+      "sha256": "00030e33f8bcff7fd9fd40054eb161520dbe28583a10ece600ebd0161730bbc4"
+    },
+    {
+      "path": "tests/test_charmander_sprite_set.py",
+      "sha256": "6ea93015855e1301b3f96c81b5acda1117c4a7ea42134090146391bd61e5495a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

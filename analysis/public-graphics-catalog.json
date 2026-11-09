@@ -1,1593 +1,4 @@
-{
-  "schema_version": 1,
-  "game": "FireRed",
-  "root": "graphics",
-  "asset_count": 100,
-  "png_count": 73,
-  "metadata_count": 0,
-  "palette_count": 27,
-  "official_language_priority": [
-    "Japanese",
-    "Korean",
-    "English",
-    "German",
-    "French",
-    "Italian",
-    "Spanish"
-  ],
-  "assets": [
-    {
-      "path": "graphics/header/nintendo-logo-jp.png",
-      "sha256": "f07daf6e489d64b7e2bbf80c7f23104dece36e88e706ee8a779790f6e8377a8b",
-      "size": 774,
-      "format": "PNG",
-      "category": "header",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/header-logo-catalog.json",
-          "sha256": "9339efcc07902f668608788750d8749f21031f9bd34126048996d8df315d7d32"
-        },
-        {
-          "path": "analysis/bpr-d-rev0-retail-header-logo.json",
-          "sha256": "b41019b34717faea09a02da369643351de7ee1fa17a54c962c3abc229a509935"
-        },
-        {
-          "path": "analysis/bpr-e-rev0-retail-header-logo.json",
-          "sha256": "b2c946441a64e2eafb14f1d8f499aebe81448c3f005d74e032c98aea6a445775"
-        },
-        {
-          "path": "analysis/bpr-e-rev1-retail-header-logo.json",
-          "sha256": "b7928b9b2a00c6913e0f3c3cfc35f77041289ee7e2cf2790c4b54828ce339046"
-        },
-        {
-          "path": "analysis/bpr-f-rev0-retail-header-logo.json",
-          "sha256": "537fb23628c1cb16282177ca383670de74c6ae93f6d6ce292aa97e08794a02d9"
-        },
-        {
-          "path": "analysis/bpr-i-rev0-retail-header-logo.json",
-          "sha256": "3de39e8e19dbfaff36e8a2b41693489675f627820a6492d16babb130535633c7"
-        },
-        {
-          "path": "analysis/bpr-j-rev1-retail-header-logo.json",
-          "sha256": "7199d20169f76829841988914f199989c0e4c9231871f2df076c1ab8903c071d"
-        },
-        {
-          "path": "analysis/bpr-s-rev0-retail-header-logo.json",
-          "sha256": "31a2466303c93baf35eaa5e6a6f7fbfcb2e8b8a57702055b65c2320db9ae0791"
-        },
-        {
-          "path": "analysis/firered-jp-header-logo.json",
-          "sha256": "0d748f97cdbfce6ff1e155fef5c799973db13271438122e0b6addfaaa87b2e89"
-        },
-        {
-          "path": "analysis/header-logo-catalog-summary.json",
-          "sha256": "94f49fd133a2e96ca165436454bbd8a2ea1d7537c28139fba39c24aa925c7cbd"
-        }
-      ],
-      "png": {
-        "width": 416,
-        "height": 64,
-        "bit_depth": 8,
-        "color_type": "truecolor-alpha",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev0-jp.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-jp-rev0-bulbasaur-sprite-set.json",
-          "sha256": "32ee31203d6ccc5cbc9eca0c00f825bd54be7ca8444c923ee9bd8bb3d6f2e0fd"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev1-jp.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-jp-rev1-bulbasaur-sprite-set.json",
-          "sha256": "3b3335f767f726d7341de08229cb4730ca30fe5048f4ef89f1da956b2affd085"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev0-jp.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-jp-rev0-bulbasaur-sprite-set.json",
-          "sha256": "32ee31203d6ccc5cbc9eca0c00f825bd54be7ca8444c923ee9bd8bb3d6f2e0fd"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev1-jp.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-jp-rev1-bulbasaur-sprite-set.json",
-          "sha256": "3b3335f767f726d7341de08229cb4730ca30fe5048f4ef89f1da956b2affd085"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev0-jp.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-jp-rev0-bulbasaur-sprite-set.json",
-          "sha256": "32ee31203d6ccc5cbc9eca0c00f825bd54be7ca8444c923ee9bd8bb3d6f2e0fd"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev1-jp.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-jp-rev1-bulbasaur-sprite-set.json",
-          "sha256": "3b3335f767f726d7341de08229cb4730ca30fe5048f4ef89f1da956b2affd085"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-back-jp.png",
-      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1",
-      "size": 1938,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-sprites.json",
-          "sha256": "fc4a4316a38b99a29f76fd280959f0e992c650468e070a5734df20f5f036f8bb"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-front-jp.png",
-      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d",
-      "size": 2711,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-sprites.json",
-          "sha256": "fc4a4316a38b99a29f76fd280959f0e992c650468e070a5734df20f5f036f8bb"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-normal-jp.pal",
-      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
-      "size": 188,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-sprites.json",
-          "sha256": "fc4a4316a38b99a29f76fd280959f0e992c650468e070a5734df20f5f036f8bb"
-        },
-        {
-          "path": "manifests/palette-swatches.json",
-          "sha256": "1e2c34581ee35035f69eb535920ec23cb99c2e1aca8789eac3be063381c7fcf8"
-        },
-        {
-          "path": "analysis/palette-swatch-catalog.json",
-          "sha256": "807b0040e4d7de17692da09fc830ce30a6e6d64d5ce536538460c20dd277d24b"
-        },
-        {
-          "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-jp.json",
-          "sha256": "9b6f614eae79824d66197a47f95157e300de5eac02e5254fba768000fb3ae007"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev0-jp.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-jp-rev0-pikachu-sprite-set.json",
-          "sha256": "61657aed33506f9e96ac87a95f2f5a91b44f37f92ed55c0b26eef74366fbbf53"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev1-jp.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-jp-rev1-pikachu-sprite-set.json",
-          "sha256": "a55ea7335ca44d93312384853a32d0d404d91c03064cd186a67f19a780a7447e"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-front-rev0-jp.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-jp-rev0-pikachu-sprite-set.json",
-          "sha256": "61657aed33506f9e96ac87a95f2f5a91b44f37f92ed55c0b26eef74366fbbf53"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-front-rev1-jp.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-jp-rev1-pikachu-sprite-set.json",
-          "sha256": "a55ea7335ca44d93312384853a32d0d404d91c03064cd186a67f19a780a7447e"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-rev0-jp.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-jp-rev0-pikachu-sprite-set.json",
-          "sha256": "61657aed33506f9e96ac87a95f2f5a91b44f37f92ed55c0b26eef74366fbbf53"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-rev1-jp.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Japanese",
-      "origin_reference": true,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-jp-rev1-pikachu-sprite-set.json",
-          "sha256": "a55ea7335ca44d93312384853a32d0d404d91c03064cd186a67f19a780a7447e"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev0-en.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-en-rev0-bulbasaur-sprite-set.json",
-          "sha256": "d2c13a280cd7b4a459ba50e133b76dd7dd3b22b73ef98c9b566eee6711519f47"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev1-en.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-en-rev1-bulbasaur-sprite-set.json",
-          "sha256": "f769d2b63800d4d23325ab79a5239fa3710eeb8fc8d658e0a2f45641635fea1f"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev0-en.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-en-rev0-bulbasaur-sprite-set.json",
-          "sha256": "d2c13a280cd7b4a459ba50e133b76dd7dd3b22b73ef98c9b566eee6711519f47"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev1-en.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-en-rev1-bulbasaur-sprite-set.json",
-          "sha256": "f769d2b63800d4d23325ab79a5239fa3710eeb8fc8d658e0a2f45641635fea1f"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev0-en.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-en-rev0-bulbasaur-sprite-set.json",
-          "sha256": "d2c13a280cd7b4a459ba50e133b76dd7dd3b22b73ef98c9b566eee6711519f47"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev1-en.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-en-rev1-bulbasaur-sprite-set.json",
-          "sha256": "f769d2b63800d4d23325ab79a5239fa3710eeb8fc8d658e0a2f45641635fea1f"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-back-en.png",
-      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1",
-      "size": 1938,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-front-en.png",
-      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d",
-      "size": 2711,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-normal-en.pal",
-      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
-      "size": 188,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        },
-        {
-          "path": "manifests/palette-swatches.json",
-          "sha256": "1e2c34581ee35035f69eb535920ec23cb99c2e1aca8789eac3be063381c7fcf8"
-        },
-        {
-          "path": "analysis/palette-swatch-catalog.json",
-          "sha256": "807b0040e4d7de17692da09fc830ce30a6e6d64d5ce536538460c20dd277d24b"
-        },
-        {
-          "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-en.json",
-          "sha256": "3c8187d604031ee9fc08f0b1f787df989c9b2b9f005e09a3b238679479b11562"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev0-en.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-en-rev0-pikachu-sprite-set.json",
-          "sha256": "9cbc2c5dc2aa8fd7d42c0c47862a5d98e11f2dc6d970a741f95b19e2d62e8207"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev1-en.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-en-rev1-pikachu-sprite-set.json",
-          "sha256": "eb7bf01e4c8711be5a7eec9d8dbc4bb2e07ddfd24643b0ef43613183bc51b6e1"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-front-rev0-en.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-en-rev0-pikachu-sprite-set.json",
-          "sha256": "9cbc2c5dc2aa8fd7d42c0c47862a5d98e11f2dc6d970a741f95b19e2d62e8207"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-front-rev1-en.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-en-rev1-pikachu-sprite-set.json",
-          "sha256": "eb7bf01e4c8711be5a7eec9d8dbc4bb2e07ddfd24643b0ef43613183bc51b6e1"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-rev0-en.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-en-rev0-pikachu-sprite-set.json",
-          "sha256": "9cbc2c5dc2aa8fd7d42c0c47862a5d98e11f2dc6d970a741f95b19e2d62e8207"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-rev1-en.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "English",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-en-rev1-pikachu-sprite-set.json",
-          "sha256": "eb7bf01e4c8711be5a7eec9d8dbc4bb2e07ddfd24643b0ef43613183bc51b6e1"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev0-de.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-de-rev0-bulbasaur-sprite-set.json",
-          "sha256": "6c0902c578f7f29007f72463b40d8f2e6492769277ea9b7a9eb312feb21ebb51"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev0-de.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-de-rev0-bulbasaur-sprite-set.json",
-          "sha256": "6c0902c578f7f29007f72463b40d8f2e6492769277ea9b7a9eb312feb21ebb51"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev0-de.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-de-rev0-bulbasaur-sprite-set.json",
-          "sha256": "6c0902c578f7f29007f72463b40d8f2e6492769277ea9b7a9eb312feb21ebb51"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-back-de.png",
-      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1",
-      "size": 1938,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-front-de.png",
-      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d",
-      "size": 2711,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-normal-de.pal",
-      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
-      "size": 188,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        },
-        {
-          "path": "manifests/palette-swatches.json",
-          "sha256": "1e2c34581ee35035f69eb535920ec23cb99c2e1aca8789eac3be063381c7fcf8"
-        },
-        {
-          "path": "analysis/palette-swatch-catalog.json",
-          "sha256": "807b0040e4d7de17692da09fc830ce30a6e6d64d5ce536538460c20dd277d24b"
-        },
-        {
-          "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-de.json",
-          "sha256": "57d8b66d0af950b1614dde8271b30da8eee03c96f58468e384960928d61e6a11"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev0-de.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-de-rev0-pikachu-sprite-set.json",
-          "sha256": "529006dfd436c98d4b1605816449cc8987dcf6b78fc758be26447ed680f44476"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-front-rev0-de.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-de-rev0-pikachu-sprite-set.json",
-          "sha256": "529006dfd436c98d4b1605816449cc8987dcf6b78fc758be26447ed680f44476"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-rev0-de.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "German",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-de-rev0-pikachu-sprite-set.json",
-          "sha256": "529006dfd436c98d4b1605816449cc8987dcf6b78fc758be26447ed680f44476"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev0-fr.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-fr-rev0-bulbasaur-sprite-set.json",
-          "sha256": "e6baf49783acd1b24c57a169b619c272253a2490875628e094dc98333edb99d4"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev0-fr.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-fr-rev0-bulbasaur-sprite-set.json",
-          "sha256": "e6baf49783acd1b24c57a169b619c272253a2490875628e094dc98333edb99d4"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev0-fr.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-fr-rev0-bulbasaur-sprite-set.json",
-          "sha256": "e6baf49783acd1b24c57a169b619c272253a2490875628e094dc98333edb99d4"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-back-fr.png",
-      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1",
-      "size": 1938,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-front-fr.png",
-      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d",
-      "size": 2711,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-normal-fr.pal",
-      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
-      "size": 188,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        },
-        {
-          "path": "manifests/palette-swatches.json",
-          "sha256": "1e2c34581ee35035f69eb535920ec23cb99c2e1aca8789eac3be063381c7fcf8"
-        },
-        {
-          "path": "analysis/palette-swatch-catalog.json",
-          "sha256": "807b0040e4d7de17692da09fc830ce30a6e6d64d5ce536538460c20dd277d24b"
-        },
-        {
-          "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-fr.json",
-          "sha256": "61248492992879fefc0c7a1869b4c9ddea9fd3769879af887fb3cebf4ea4970e"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev0-fr.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-fr-rev0-pikachu-sprite-set.json",
-          "sha256": "0bbaf2c7e9726e8ce28f10cc171b2c86311bfdabb42376a48398400fcbed7e57"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-front-rev0-fr.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-fr-rev0-pikachu-sprite-set.json",
-          "sha256": "0bbaf2c7e9726e8ce28f10cc171b2c86311bfdabb42376a48398400fcbed7e57"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-rev0-fr.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "French",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
-        },
-        {
-          "path": "analysis/firered-fr-rev0-pikachu-sprite-set.json",
-          "sha256": "0bbaf2c7e9726e8ce28f10cc171b2c86311bfdabb42376a48398400fcbed7e57"
-        },
-        {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-back-rev0-it.png",
-      "sha256": "447c4eb1a5771b8463bc88555d55281c9cb76e38f0922bf610e1b7186793851d",
-      "size": 890,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-it-rev0-bulbasaur-sprite-set.json",
-          "sha256": "4ca53909c6f86d8ad9e242d6611247cf5c0615e139eac6615e2dfe9712b81848"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-front-rev0-it.png",
-      "sha256": "d65f4b47f56189d0ad4d7338118f98bda47965c1ea975b8deb2ae36bf26e7449",
-      "size": 933,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-it-rev0-bulbasaur-sprite-set.json",
-          "sha256": "4ca53909c6f86d8ad9e242d6611247cf5c0615e139eac6615e2dfe9712b81848"
-        }
-      ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/bulbasaur-rev0-it.pal",
-      "sha256": "77bb91fcdfd9f8144a7a1a9d4c436af38c53374641bc542375456a967db132e6",
-      "size": 190,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/bulbasaur-sprite-set.json",
-          "sha256": "e4675f97df79eb291df4fff92a5f1b7117187c36045a11670a09636119db2486"
-        },
-        {
-          "path": "analysis/bulbasaur-sprite-set-summary.json",
-          "sha256": "14a927b08cc4c395e07a67a028aa0da76293fc7364d6a3c5e9a62a3a946e9519"
-        },
-        {
-          "path": "analysis/firered-it-rev0-bulbasaur-sprite-set.json",
-          "sha256": "4ca53909c6f86d8ad9e242d6611247cf5c0615e139eac6615e2dfe9712b81848"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-back-it.png",
-      "sha256": "c724a82a6f985eae4b911719d616ca148f41d6895c6f93df55a6a303578503b1",
-      "size": 1938,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-attack-front-it.png",
-      "sha256": "262ca8342218fa82da2ffe7bc127368a567557f370fc23b3107871f03892710d",
-      "size": 2711,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        }
-      ],
-      "png": {
-        "width": 256,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
-      }
-    },
-    {
-      "path": "graphics/pokemon/deoxys-normal-it.pal",
-      "sha256": "479c76fdaf9a0ca458fa37a514b9bbf20d9dc3c7b82d813ea743e4830a58f197",
-      "size": 188,
-      "format": "JASC-PAL",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
-      "provenance": [
-        {
-          "path": "manifests/deoxys-attack-global.json",
-          "sha256": "c7c1513a32cac9ad713b8e5953a352e1759c77bdf4443570ffa5d9ceb7638ef3"
-        },
-        {
-          "path": "manifests/palette-swatches.json",
-          "sha256": "1e2c34581ee35035f69eb535920ec23cb99c2e1aca8789eac3be063381c7fcf8"
-        },
-        {
-          "path": "analysis/palette-swatch-catalog.json",
-          "sha256": "807b0040e4d7de17692da09fc830ce30a6e6d64d5ce536538460c20dd277d24b"
-        },
-        {
-          "path": "analysis/palette-swatches/graphics-pokemon-deoxys-normal-it.json",
-          "sha256": "5814ecb1a7121e6d09148e9975af0d7fcb50fda599447a70865e3a39835fa351"
-        }
-      ],
-      "palette": {
-        "version": "0100",
-        "color_count": 16
-      }
-    },
-    {
-      "path": "graphics/pokemon/pikachu-back-rev0-it.png",
-      "sha256": "d1472dd2f4862fe9ae4a2c91eafe709044208b5f676e985d87b3627e610b13a9",
-      "size": 912,
-      "format": "PNG",
-      "category": "pokemon",
-      "language": "Italian",
-      "origin_reference": false,
+YªçŠx-®éÜj×¢ëiºÚ+Š§j[h‘éÜ¢éíã¸ñ:-jZ.¶›­–)Ş³W°¢'66†VÖ÷fW'6–öâ#¢À¢&vÖR#¢$f—&U&VB"À¢'&ö÷B#¢&w&†–72"À¢&76WEö6÷VçB#¢C‚À¢'æuö6÷VçB#¢RÀ¢&ÖWFFFö6÷VçB#¢À¢'ÆWGFUö6÷VçB#¢C2À¢&öff–6–ÅöÆæwVvU÷&–÷&—G’#¢°¢$¦æW6R"À¢$¶÷&Vâ"À¢$VævÆ—6‚"À¢$vW&Öâ"À¢$g&Væ6‚"À¢$—FÆ–â"À¢%7æ—6‚ ¢ÒÀ¢&76WG2#¢°¢°¢'F‚#¢&w&†–72ö†VFW"öæ–çFVæFòÖÆövòÖ§çær"À¢'6†#Sb#¢&cvFcfSCƒ–CcF#vS&&&cƒ3vc#3FFV6S3fSƒ†SsfVS†ss“s“cfSƒ3sv†""À¢'6—¦R#¢ssBÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢&†VFW""À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö†VFW"ÖÆövòÖ6FÆöræ§6öâ"À¢'6†#Sb#¢#“33–Vf63s“&cccƒcƒsƒƒsSCƒsC–c#3c–&C3C#cCƒ““fC†Fc3VCvC3" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"ÖB×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢&#C–#3CsvfV–&F3c“cC33SFSvVSfvSF3“c&36&3##–S““3R ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"ÖR×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢&#&3“CcCCcFS&Vf#FcC†cC“–V&SƒCC†36cVCsFS3&3“†VfCCSssR ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"ÖR×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢&#s“#†#–#&3c“6Sc6366f33VcssC#ƒ–VSvS&6c#s“3F#SCƒ#†6S33“Cb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"Öb×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢#S3vf##3c#†36#c#ƒ#sv63ƒ3csFSsF3fS“6cfCf6S#“&“vSƒs“F&C’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"Ö’×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢#6FS3–S†S–F&ffc3fS†&#Cc“3Cƒ“csVcc#sƒ#cC“&Cf&&#3S3Sc363r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"Ö¢×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢#s“–C#c–cscƒ#“ƒC“ƒƒ“Fc“““ƒ–3SF3“#3ƒsc&Fcsf3#ƒ“63sB ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'"×2×&Wc×&WF–ÂÖ†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢#3#Ccc363“6&c3VVVSffcvf&f6#&S†#†Sss#SV#cV3#3#F#–Ss“ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§Ö†VFW"ÖÆövòæ§6öâ"À¢'6†#Sb#¢#CsC†c“v6F&f6SffcSSVfVcV3s“““s6F#3#sC3ƒ#&S#fFFfƒv#&Sƒ’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö†VFW"ÖÆövòÖ6FÆör×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#“FcC–fC36&S“f6cSC3cCSF&&C†&VCsS3v3#ƒ3–f&3–3#F“#V3v6&B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢CbÀ¢&†V–v‡B#¢cBÀ¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷"ÖÇ†"À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ö&6²×&WcÖ§çær"À¢'6†#Sb#¢#CCv3FV#Sss#ƒCc6&3ƒƒSSVCSS#ƒ3–6#sfS3†c“#&&ccS#sƒcs“3ƒSB"À¢'6—¦R#¢ƒ“À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#3&VS3#6Cf663V6&3–V63cƒ#V&CSF&Sv6ƒCCF3“#6VS–&C†&#6Cfc&SfB ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ö&6²×&WcÖ§çær"À¢'6†#Sb#¢#CCv3FV#Sss#ƒCc6&3ƒƒSSVCSS#ƒ3–6#sfS3†c“#&&ccS#sƒcs“3ƒSB"À¢'6—¦R#¢ƒ“À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#6#333Vcscvcs#fCs3CFSƒ##–6#Cs363fSSC†cFVcƒ–cF“Sf#&ffCƒR ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ög&öçB×&WcÖ§çær"À¢'6†#Sb#¢&CcVcF#CvcScƒ–CCFCs33ƒ†c“†&FCs“cV3V“sV#†FV#&S3f&c#fSsCC’"À¢'6—¦R#¢“32À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#3&VS3#6Cf663V6&3–V63cƒ#V&CSF&Sv6ƒCCF3“#6VS–&C†&#6Cfc&SfB ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ög&öçB×&WcÖ§çær"À¢'6†#Sb#¢&CcVcF#CvcScƒ–CCFCs33ƒ†c“†&FCs“cV3V“sV#†FV#&S3f&c#fSsCC’"À¢'6—¦R#¢“32À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#6#333Vcscvcs#fCs3CFSƒ##–6#Cs363fSSC†cFVcƒ–cF“Sf#&ffCƒR ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"×&WcÖ§çÂ"À¢'6†#Sb#¢#sv&#“f6FfC–cƒCFv–CF3C3fc3†3S33sCcC&3SC#3sSCSf“cvF#3&Sb"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#3&VS3#6Cf663V6&3–V63cƒ#V&CSF&Sv6ƒCCF3“#6VS–&C†&#6Cfc&SfB ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"×&WcÖ§çÂ"À¢'6†#Sb#¢#sv&#“f6FfC–cƒCFv–CF3C3fc3†3S33sCcC&3SC#3sSCSf“cvF#3&Sb"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#6#333Vcscvcs#fCs3CFSƒ##–6#Cs363fSSC†cFVcƒ–cF“Sf#&ffCƒR ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ö&6²×&WcÖ§çær"À¢'6†#Sb#¢#sc&V6#cvccFV#3&Vcsf3ƒ#ScSf##“#fc#c†cC3v3†#VF6V&Fc6#F#fcR"À¢'6—¦R#¢ƒcÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#vc6CcFcC&Cc†3f&cSss3–CSC3&#“#6V–3–VV“s&f3v#s&#FS“–b ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ö&6²×&WcÖ§çær"À¢'6†#Sb#¢#sc&V6#cvccFV#3&Vcsf3ƒ#ScSf##“#fc#c†cC3v3†#VF6V&Fc6#F#fcR"À¢'6—¦R#¢ƒcÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#–Ccƒƒ#3&3S##6cfc“F#SFC–cƒS#SVcssSfFV&FV#3“6–SS†cFB ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ög&öçB×&WcÖ§çær"À¢'6†#Sb#¢#C#F###S3ƒf3f63cSS“&cƒ3fS&Cf33†Fc&SScƒsVScc##&“S#†&R"À¢'6—¦R#¢“#2À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#vc6CcFcC&Cc†3f&cSss3–CSC3&#“#6V–3–VV“s&f3v#s&#FS“–b ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ög&öçB×&WcÖ§çær"À¢'6†#Sb#¢#C#F###S3ƒf3f63cSS“&cƒ3fS&Cf33†Fc&SScƒsVScc##&“S#†&R"À¢'6—¦R#¢“#2À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#–Ccƒƒ#3&3S##6cfc“F#SFC–cƒS#SVcssSfFV&FV#3“6–SS†cFB ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"×&WcÖ§çÂ"À¢'6†#Sb#¢#3f3cCvV#vS&3–fVCvcFCSFfs–&c&cC–&cSVVSƒ#cffS“SVfVc“C"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#vc6CcFcC&Cc†3f&cSss3–CSC3&#“#6V–3–VV“s&f3v#s&#FS“–b ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"×&WcÖ§çÂ"À¢'6†#Sb#¢#3f3cCvV#vS&3–fVCvcFCSFfs–&c&cC–&cSVVSƒ#cffS“SVfVc“C"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#–Ccƒƒ#3&3S##6cfc“F#SFC–cƒS#SVcssSfFV&FV#3“6–SS†cFB ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâöFV÷‡—2ÖGF6²Ö&6²Ö§çær"À¢'6†#Sb#¢&3s#Fƒ&fc“ƒVVSF#“s–Ccf6C†cCCcƒ“V3fc“6FcSVf33SsƒS6#"À¢'6—¦R#¢“3‚À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2öFV÷‡—2ÖGF6²×7&—FW2æ§6öâ"À¢'6†#Sb#¢&f3FC3f3†#“–#–csffC#ƒ“S–cS““&3cSCc†SsSs3FFc#cVc3fc†&" ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#SbÀ¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâöFV÷‡—2ÖGF6²Ög&öçBÖ§çær"À¢'6†#Sb#¢##c&6ƒ3C##†fƒ&F&ffSv&3#s3c†ScsSSvc3sf3#6#3sƒsc3ƒ“#sB"À¢'6—¦R#¢#sÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2öFV÷‡—2ÖGF6²×7&—FW2æ§6öâ"À¢'6†#Sb#¢&f3FC3f3†#“–#–csffC#ƒ“S–cS““&3cSCc†SsSs3FFc#cVc3fc†&" ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#SbÀ¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâöFV÷‡—2Öæ÷&ÖÂÖ§çÂ"À¢'6†#Sb#¢#Cs–3sffFc–6CS†f3vSF#–&&c#C–F363v#ƒ&Cƒ6VsC6SCƒ3S†c“r"À¢'6—¦R#¢ƒ‚À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2öFV÷‡—2ÖGF6²×7&—FW2æ§6öâ"À¢'6†#Sb#¢&f3FC3f3†#“–#–csffC#ƒ“S–cS““&3cSCc†SsSs3FFc#cVc3fc†&" ¢ÒÀ¢°¢'F‚#¢&Öæ–fW7G2÷ÆWGFR×7vF6†W2æ§6öâ"À¢'6†#Sb#¢#S&33CSƒVS3S3Vcc–V#S3S“#V3#66#“–3&S6ƒsƒ–V36&Sc33ƒ3vf6c‚ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷ÆWGFR×7vF6‚Ö6FÆöræ§6öâ"À¢'6†#Sb#¢#ƒv#CSFCvFSsc“&F–f3ƒ36S3fSfCcFCV6SS3cS3ƒCc3#FC#svC#F" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷ÆWGFR×7vF6†W2öw&†–72×ö¶VÖöâÖFV÷‡—2Öæ÷&ÖÂÖ§æ§6öâ"À¢'6†#Sb#¢#–#fccFVSs“ƒ#FCcc“vCvc“SSvS3FSVV3&SS#SFf&scƒf#6Sr ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖ&6²×&WcÖ§çær"À¢'6†#Sb#¢&CCs&FC&cCƒc&fS–SF&3“VfSs“CC#†#VccsfS“ƒVCƒv#3c#vSc#6’"À¢'6—¦R#¢“"À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#ccSvVC33Sfc–S“f3ƒv“Vc&cV“#CFc3vc“&VCSV3##fVVcsC3cff&&cS2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖ&6²×&WcÖ§çær"À¢'6†#Sb#¢&CCs&FC&cCƒc&fS–SF&3“VfSs“CC#†#VccsfS“ƒVCƒv#3c#vSc#6’"À¢'6—¦R#¢“"À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SVVs33V6CFC“33#3ƒCƒS63&CCCFC“33cF6Cƒfcvc–sƒsCCvR ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖg&öçB×&WcÖ§çær"À¢'6†#Sb#¢#&S#VC–33c–Ff#S#“FCC6Sc&S3†#–Sƒƒ3ff633†C&3&&cF##–F#S&3#"À¢'6—¦R#¢“sÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#ccSvVC33Sfc–S“f3ƒv“Vc&cV“#CFc3vc“&VCSV3##fVVcsC3cff&&cS2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖg&öçB×&WcÖ§çær"À¢'6†#Sb#¢#&S#VC–33c–Ff#S#“FCC6Sc&S3†#–Sƒƒ3ff633†C&3&&cF##–F#S&3#"À¢'6—¦R#¢“sÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SVVs33V6CFC“33#3ƒCƒS63&CCCFC“33cF6Cƒfcvc–sƒsCCvR ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡R×&WcÖ§çÂ"À¢'6†#Sb#¢#cfƒsvfFf&c#vCCƒcƒCf&CFF&CC&3vC#“†Ssf6S–6CvVcsƒ6c#ƒCr"À¢'6—¦R#¢s’À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#ccSvVC33Sfc–S“f3ƒv“Vc&cV“#CFc3vc“&VCSV3##fVVcsC3cff&&cS2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡R×&WcÖ§çÂ"À¢'6†#Sb#¢#cfƒsvfFf&c#vCCƒcƒCf&CFF&CC&3vC#“†Ssf6S–6CvVcsƒ6c#ƒCr"À¢'6—¦R#¢s’À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SVVs33V6CFC“33#3ƒCƒS63&CCCFC“33cF6Cƒfcvc–sƒsCCvR ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷7V—'FÆRÖ&6²×&WcÖ§çær"À¢'6†#Sb#¢&ƒ#SC“cSScFcccfF3V#“VCFf##c3“#v3C&&c–6##v#VccVSƒƒr"À¢'6—¦R#¢ƒ2À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#cVcCsvf##f&cSc““–CC#FcCV3&Sv#ƒCcf3VVVcS#“V6Fc" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&3S–f3““s#†C†VCs“–#ƒC““s#cf3Cs3“–6ScFCVc#v&–S“3“f&3“6C–Sb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷7V—'FÆR×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢&6VS“S3†vc3FS“#Cƒ“c&Cf#ScvF#&#c“CF3ccS#SCC–Vc“C3s“6B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷7V—'FÆRÖ&6²×&WcÖ§çær"À¢'6†#Sb#¢&ƒ#SC“cSScFcccfF3V#“VCFf##c3“#v3C&&c–6##v#VccVSƒƒr"À¢'6—¦R#¢ƒ2À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#cVcCsvf##f&cSc““–CC#FcCV3&Sv#ƒCcf3VVVcS#“V6Fc" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢##fcF3s†#c–f336CFCCVSƒ“V&CƒcFcsCvcc&c#–ƒsv&V&3“V3ƒ2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷7V—'FÆR×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢&6VS“S3†vc3FS“#Cƒ“c&Cf#ScvF#&#c“CF3ccS#SCC–Vc“C3s“6B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷7V—'FÆRÖg&öçB×&WcÖ§çær"À¢'6†#Sb#¢#CCsS3f&#SFSf3sv63C#6F6V63C3vccS–f3“s–63ƒSS6–S#“C#b"À¢'6—¦R#¢“3rÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#cVcCsvf##f&cSc““–CC#FcCV3&Sv#ƒCcf3VVVcS#“V6Fc" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&3S–f3““s#†C†VCs“–#ƒC““s#cf3Cs3“–6ScFCVc#v&–S“3“f&3“6C–Sb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷7V—'FÆR×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢&6VS“S3†vc3FS“#Cƒ“c&Cf#ScvF#&#c“CF3ccS#SCC–Vc“C3s“6B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷7V—'FÆRÖg&öçB×&WcÖ§çær"À¢'6†#Sb#¢#CCsS3f&#SFSf3sv63C#6F6V63C3vccS–f3“s–63ƒSS6–S#“C#b"À¢'6—¦R#¢“3rÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#cVcCsvf##f&cSc““–CC#FcCV3&Sv#ƒCcf3VVVcS#“V6Fc" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢##fcF3s†#c–f336CFCCVSƒ“V&CƒcFcsCvcc&c#–ƒsv&V&3“V3ƒ2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷7V—'FÆR×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢&6VS“S3†vc3FS“#Cƒ“c&Cf#ScvF#&#c“CF3ccS#SCC–Vc“C3s“6B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷7V—'FÆR×&WcÖ§çÂ"À¢'6†#Sb#¢&F6VS&FVSƒfcc†#S†C3†V3“sFS#CCƒ36S–#fcVC#“#“&fVffS6fCvB"À¢'6—¦R#¢“2À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#cVcCsvf##f&cSc““–CC#FcCV3&Sv#ƒCcf3VVVcS#“V6Fc" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&3S–f3““s#†C†VCs“–#ƒC““s#cf3Cs3“–6ScFCVc#v&–S“3“f&3“6C–Sb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷7V—'FÆR×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢&6VS“S3†vc3FS“#Cƒ“c&Cf#ScvF#&#c“CF3ccS#SCC–Vc“C3s“6B ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷7V—'FÆR×&WcÖ§çÂ"À¢'6†#Sb#¢&F6VS&FVSƒfcc†#S†C3†V3“sFS#CCƒ36S–#fcVC#“#“&fVffS6fCvB"À¢'6—¦R#¢“2À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$¦æW6R"À¢&÷&–v–å÷&VfW&Væ6R#¢G'VRÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#cVcCsvf##f&cSc““–CC#FcCV3&Sv#ƒCcf3VVVcS#“V6Fc" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖ§×&Wc×7V—'FÆR×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢##fcF3s†#c–f336CFCCVSƒ“V&CƒcFcsCvcc&c#–ƒsv&V&3“V3ƒ2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷7V—'FÆR×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢&6VS“S3†vc3FS“#Cƒ“c&Cf#ScvF#&#c“CF3ccS#SCC–Vc“C3s“6B ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ö&6²×&WcÖVâçær"À¢'6†#Sb#¢#CCv3FV#Sss#ƒCc6&3ƒƒSSVCSS#ƒ3–6#sfS3†c“#&&ccS#sƒcs“3ƒSB"À¢'6—¦R#¢ƒ“À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&C&36#ƒ6Cv#FCS–&SS36#sfFCvFC6##&#s6Vc“†3–#ScfVVScsS–cCr ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ö&6²×&WcÖVâçær"À¢'6†#Sb#¢#CCv3FV#Sss#ƒCc6&3ƒƒSSVCSS#ƒ3–6#sfS3†c“#&&ccS#sƒcs“3ƒSB"À¢'6—¦R#¢ƒ“À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&csc–C&#c3ƒCFC#33#V#s–S#3–f3sVV#†f3†CcS†S&cCScCc3VfVb ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ög&öçB×&WcÖVâçær"À¢'6†#Sb#¢&CcVcF#CvcScƒ–CCFCs33ƒ†c“†&FCs“cV3V“sV#†FV#&S3f&c#fSsCC’"À¢'6—¦R#¢“32À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&C&36#ƒ6Cv#FCS–&SS36#sfFCvFC6##&#s6Vc“†3–#ScfVVScsS–cCr ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"Ög&öçB×&WcÖVâçær"À¢'6†#Sb#¢&CcVcF#CvcScƒ–CCFCs33ƒ†c“†&FCs“cV3V“sV#†FV#&S3f&c#fSsCC’"À¢'6—¦R#¢“32À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&csc–C&#c3ƒCFC#33#V#s–S#3–f3sVV#†f3†CcS†S&cCScCc3VfVb ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"×&WcÖVâçÂ"À¢'6†#Sb#¢#sv&#“f6FfC–cƒCFv–CF3C3fc3†3S33sCcC&3SC#3sSCSf“cvF#3&Sb"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&C&36#ƒ6Cv#FCS–&SS36#sfFCvFC6##&#s6Vc“†3–#ScfVVScsS–cCr ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö'VÆ&6W"×&WcÖVâçÂ"À¢'6†#Sb#¢#sv&#“f6FfC–cƒCFv–CF3C3fc3†3S33sCcC&3SC#3sSCSf“cvF#3&Sb"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&SCcsVc“vFcs–V##“FcFffc“&Vc#ssƒv33cCVcs“c3c–F##Cƒb ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö'VÆ&6W"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#F“#v#†63F33“VSvcv#†Fsc#“6f3s3cFCf63VS–c&6“CfS“S’ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ'VÆ&6W"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&csc–C&#c3ƒCFC#33#V#s–S#3–f3sVV#†f3†CcS†S&cCScCc3VfVb ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ö&6²×&WcÖVâçær"À¢'6†#Sb#¢#sc&V6#cvccFV#3&Vcsf3ƒ#ScSf##“#fc#c†cC3v3†#VF6V&Fc6#F#fcR"À¢'6—¦R#¢ƒcÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#s6f#ƒ†Fc3s3VScFvC&#S##“–C&3vF6&VC###f#VcS3C3vSffF&fR ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ö&6²×&WcÖVâçær"À¢'6†#Sb#¢#sc&V6#cvccFV#3&Vcsf3ƒ#ScSf##“#fc#c†cC3v3†#VF6V&Fc6#F#fcR"À¢'6—¦R#¢ƒcÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#ƒSf3CSV6cv&6CSSƒV3cF3#vC&#““6s†#f“s#VV&cfSsv&fS&c“B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ög&öçB×&WcÖVâçær"À¢'6†#Sb#¢#C#F###S3ƒf3f63cSS“&cƒ3fS&Cf33†Fc&SScƒsVScc##&“S#†&R"À¢'6—¦R#¢“#2À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#s6f#ƒ†Fc3s3VScFvC&#S##“–C&3vF6&VC###f#VcS3C3vSffF&fR ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"Ög&öçB×&WcÖVâçær"À¢'6†#Sb#¢#C#F###S3ƒf3f63cSS“&cƒ3fS&Cf33†Fc&SScƒsVScc##&“S#†&R"À¢'6—¦R#¢“#2À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#ƒSf3CSV6cv&6CSSƒV3cF3#vC&#““6s†#f“s#VV&cfSsv&fS&c“B ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"×&WcÖVâçÂ"À¢'6†#Sb#¢#3f3cCvV#vS&3–fVCvcFCSFfs–&c&cC–&cSVVSƒ#cffS“SVfVc“C"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#s6f#ƒ†Fc3s3VScFvC&#S##“–C&3vF6&VC###f#VcS3C3vSffF&fR ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâö6†&ÖæFW"×&WcÖVâçÂ"À¢'6†#Sb#¢#3f3cCvV#vS&3–fVCvcFCSFfs–&c&cC–&cSVVSƒ#cffS“SVfVc“C"À¢'6—¦R#¢“À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2ö6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&cC#F&SSsV3S†#F3ssSFFcƒScƒS“FC–&CSSf#FS–cfScv&V#cs ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2ö6†&ÖæFW"×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#S333#–V6cSC#†&cvfCS†3c3Cf#vcC–#fFf3CcC3“##&#ƒSS–cCc2 ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&WcÖ6†&ÖæFW"×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#ƒSf3CSV6cv&6CSSƒV3cF3#vC&#““6s†#f“s#VV&cfSsv&fS&c“B ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâöFV÷‡—2ÖGF6²Ö&6²ÖVâçær"À¢'6†#Sb#¢&3s#Fƒ&fc“ƒVVSF#“s–Ccf6C†cCCcƒ“V3fc“6FcSVf33SsƒS6#"À¢'6—¦R#¢“3‚À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2öFV÷‡—2ÖGF6²ÖvÆö&Âæ§6öâ"À¢'6†#Sb#¢&3v3S63&63–Cs6#†SS“S63S&SsS–3sv&FcCCC3SsffVC–6V#sc3†Vc2 ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#SbÀ¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâöFV÷‡—2ÖGF6²Ög&öçBÖVâçær"À¢'6†#Sb#¢##c&6ƒ3C##†fƒ&F&ffSv&3#s3c†ScsSSvc3sf3#6#3sƒsc3ƒ“#sB"À¢'6—¦R#¢#sÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2öFV÷‡—2ÖGF6²ÖvÆö&Âæ§6öâ"À¢'6†#Sb#¢&3v3S63&63–Cs6#†SS“S63S&SsS–3sv&FcCCC3SsffVC–6V#sc3†Vc2 ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#SbÀ¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâöFV÷‡—2Öæ÷&ÖÂÖVâçÂ"À¢'6†#Sb#¢#Cs–3sffFc–6CS†f3vSF#–&&c#C–F363v#ƒ&Cƒ6VsC6SCƒ3S†c“r"À¢'6—¦R#¢ƒ‚À¢&f÷&ÖB#¢$¤42ÕÂ"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2öFV÷‡—2ÖGF6²ÖvÆö&Âæ§6öâ"À¢'6†#Sb#¢&3v3S63&63–Cs6#†SS“S63S&SsS–3sv&FcCCC3SsffVC–6V#sc3†Vc2 ¢ÒÀ¢°¢'F‚#¢&Öæ–fW7G2÷ÆWGFR×7vF6†W2æ§6öâ"À¢'6†#Sb#¢#S&33CSƒVS3S3Vcc–V#S3S“#V3#66#“–3&S6ƒsƒ–V36&Sc33ƒ3vf6c‚ ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷ÆWGFR×7vF6‚Ö6FÆöræ§6öâ"À¢'6†#Sb#¢#ƒv#CSFCvFSsc“&F–f3ƒ36S3fSfCcFCV6SS3cS3ƒCc3#FC#svC#F" ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷ÆWGFR×7vF6†W2öw&†–72×ö¶VÖöâÖFV÷‡—2Öæ÷&ÖÂÖVâæ§6öâ"À¢'6†#Sb#¢#63ƒƒvCcC3VS–f3†c#csƒvFc“ƒ–3–#&#–cVS–6##3ƒcs“Cs–#Sc" ¢Ğ¢ÒÀ¢'ÆWGFR#¢°¢'fW'6–öâ#¢#"À¢&6öÆ÷%ö6÷VçB#¢`¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖ&6²×&WcÖVâçær"À¢'6†#Sb#¢&CCs&FC&cCƒc&fS–SF&3“VfSs“CC#†#VccsfS“ƒVCƒv#3c#vSc#6’"À¢'6—¦R#¢“"À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#–6&3&3VF3&†fCvCC&33Csƒc&VC“†Sc&F3fC“ssCc“V#–S&Cc&Sƒ#r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖ&6²×&WcÖVâçær"À¢'6†#Sb#¢&CCs&FC&cCƒc&fS–SF&3“VfSs“CC#†#VccsfS“ƒVCƒv#3c#vSc#6’"À¢'6—¦R#¢“"À¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢&V#v&cSF3ƒs&SVvVV3–C†F&3F&#&SvFFfC#CcC6#VcC3c3ƒ6&3S#fS ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW&Æ6VB#¢fÇ6P¢Ğ¢ÒÀ¢°¢'F‚#¢&w&†–72÷ö¶VÖöâ÷–¶6‡RÖg&öçB×&WcÖVâçær"À¢'6†#Sb#¢#&S#VC–33c–Ff#S#“FCC6Sc&S3†#–Sƒƒ3ff633†C&3&&cF##–F#S&3#"À¢'6—¦R#¢“sÀ¢&f÷&ÖB#¢%är"À¢&6FVv÷'’#¢'ö¶VÖöâ"À¢&ÆæwVvR#¢$VævÆ—6‚"À¢&÷&–v–å÷&VfW&Væ6R#¢fÇ6RÀ¢'&÷fVææ6R#¢°¢°¢'F‚#¢&Öæ–fW7G2÷–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#sƒSv3†fF3f&6S#c3–C#ƒ&Ss“–#6&fSvCF3#†&cc6&SC3#fFS–F–F#ƒC3r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2öf—&W&VBÖVâ×&Wc×–¶6‡R×7&—FR×6WBæ§6öâ"À¢'6†#Sb#¢#–6&3&3VF3&†fCvCC&33Csƒc&VC“†Sc&F3fC“ssCc“V#–S&Cc&Sƒ#r ¢ÒÀ¢°¢'F‚#¢&æÇ—6—2÷–¶6‡R×7&—FR×6WB×7VÖÖ'’æ§6öâ"À¢'6†#Sb#¢#ƒv#Cc#“ƒ##–S#v#Sƒƒs“S#fC#–C3–c“S#Scƒ&#†66F#S“SS–3ƒ“fCCC†C–3‚ ¢Ğ¢ÒÀ¢'ær#¢°¢'v–GF‚#¢#‚À¢&†V–v‡B#¢#‚À¢&&—EöFWF‚#¢‚À¢&6öÆ÷%÷G—R#¢'G'VV6öÆ÷""À¢&–çFW-yë-¢G§²ÚîÆ­y×in_reference": false,
       "provenance": [
         {
           "path": "manifests/pikachu-sprite-set.json",
@@ -1602,34 +13,31 @@
           "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
         }
       ],
-      "png": {
-        "width": 128,
-        "height": 128,
-        "bit_depth": 8,
-        "color_type": "truecolor",
-        "interlaced": false
+      "palette": {
+        "version": "0100",
+        "color_count": 16
       }
     },
     {
-      "path": "graphics/pokemon/pikachu-front-rev0-it.png",
-      "sha256": "0be25ad9c369dfb5294d43e62e138b9e8836fcc00a38d2c2bf4b29db52c20aa0",
-      "size": 970,
+      "path": "graphics/pokemon/squirtle-back-rev0-it.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187",
+      "size": 803,
       "format": "PNG",
       "category": "pokemon",
       "language": "Italian",
       "origin_reference": false,
       "provenance": [
         {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "1f05f477fb126bf1e6999a440b14af0d5c2e07b8040f6c1eeef1e01b905acdf2"
         },
         {
-          "path": "analysis/firered-it-rev0-pikachu-sprite-set.json",
-          "sha256": "0566a8a7dce74ead18ab654df253d7e755e6afd846633dfdaf9310d9e59c4abe"
+          "path": "analysis/firered-it-rev0-squirtle-sprite-set.json",
+          "sha256": "942aa007aeca6b0c2a2e50e25f489c7ab008c304d4ce1cb985840a30f8546a2a"
         },
         {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "cea59538a7f1c4e90b400800962d6b0e0f7da22b6944c66525449ef9413790cd"
         }
       ],
       "png": {
@@ -1641,25 +49,55 @@
       }
     },
     {
-      "path": "graphics/pokemon/pikachu-rev0-it.pal",
-      "sha256": "066a8707fdfbf027d486846bd4dabd1412c7d2918e0700fce9a3d7ef783f2847",
-      "size": 179,
+      "path": "graphics/pokemon/squirtle-front-rev0-it.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26",
+      "size": 937,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Italian",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "1f05f477fb126bf1e6999a440b14af0d5c2e07b8040f6c1eeef1e01b905acdf2"
+        },
+        {
+          "path": "analysis/firered-it-rev0-squirtle-sprite-set.json",
+          "sha256": "942aa007aeca6b0c2a2e50e25f489c7ab008c304d4ce1cb985840a30f8546a2a"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "cea59538a7f1c4e90b400800962d6b0e0f7da22b6944c66525449ef9413790cd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-it.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d",
+      "size": 193,
       "format": "JASC-PAL",
       "category": "pokemon",
       "language": "Italian",
       "origin_reference": false,
       "provenance": [
         {
-          "path": "manifests/pikachu-sprite-set.json",
-          "sha256": "7857c8fdc6bce1b639d2802e799b3bfae7d4c218bf63be4326ade9da9db84037"
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "1f05f477fb126bf1e6999a440b14af0d5c2e07b8040f6c1eeef1e01b905acdf2"
         },
         {
-          "path": "analysis/firered-it-rev0-pikachu-sprite-set.json",
-          "sha256": "0566a8a7dce74ead18ab654df253d7e755e6afd846633dfdaf9310d9e59c4abe"
+          "path": "analysis/firered-it-rev0-squirtle-sprite-set.json",
+          "sha256": "942aa007aeca6b0c2a2e50e25f489c7ab008c304d4ce1cb985840a30f8546a2a"
         },
         {
-          "path": "analysis/pikachu-sprite-set-summary.json",
-          "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "cea59538a7f1c4e90b400800962d6b0e0f7da22b6944c66525449ef9413790cd"
         }
       ],
       "palette": {
@@ -1747,6 +185,93 @@
         {
           "path": "analysis/firered-es-rev0-bulbasaur-sprite-set.json",
           "sha256": "44eb48c18a208aacdeb8d68ebb861eefc56f73d36c2514a0af1f54438cbecfa2"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-back-rev0-es.png",
+      "sha256": "761a2ecb67f64eb312ef76c825656b029020ff268f437c8b5dcebdf3b0adb6f5",
+      "size": 860,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "f14024a2e571aec518b4c07754df8568590da149bd551afb4e9f6a5607beb670"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "5330c29ecf5428bf7fd58c631416b17a6419b6dfa3464390b22b0a0a8559f463"
+        },
+        {
+          "path": "analysis/firered-es-rev0-charmander-sprite-set.json",
+          "sha256": "37394ce71d03bd8cf1d111cd61098ba22222dc305cbde2402dd01bacc7410fd0"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-front-rev0-es.png",
+      "sha256": "4124b225386c16cc1f5592f836e2d6c1308df2ae5618705e1660b22a9528baa5",
+      "size": 923,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "f14024a2e571aec518b4c07754df8568590da149bd551afb4e9f6a5607beb670"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "5330c29ecf5428bf7fd58c631416b17a6419b6dfa3464390b22b0a0a8559f463"
+        },
+        {
+          "path": "analysis/firered-es-rev0-charmander-sprite-set.json",
+          "sha256": "37394ce71d03bd8cf1d111cd61098ba22222dc305cbde2402dd01bacc7410fd0"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/charmander-rev0-es.pal",
+      "sha256": "36c6417eb7e1bc9fa0ed7f4d0e4fa79a2f1bf49bf55ee8266fae950efeaf1940",
+      "size": 190,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/charmander-sprite-set.json",
+          "sha256": "f14024a2e571aec518b4c07754df8568590da149bd551afb4e9f6a5607beb670"
+        },
+        {
+          "path": "analysis/charmander-sprite-set-summary.json",
+          "sha256": "5330c29ecf5428bf7fd58c631416b17a6419b6dfa3464390b22b0a0a8559f463"
+        },
+        {
+          "path": "analysis/firered-es-rev0-charmander-sprite-set.json",
+          "sha256": "37394ce71d03bd8cf1d111cd61098ba22222dc305cbde2402dd01bacc7410fd0"
         }
       ],
       "palette": {
@@ -1909,6 +434,93 @@
         {
           "path": "analysis/pikachu-sprite-set-summary.json",
           "sha256": "87b460298229e207b58879526d29d39f9525682b8ccdb595059c891fd448d9c8"
+        }
+      ],
+      "palette": {
+        "version": "0100",
+        "color_count": 16
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-es.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187",
+      "size": 803,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "1f05f477fb126bf1e6999a440b14af0d5c2e07b8040f6c1eeef1e01b905acdf2"
+        },
+        {
+          "path": "analysis/firered-es-rev0-squirtle-sprite-set.json",
+          "sha256": "c39a1c42377c94bde649f3163d842e252b3b8e28aa7ca0842f4df38a3d7f42ff"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "cea59538a7f1c4e90b400800962d6b0e0f7da22b6944c66525449ef9413790cd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-es.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26",
+      "size": 937,
+      "format": "PNG",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "1f05f477fb126bf1e6999a440b14af0d5c2e07b8040f6c1eeef1e01b905acdf2"
+        },
+        {
+          "path": "analysis/firered-es-rev0-squirtle-sprite-set.json",
+          "sha256": "c39a1c42377c94bde649f3163d842e252b3b8e28aa7ca0842f4df38a3d7f42ff"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "cea59538a7f1c4e90b400800962d6b0e0f7da22b6944c66525449ef9413790cd"
+        }
+      ],
+      "png": {
+        "width": 128,
+        "height": 128,
+        "bit_depth": 8,
+        "color_type": "truecolor",
+        "interlaced": false
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-es.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d",
+      "size": 193,
+      "format": "JASC-PAL",
+      "category": "pokemon",
+      "language": "Spanish",
+      "origin_reference": false,
+      "provenance": [
+        {
+          "path": "manifests/squirtle-sprite-set.json",
+          "sha256": "1f05f477fb126bf1e6999a440b14af0d5c2e07b8040f6c1eeef1e01b905acdf2"
+        },
+        {
+          "path": "analysis/firered-es-rev0-squirtle-sprite-set.json",
+          "sha256": "c39a1c42377c94bde649f3163d842e252b3b8e28aa7ca0842f4df38a3d7f42ff"
+        },
+        {
+          "path": "analysis/squirtle-sprite-set-summary.json",
+          "sha256": "cea59538a7f1c4e90b400800962d6b0e0f7da22b6944c66525449ef9413790cd"
         }
       ],
       "palette": {

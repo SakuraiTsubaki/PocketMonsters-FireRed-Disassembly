@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-d-rev0-retail",
+    "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 7,
+    "name": "squirtle"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2314164,
+      "table_offset": 2314108,
+      "source_offset": 13844788,
+      "size": 2048,
+      "tag": 7
+    },
+    "back": {
+      "entry_offset": 2319444,
+      "table_offset": 2319388,
+      "source_offset": 13845496,
+      "size": 2048,
+      "tag": 7
+    },
+    "palette": {
+      "entry_offset": 2322964,
+      "table_offset": 2322908,
+      "source_offset": 13845456,
+      "tag": 7
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-de-rev0-deoxys-front-table.json",
+      "sha256": "89ab74904ad0a9389ac8282d701a22c52943a1039fb2165b257d7cfbcaecf101"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-back-table.json",
+      "sha256": "3ca375934453b23104383e099e0549dcc3525b4ad76355da93aaa83b675f85af"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-palette.json",
+      "sha256": "5e6da2427837d1b8fadfaf93b4575503c928a2b24ef3d8999da038abaf4e57c7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/squirtle-front-rev0-de.png",
+      "sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13844788,
+        "compressed_length": 666,
+        "compressed_sha256": "7e3df4943f530671166440a05a13b63671e96660a1f55bf81d0a78c47c72560e",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "064c75592e475e71aab15acfc4de144c15807974a8d2fd32bc8855a2e95eda87",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "44701e1c6a1bb54e6c77ca3423dcaecc437f65109fc979acc81e50ca9e291d26",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-back-rev0-de.png",
+      "sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13845496,
+        "compressed_length": 646,
+        "compressed_sha256": "addb6c121341defda439543f07a19e8a0b60c2ac44cb83ed2c76b3d21154febf",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "5f8697f0798e4e691ce6f13efd8bdb22a6e119cbf9b8812ac47a14dda9959b0a",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "a80b501496150564f666dc05b95ad004fb263927c42bf09cb27aa25f60ee8187",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d"
+      }
+    },
+    {
+      "path": "graphics/pokemon/squirtle-rev0-de.pal",
+      "sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13845456,
+        "compressed_length": 40,
+        "compressed_sha256": "c20ed70d1dfc2bc551f43e6adf17900c2611f0412e9453013b5a193e9117838e",
+        "decompressed_length": 32,
+        "decompressed_sha256": "91e8d42c685214f6eaf47b323164fc637e26e3b0476993c5cf508c3df2a7f80e",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "dcee2dee811ff0f8b58ad318a5c974e214148133e9ab6f5d029292feffe3fd7d",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

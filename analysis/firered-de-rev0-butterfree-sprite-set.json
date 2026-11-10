@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-d-rev0-retail",
+    "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 12,
+    "name": "butterfree"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2314204,
+      "table_offset": 2314108,
+      "source_offset": 13858204,
+      "size": 2048,
+      "tag": 12
+    },
+    "back": {
+      "entry_offset": 2319484,
+      "table_offset": 2319388,
+      "source_offset": 13859132,
+      "size": 2048,
+      "tag": 12
+    },
+    "palette": {
+      "entry_offset": 2323004,
+      "table_offset": 2322908,
+      "source_offset": 13859092,
+      "tag": 12
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-de-rev0-deoxys-front-table.json",
+      "sha256": "89ab74904ad0a9389ac8282d701a22c52943a1039fb2165b257d7cfbcaecf101"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-back-table.json",
+      "sha256": "3ca375934453b23104383e099e0549dcc3525b4ad76355da93aaa83b675f85af"
+    },
+    {
+      "path": "analysis/firered-de-rev0-deoxys-palette.json",
+      "sha256": "5e6da2427837d1b8fadfaf93b4575503c928a2b24ef3d8999da038abaf4e57c7"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/butterfree-front-rev0-de.png",
+      "sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13858204,
+        "compressed_length": 885,
+        "compressed_sha256": "aecc7fa8714616677649115771337c2c303324ebfb62b93e977cced538012498",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "5d1e4e1f2843670c0c3914754ba6fe87461d4507f0409b414a2270fbcb1ad069",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "40aa6bc69510d48aa10307301ddfa5fcda13d7dcb7369bc758c44364c6142b5b",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+      }
+    },
+    {
+      "path": "graphics/pokemon/butterfree-back-rev0-de.png",
+      "sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13859132,
+        "compressed_length": 1027,
+        "compressed_sha256": "909635a106850a9db00d5599d137177b7aef0e7f88b64ac5d30a72b57c798db8",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "b379b0dc9126d7f0c710474bec98e37c2947968b6c12ba024bb8926ac8b78fbb",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "d8cd4086149b0469e477f14be42d11219571810e0dc9f736c304102f9a3cd549",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333"
+      }
+    },
+    {
+      "path": "graphics/pokemon/butterfree-rev0-de.pal",
+      "sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+        "source_offset": 13859092,
+        "compressed_length": 40,
+        "compressed_sha256": "7b5f75857e07008ebe88c3aa3da346ae9da0f4efa16a796f44ef10964acec56c",
+        "decompressed_length": 32,
+        "decompressed_sha256": "5e36d4c65cf302e632bc54780a33516de5ed15d21b9f5e3ba18dc55946e68fe8",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "ba7cd637eacdf2e02044ac481bfa3ca5fac3ae6465c4cf373f06a38b55b41333",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "game": "FireRed",
+  "species": {
+    "id": 10,
+    "name": "caterpie"
+  },
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_frlg_species_sprites.py",
+    "tool_sha256": "5328f65bb4e2b62d975a2f0c25c9be88e2f8163080ab262d7fcc5fb530e65b17"
+  },
+  "outputs": [
+    {
+      "path": "C:/Temp/pokemon-gen-work/repos/PocketMonsters-FireRed-Disassembly/analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/caterpie_species_sprite_tables.asm",
+      "sha256": "5f1b74f9abed04ba4b111b62967082676f409fe366b885da1aa2f30ae2680117"
+    },
+    {
+      "path": "analysis/caterpie-sprite-set-summary.json",
+      "sha256": "f937140c2f30ef34394a7818b4211798bf455a2cb6898f6ac0d96847a31994b7"
+    },
+    {
+      "path": "analysis/firered-jp-rev0-caterpie-sprite-set.json",
+      "sha256": "45d0fd608b968bc9e0b3f1d77fc223ba10a3dfeebd8d154217e50fec9e47596b"
+    },
+    {
+      "path": "analysis/firered-jp-rev1-caterpie-sprite-set.json",
+      "sha256": "599cb10ef7a6ef5332caf8ab9087b9e8f0cf1a65f796ba5b52f1f4c80c804c93"
+    },
+    {
+      "path": "analysis/firered-en-rev0-caterpie-sprite-set.json",
+      "sha256": "cc46e219c2d2e0e20e44dda3aba4b065312f9c4a5a07ba0ccf98cacffcfffa42"
+    },
+    {
+      "path": "analysis/firered-en-rev1-caterpie-sprite-set.json",
+      "sha256": "68961e1400f06ed8e18c199980bb5e4fd1562379867eefed5d1eed7ea87c69b5"
+    },
+    {
+      "path": "analysis/firered-de-rev0-caterpie-sprite-set.json",
+      "sha256": "f1799885cf3d58b9e1b45be883c4f79ab278babf8c7eb6bff4c3e77e38934947"
+    },
+    {
+      "path": "analysis/firered-fr-rev0-caterpie-sprite-set.json",
+      "sha256": "a4d46a04a9325b93da222649d3174efde5c436511c2960e55fad907c9493d275"
+    },
+    {
+      "path": "analysis/firered-it-rev0-caterpie-sprite-set.json",
+      "sha256": "ff908bf902cccf72dc1293d9b336acead7d097621a564c0964567e884aaeeb90"
+    },
+    {
+      "path": "analysis/firered-es-rev0-caterpie-sprite-set.json",
+      "sha256": "48b0b525cee9d6f6c869970b1066f2097496309391bbdda78baf47f3fe84b35d"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-jp.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-jp.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-jp.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev1-jp.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev1-jp.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev1-jp.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-en.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-en.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-en.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev1-en.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev1-en.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev1-en.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-de.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-de.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-de.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-fr.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-fr.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-fr.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-it.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-it.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-it.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-es.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-es.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a"
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-es.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a"
+    },
+    {
+      "path": "research/caterpie-sprite-set.md",
+      "sha256": "bd63dc5ad314bbfa3ae94fa257d3ac126e5a13abd5960bc8a956ed2dddb500f3"
+    },
+    {
+      "path": "tests/test_caterpie_sprite_set.py",
+      "sha256": "fc94cde6c740c4f353a05a97fe2dd11e2e3d621abd5eb288b381135e98bdff84"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

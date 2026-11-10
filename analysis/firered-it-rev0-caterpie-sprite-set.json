@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 10,
+    "name": "caterpie"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2285984,
+      "table_offset": 2285904,
+      "source_offset": 13853624,
+      "size": 2048,
+      "tag": 10
+    },
+    "back": {
+      "entry_offset": 2291264,
+      "table_offset": 2291184,
+      "source_offset": 13854264,
+      "size": 2048,
+      "tag": 10
+    },
+    "palette": {
+      "entry_offset": 2294784,
+      "table_offset": 2294704,
+      "source_offset": 13854224,
+      "tag": 10
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-it-rev0-deoxys-front-table.json",
+      "sha256": "e66385a886e272d9c7904bfbb0248e58aad9c3387eece7ccdcc7c3d399828709"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-back-table.json",
+      "sha256": "7b91f7a6266e9bbfbccac899b1d30fae31012a6f49e2085f5abb9d0559f4ff02"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-palette.json",
+      "sha256": "8d5013a3b7702e71847552b86a9e945209ce273be2cd85995a3ef0af84687f75"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/caterpie-front-rev0-it.png",
+      "sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13853624,
+        "compressed_length": 599,
+        "compressed_sha256": "31c7d4b058d7099ade9099cce3477a3aec3b22f0d7524b54b0be0f9098a7e29a",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "2ea4c410a162b3c6d135ef839b1a2fd6e788e1cb174e28eba923bc21dc55504d",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "73fe69d42b9d7671e225a19e08a5e1c2d6fb3e9442ad830c10ade0344cd74c3a",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+      }
+    },
+    {
+      "path": "graphics/pokemon/caterpie-back-rev0-it.png",
+      "sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13854264,
+        "compressed_length": 645,
+        "compressed_sha256": "4b896cef77d4c95ca85bf4e9ef251cd58cf04ba275639e15bd0473afbad7060b",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "ea36ffcf2034390444e41363983ebdb8b6db7202d4a26fe82b7fabb9647128f8",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "0197d0260831ca5542541ac28cc730ca2eef2ac5cca3075f7f43cc3b0d4fa68a",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2"
+      }
+    },
+    {
+      "path": "graphics/pokemon/caterpie-rev0-it.pal",
+      "sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13854224,
+        "compressed_length": 40,
+        "compressed_sha256": "807a0dc603db22a33b7240b7241f11ecedfa407b0e0ae144be557e004bc4f151",
+        "decompressed_length": 32,
+        "decompressed_sha256": "382e70ba36bdef6f0db0c0b81e6cad276052408c23b91eebd4317ca221945c68",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "352048e1b8e757e46838fdc210a0af8f053b375d764ed7c4098271d5160418e2",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

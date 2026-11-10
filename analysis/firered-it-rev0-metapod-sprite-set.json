@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "target": {
+    "release": "bpr-i-rev0-retail",
+    "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a"
+  },
+  "origin_reference": false,
+  "species": {
+    "id": 11,
+    "name": "metapod"
+  },
+  "tables": {
+    "front": {
+      "entry_offset": 2285992,
+      "table_offset": 2285904,
+      "source_offset": 13856008,
+      "size": 2048,
+      "tag": 11
+    },
+    "back": {
+      "entry_offset": 2291272,
+      "table_offset": 2291184,
+      "source_offset": 13856580,
+      "size": 2048,
+      "tag": 11
+    },
+    "palette": {
+      "entry_offset": 2294792,
+      "table_offset": 2294704,
+      "source_offset": 13856548,
+      "tag": 11
+    }
+  },
+  "anchor_evidence": [
+    {
+      "path": "analysis/firered-it-rev0-deoxys-front-table.json",
+      "sha256": "e66385a886e272d9c7904bfbb0248e58aad9c3387eece7ccdcc7c3d399828709"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-back-table.json",
+      "sha256": "7b91f7a6266e9bbfbccac899b1d30fae31012a6f49e2085f5abb9d0559f4ff02"
+    },
+    {
+      "path": "analysis/firered-it-rev0-deoxys-palette.json",
+      "sha256": "8d5013a3b7702e71847552b86a9e945209ce273be2cd85995a3ef0af84687f75"
+    }
+  ],
+  "outputs": [
+    {
+      "path": "graphics/pokemon/metapod-front-rev0-it.png",
+      "sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13856008,
+        "compressed_length": 537,
+        "compressed_sha256": "ddcde699f9fd9e2aac067fbd57de5fac9c00732ca9621ea5712d0e976aa66861",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "1fe30711ea00093214bc4ad21edd8bf864f4cf5a22c38a299de77445dec0ddd1",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "9d3a1e5a65680e96c3614378814f1da2e89f85d9a30eb00be91a26415ad5be5d",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+      }
+    },
+    {
+      "path": "graphics/pokemon/metapod-back-rev0-it.png",
+      "sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825",
+      "extraction": {
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13856580,
+        "compressed_length": 537,
+        "compressed_sha256": "e571813451f7a9cb42008a761e4324fc20bc906aa8205317b0e451fb434306c9",
+        "decompressed_length": 2048,
+        "decompressed_sha256": "975a5a5c192c058b95537e9ce07a560913c4280fbb23767515f127c36ca5b4df",
+        "tile_count": 64,
+        "tiles_per_row": 8,
+        "format": "gba-bios-lz77-to-4bpp-tiles",
+        "palette": "jasc-pal",
+        "png_sha256": "351c9ad3f80f0fdd10fbfd6b4d60ed6c6c21e0fbeb142f9c9130faef04e33825",
+        "raw_rom_bytes_included": false,
+        "palette_sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6"
+      }
+    },
+    {
+      "path": "graphics/pokemon/metapod-rev0-it.pal",
+      "sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6",
+      "extraction": {
+        "schema_version": 1,
+        "rom_size": 16777216,
+        "rom_sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+        "source_offset": 13856548,
+        "compressed_length": 31,
+        "compressed_sha256": "df8287d6ea16cd1bb9d0c6b37d470268766a837e0355246e08aae951af527ea1",
+        "decompressed_length": 32,
+        "decompressed_sha256": "cf9ebbd202f5e8ab0d5f79d54295a4851813c71a53956fe5ed8bafeca4f68dbd",
+        "color_count": 16,
+        "source_format": "gba-bios-lz77-to-bgr555",
+        "output_format": "JASC-PAL",
+        "palette_sha256": "18f425e54bdf6a0bb6f4d50c34ae226aaf17ec436454f0c10e4d00a2e74585a6",
+        "raw_rom_bytes_included": false
+      }
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

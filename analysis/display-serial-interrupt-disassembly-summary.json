@@ -1,0 +1,225 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon FireRed",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "source": "src/display_serial_interrupts.s",
+  "releases": [
+    {
+      "id": "bpr-j-rev0-retail",
+      "language": "Japanese",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "1e4af44b0c75cc8649bfb8649dc4ae5850bf5358bd6b9cd0bf779c99f9db1486",
+      "origin_reference": true,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007DC",
+          "code_sha256": "37f8837b7419ac2d5f2945cdba08040ab88760d263619fa6c9e9aa3b3cb89052"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800080C",
+          "code_sha256": "f9b8669c2b1b8502022bf1987147e1d5d515129165da93aa32de1431dff6c8ca"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000844",
+          "code_sha256": "f48aa9a6f6f329f748560f127f9334898b7d61d44ec4c70ec5a74dee80aec0a4"
+        }
+      ],
+      "evidence": "analysis/bpr-j-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-j-rev1-retail",
+      "language": "Japanese",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "cec5fc4dbe38cd8026bd6664a1a041d9dc91e8d4249bab04e7bde70c3cdf4e06",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007D8",
+          "code_sha256": "9bc9f2f9cb027a23d12eb2d697c8903495119721bc740132222f66fbf6eff936"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000808",
+          "code_sha256": "d04167e3c402ffead9839b5ddf638a2ae62b1d741b85dc8abea003728e9ce3c2"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000840",
+          "code_sha256": "43c0ab71a213a89c50bb80d1ca8df07195d611abdd2439b1f0b155185cae7e03"
+        }
+      ],
+      "evidence": "analysis/bpr-j-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-e-rev0-retail",
+      "language": "English",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "b59a65bb439b7dfdf2ffbbe5102be03de2501a71f5e081eec1c76f9d2ef3ba00",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007DC",
+          "code_sha256": "b5efc92efb92668c9071e54f06d7dbe1b2f9a9ee8a9d304166602f6e561cf1b0"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800080C",
+          "code_sha256": "20395c514383e4bdaf425c20eb9d9ba4842b306e2bcf3bd52073047c9f25b69f"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000844",
+          "code_sha256": "044ae2f882f628488c8f20b7cc686b83c80ec83e55900be9aad97ac8c585c0b2"
+        }
+      ],
+      "evidence": "analysis/bpr-e-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-e-rev1-retail",
+      "language": "English",
+      "revision": 1,
+      "build_kind": "retail",
+      "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007F0",
+          "code_sha256": "9e7b3946ca4b500eaf70bb5802a3edc18bdf10bf0e11c3533214f270a075f672"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000820",
+          "code_sha256": "4ad5c78daf7c04d97cb04899f2230df96706de2ce7f93c959ab2bb3754843d5f"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000858",
+          "code_sha256": "efa7615910018ef4394041be5f365d4bb766ecfb79190b87f21521f6fb886f85"
+        }
+      ],
+      "evidence": "analysis/bpr-e-rev1-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-d-rev0-retail",
+      "language": "German",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "eed4fb0242bcbb6e0b0b80b197b47e3aec99ef4c5562cc45bae50ae86b970507",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007EC",
+          "code_sha256": "d51e3e238ac3e52dc6ff76bd6c1cf0b0af73330fe9d5c3375c9929acf596bbd9"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800081C",
+          "code_sha256": "1592a3fd52cb4637f5eeff2865a963a950507fea7250364ed4a56c3e48fc37e7"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000854",
+          "code_sha256": "57516d198d4722f44427a83d324276ac03f1196d9210e7cdc3ce817bc44e90aa"
+        }
+      ],
+      "evidence": "analysis/bpr-d-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-f-rev0-retail",
+      "language": "French",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007D8",
+          "code_sha256": "017acfc27c27d23107141305fc0784a58d4d325b5734f8d59237d09a90305dee"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000808",
+          "code_sha256": "e381c1552090d995fdf163d7460559ab2ad02fae83ab470615a77dd04834f2cf"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000840",
+          "code_sha256": "b11d465db52ffd6fbc7e2c74c4d7076c13c8efd386512eb6b75d24dc0a2f0fcd"
+        }
+      ],
+      "evidence": "analysis/bpr-f-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-i-rev0-retail",
+      "language": "Italian",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ad52b593ef0c7439e1409d3f0a1ec3ff865a494ca46c2184fe65573759838f3a",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007EC",
+          "code_sha256": "58f08ed34e34fbe34f4b8da8e36e7792e7ed848c269d287c950c5ebd33de983a"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x0800081C",
+          "code_sha256": "f961470f7e5346ab7f54b385c571a222bd19c1f18693db7ea4b36d137ad52a0d"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000854",
+          "code_sha256": "af709f79d397255b1d572fc7efc66fe836bee8f95f9043539345e19b093c1e63"
+        }
+      ],
+      "evidence": "analysis/bpr-i-rev0-retail-display-serial-interrupt-disassembly.json"
+    },
+    {
+      "id": "bpr-s-rev0-retail",
+      "language": "Spanish",
+      "revision": 0,
+      "build_kind": "retail",
+      "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554",
+      "origin_reference": false,
+      "functions": [
+        {
+          "name": "HBlankIntr",
+          "address": "0x080007D8",
+          "code_sha256": "59d560f98e8e804bab872b40e98683b4f54c223a37f6e1adb24fcd9028e37d04"
+        },
+        {
+          "name": "VCountIntr",
+          "address": "0x08000808",
+          "code_sha256": "55b2e20a1aa72275594477b21fb96ce3d1b76865d1f4a96c6bb1f32f0835ce92"
+        },
+        {
+          "name": "SerialIntr",
+          "address": "0x08000840",
+          "code_sha256": "341655d8699b6e450e1730bf445697544a2beca3bda04de8de2a06b0eb5efb07"
+        }
+      ],
+      "evidence": "analysis/bpr-s-rev0-retail-display-serial-interrupt-disassembly.json"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

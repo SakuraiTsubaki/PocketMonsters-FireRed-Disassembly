@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon FireRed",
+  "functions": [
+    "HBlankIntr",
+    "VCountIntr",
+    "SerialIntr"
+  ],
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_display_interrupts.py",
+    "tool_sha256": "8e570c5ad9c1c43d7d3da7198d1c7ce68e10a42ab7b9221fe78c319072ca00fc"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/display_serial_interrupts.s",
+      "sha256": "0af869c5dc670338492fc64d704921d04154a616f722aeb049ba5509b4d09a6e"
+    },
+    {
+      "path": "analysis/display-serial-interrupt-disassembly-summary.json",
+      "sha256": "caebf88d0a3bf8cc9605e54ca7adb034e31950444a23cf43254279dd814fd011"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "d70a427adcc506402e54a4b2a855be339d35433fbbf11eaa5439579e7152dccd"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "9adca3874c5940238c669f4c8d4b124d0a99b0ad585c72511c41ff9bf4607bb6"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "92c69dc62d3049d0cbe2260a642eee2e4f0b7c2ec3dca4d1aebd90992a031d41"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "0726637a01164f47ec515ab4ff44c30b9354fbb83c08cd2adfc2d50f186a7d61"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "65267dd18ab8148b467a47a91de117fe0fba519d9b506c69f488b54854e73b94"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "29a17d9a251b134520fe78adb0a3b293a6a172a06617154d20b36ffa76edba6c"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "29eff776d285660ad92787f9f725f946182670defc59269307691787dc0faa95"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-display-serial-interrupt-disassembly.json",
+      "sha256": "00a61a40fc5808bccc52b8ef791c5970b5b1a5769c86d97daa0dd48ebdf33056"
+    },
+    {
+      "path": "research/display-serial-interrupt-disassembly.md",
+      "sha256": "1b0167d37d5a22c6ee44c1233390971c096ca7666eda26df7633b8f03017eb53"
+    },
+    {
+      "path": "tests/test_display_serial_interrupts_disassembly.py",
+      "sha256": "676304e24b300cae1b2a4f155e9d9554792d3bee6ce0bff58361dc2f63999c39"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

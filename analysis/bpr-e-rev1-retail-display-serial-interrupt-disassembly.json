@@ -1,0 +1,121 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpr-e-rev1-retail",
+    "sha256": "6d306e01ba04907efaa0611a32fee3b440a1e8ac8b4e0acdd223dc9281afa170"
+  },
+  "profile": "frlg",
+  "origin_reference": false,
+  "source": "src/display_serial_interrupts.s",
+  "source_sha256": "0af869c5dc670338492fc64d704921d04154a616f722aeb049ba5509b4d09a6e",
+  "functions": [
+    {
+      "name": "HBlankIntr",
+      "address": "0x080007F0",
+      "range_end_exclusive": "0x08000816",
+      "rom_code_range": {
+        "start_offset": 2032,
+        "end_offset_exclusive": 2070,
+        "length": 38,
+        "sha256": "9e7b3946ca4b500eaf70bb5802a3edc18bdf10bf0e11c3533214f270a075f672",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "indirect hblank callback trampoline",
+          "source": "0x080007FA",
+          "target": "0x081E3C18"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 19,
+        "edge_count": 2,
+        "return_count": 1,
+        "call_count": 1,
+        "canonical_instruction_bytes_sha256": "9e7b3946ca4b500eaf70bb5802a3edc18bdf10bf0e11c3533214f270a075f672",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "VCountIntr",
+      "address": "0x08000820",
+      "range_end_exclusive": "0x08000846",
+      "rom_code_range": {
+        "start_offset": 2080,
+        "end_offset_exclusive": 2118,
+        "length": 38,
+        "sha256": "4ad5c78daf7c04d97cb04899f2230df96706de2ce7f93c959ab2bb3754843d5f",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "m4aSoundVSync",
+          "source": "0x0800082A",
+          "target": "0x081DCA44"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 19,
+        "edge_count": 0,
+        "return_count": 1,
+        "call_count": 1,
+        "canonical_instruction_bytes_sha256": "4ad5c78daf7c04d97cb04899f2230df96706de2ce7f93c959ab2bb3754843d5f",
+        "raw_halfwords_omitted": true
+      }
+    },
+    {
+      "name": "SerialIntr",
+      "address": "0x08000858",
+      "range_end_exclusive": "0x0800087E",
+      "rom_code_range": {
+        "start_offset": 2136,
+        "end_offset_exclusive": 2174,
+        "length": 38,
+        "sha256": "efa7615910018ef4394041be5f365d4bb766ecfb79190b87f21521f6fb886f85",
+        "raw_bytes_published": false
+      },
+      "calls": [
+        {
+          "name": "indirect serial callback trampoline",
+          "source": "0x08000862",
+          "target": "0x081E3C18"
+        }
+      ],
+      "control_flow": {
+        "instruction_halfwords": 19,
+        "edge_count": 2,
+        "return_count": 1,
+        "call_count": 1,
+        "canonical_instruction_bytes_sha256": "efa7615910018ef4394041be5f365d4bb766ecfb79190b87f21521f6fb886f85",
+        "raw_halfwords_omitted": true
+      }
+    }
+  ],
+  "literal_addresses": {
+    "gMain": "0x030030F0",
+    "INTR_CHECK": "0x03007FF8",
+    "sVcountAtIntr": "0x03003D80",
+    "REG_VCOUNT": "0x04000006"
+  },
+  "verified_layout": {
+    "callback_offsets": {
+      "hblankCallback": 16,
+      "vcountCallback": 20,
+      "serialCallback": 24,
+      "intrCheck": 28
+    },
+    "interrupt_flags": {
+      "HBLANK": "0x0002",
+      "VCOUNT": "0x0004",
+      "SERIAL": "0x0080"
+    }
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb structure, flags, literals and call order"
+  },
+  "raw_rom_bytes_included": false
+}

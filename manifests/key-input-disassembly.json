@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon FireRed",
+  "functions": [
+    "InitKeys",
+    "ReadKeys"
+  ],
+  "family_profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_key_input.py",
+    "tool_sha256": "fda087b4e19eae4cef148639bffa19ae26d650316346bf8e67bc6b5e32b838bd"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/key_input.s",
+      "sha256": "51e92e53a1c2139890779fddc89edebacb59d4098c595286cde51fd9cf934392"
+    },
+    {
+      "path": "analysis/key-input-disassembly-summary.json",
+      "sha256": "dd9c1a50b2626b046f8c3f9c881cf192a8e2ee9c7b5f6b605d7786b60830ddc4"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-key-input-disassembly.json",
+      "sha256": "eee59c7b5e67deb1abf2765d6b061105d75023e2cbd03753c7a6b4be02693003"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-key-input-disassembly.json",
+      "sha256": "828f2e33ca8ea53b69c66e0dd91ce1df394736b0ae1e1fc8f39e58b7d21c6166"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-key-input-disassembly.json",
+      "sha256": "2c5f44709f4b3a2b1d6817df50c45c7e7687d8ea2abb4070aabf1f8e96d2b0f0"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-key-input-disassembly.json",
+      "sha256": "8c2b7d82b8574c5c6c2b68cfe0e806e632ea1bd371213522fac4bd179392657d"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-key-input-disassembly.json",
+      "sha256": "bc8519893c32c74f6d1bbb7d428a6c46428cf68854b882573bd83e331bcfeb78"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-key-input-disassembly.json",
+      "sha256": "f2b0a75eb5d370141a25ef52d9c58cef2a5dcf462daf33600716822e711672dd"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-key-input-disassembly.json",
+      "sha256": "74b6035580a155aa2a7f237824abf02e4b2aadb4d006f363c973e7206c10b1fd"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-key-input-disassembly.json",
+      "sha256": "d0314d3a93303548358e42f322af7f3b7f9bcb7f2d16f46fcd0671510e92f579"
+    },
+    {
+      "path": "research/key-input-disassembly.md",
+      "sha256": "2d523464dcbaeaa4b87822b14353fa9172005853065a617920d57020be2b4a6c"
+    },
+    {
+      "path": "tests/test_key_input_disassembly.py",
+      "sha256": "880e7ef6a8789aeb5b6e63ce9102b9a89bdba3f1f4042f904631bebf4191cfca"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

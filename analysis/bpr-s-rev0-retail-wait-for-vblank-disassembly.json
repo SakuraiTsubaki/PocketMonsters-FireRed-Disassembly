@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpr-s-rev0-retail",
+    "sha256": "ab696c065639e4d73c3c3ed9d4fbf9c7fed593761f3b6746256ff82465596554"
+  },
+  "profile": "frlg",
+  "origin_reference": false,
+  "source": "src/wait_for_vblank.s",
+  "source_sha256": "f14073a9a31fed194c358179db187b2fb0be33fd010184840b1dc4a33bb81929",
+  "function": {
+    "name": "WaitForVBlank",
+    "address": "0x0800088C",
+    "range_end_exclusive": "0x080008B4",
+    "rom_code_range": {
+      "start_offset": 2188,
+      "end_offset_exclusive": 2228,
+      "length": 40,
+      "sha256": "a76d461ef38542e453f177d865ed0be60c4cbca398e3ff02657adee9bcbb520a",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 20,
+      "edge_count": 4,
+      "return_count": 1,
+      "call_count": 0,
+      "canonical_instruction_bytes_sha256": "a76d461ef38542e453f177d865ed0be60c4cbca398e3ff02657adee9bcbb520a",
+      "raw_halfwords_omitted": true
+    }
+  },
+  "literal_addresses": {
+    "gMain": "0x03003040",
+    "gMain_pointer": "0x080008B4",
+    "clear_mask": "0x080008B8"
+  },
+  "state": {
+    "intrCheck_offset": 28,
+    "cleared_mask": 1
+  },
+  "wait": {
+    "mode": "volatile-poll",
+    "call": null
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb data access, CFG, literals and wait behavior"
+  },
+  "raw_rom_bytes_included": false
+}

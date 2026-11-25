@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_wait_for_vblank.py",
+    "tool_sha256": "30ae62915ac8fdabfc126b45b1481246635cef334a9f1ba2af315487d1b05964"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/wait_for_vblank.s",
+      "sha256": "f14073a9a31fed194c358179db187b2fb0be33fd010184840b1dc4a33bb81929"
+    },
+    {
+      "path": "analysis/wait-for-vblank-disassembly-summary.json",
+      "sha256": "8308af2f9796ad73ed91114af17b86fa1f86a94a272e2638f5576df87f9b8dce"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "5d787c13a40b9eef20dea65a28da53801f849c485ec052fd8856631e702f0a6f"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "33f6fe9c4570c115d25a1da9f865edc5ba2109138fd8d94da9eb81e34cac4e8e"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "ba775d894388c94effc1f03c69a4b85e7a1d2f22c022a4483d1b66174ac8a5ad"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-wait-for-vblank-disassembly.json",
+      "sha256": "09df33ad58ae4c065fc8ecf23928f3e9bbc0a80b5d0566a02a0c55cb785a0f8f"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "ec388cedf9bcc48b7aa1f8fcdef99b7d980c6741af0a12c4b44cf43bac05990a"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "2c4da122ff7aaff008d8d3aff8455c36da92e60c45b2ef2f5b8c814d226cb8a9"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "1842b7f405a242cd4aacd54ebe14b1628ee49cdc7844571c37406e206a7ff4fb"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-wait-for-vblank-disassembly.json",
+      "sha256": "bc699ecea6e8ae97e79dc7395db7d16ba970f8fc45afbc8e94755e06744a418f"
+    },
+    {
+      "path": "research/wait-for-vblank-disassembly.md",
+      "sha256": "282cbb60f6c66490c389b11c8d724513cb2bfbf182fc8831e16e6592d8ba4e4a"
+    },
+    {
+      "path": "tests/test_wait_for_vblank_disassembly.py",
+      "sha256": "ed036b91f34bae0cf42f868643fa7981e431c48405fd9a37ef27a17207de4b2a"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

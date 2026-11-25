@@ -1,0 +1,105 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "target": {
+    "release": "bpr-f-rev0-retail",
+    "sha256": "245866842349cedbe2a034c6d20438d26d18b627b3d0909d7cb795fc87d7675a"
+  },
+  "profile": "frlg",
+  "origin_reference": false,
+  "source": "src/vblank_intr.s",
+  "source_sha256": "a60642c201030a82b0635a6707ac88d128a52b48064bfb0045b2f2e9537ced1e",
+  "function": {
+    "name": "VBlankIntr",
+    "address": "0x08000720",
+    "range_end_exclusive": "0x080007A4",
+    "rom_code_range": {
+      "start_offset": 1824,
+      "end_offset_exclusive": 1956,
+      "length": 132,
+      "sha256": "72df543033e59cd543de18dbd23db6589ab11efaad5e7427b2c2b86e0e4387ca",
+      "raw_bytes_published": false
+    },
+    "control_flow": {
+      "instruction_halfwords": 64,
+      "edge_count": 9,
+      "return_count": 1,
+      "call_count": 9,
+      "canonical_instruction_bytes_sha256": "7ec4196df9505a7075df655cdce5132550c103ab7b67c49b4ca947a051aa3316",
+      "raw_halfwords_omitted": true
+    }
+  },
+  "calls": [
+    {
+      "name": "RfuVSync",
+      "source": "0x0800072A",
+      "target": "0x080FBD4C"
+    },
+    {
+      "name": "LinkVSync",
+      "source": "0x0800073C",
+      "target": "0x0800B684"
+    },
+    {
+      "name": "CallVBlankCallback",
+      "source": "0x08000754",
+      "target": "0x081E1FCC"
+    },
+    {
+      "name": "CopyBufferedValuesToGpuRegs",
+      "source": "0x0800075E",
+      "target": "0x08000A00"
+    },
+    {
+      "name": "ProcessDma3Requests",
+      "source": "0x08000762",
+      "target": "0x08000C30"
+    },
+    {
+      "name": "m4aSoundMain",
+      "source": "0x08000776",
+      "target": "0x081DB8BC"
+    },
+    {
+      "name": "TryReceiveLinkBattleData",
+      "source": "0x08000780",
+      "target": "0x0800DC98"
+    },
+    {
+      "name": "Random",
+      "source": "0x08000784",
+      "target": "0x08044E8C"
+    },
+    {
+      "name": "UpdateWirelessStatusIndicatorSprite",
+      "source": "0x08000788",
+      "target": "0x080FD248"
+    }
+  ],
+  "literal_addresses": {
+    "gWirelessCommType": "0x03003E8C",
+    "gLinkVSyncDisabled": "0x030034CC",
+    "gMain": "0x03003040",
+    "gPcmDmaCounter": "0x03003CD8",
+    "gSoundInfo": "0x03005E40",
+    "sVcountBeforeSound": "0x03003CD4",
+    "REG_VCOUNT": "0x04000006",
+    "sVcountAfterSound": "0x030034C8",
+    "INTR_CHECK": "0x03007FF8"
+  },
+  "behavior": {
+    "sound_vcount_samples": true
+  },
+  "interrupt_flag": "0x0001",
+  "evidence_dependency": {
+    "path": "analysis/bpr-f-rev0-retail-interrupt-init-disassembly.json",
+    "sha256": "738b7a449637feb1644e3098c0a9532c1eac5974b2399168cb1624ad6ae678f7"
+  },
+  "naming_basis": {
+    "repository": "pret/pokefirered",
+    "commit": "037335f4c725d7c9aecdac87066f2002b4bd7e14",
+    "path": "src/main.c",
+    "match_kind": "independent Thumb CFG, call order, literals and state offsets"
+  },
+  "raw_rom_bytes_included": false
+}

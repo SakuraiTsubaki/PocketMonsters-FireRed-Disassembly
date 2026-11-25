@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "Pokemon FireRed",
+  "profile": "frlg",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_interrupt_init.py",
+    "tool_sha256": "a8cd89a6748016898bf25c749941988ab7ab22589e5f5edec34f03996eaf17a5"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "src/interrupt_init.s",
+      "sha256": "93bc8dfa037169633d67c043bb1138011643b4e1bf70b87ca16358d84bb741ba"
+    },
+    {
+      "path": "analysis/interrupt-init-disassembly-summary.json",
+      "sha256": "8dd755c176504b6288924463a86a40e09f8865ddea9d07ba46b63cde38057b51"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "277beb4cba5e60773e869ddb6c1b983569b0c267490bc3e27bf8ce8d33753f55"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-interrupt-init-disassembly.json",
+      "sha256": "6b9c7599fa4a4bc8726f7f7591d521d92fb72a19e6e41b77f6a663354b7c6c47"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "59f927c03c1bb609f46afc7feb695d943a53964c6c23b98f82db211b4be62f5b"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-interrupt-init-disassembly.json",
+      "sha256": "2939892595d55c4456b7df6e57f999b1ac97119f6183bfa7431b0857b41cb4cf"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "997de406d83b10613c3608868bdea0c8adbd59e44662b6aa06826159155b9d79"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "738b7a449637feb1644e3098c0a9532c1eac5974b2399168cb1624ad6ae678f7"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "a0e4f9ce6660bc972ac2a782379eb418733eb0f9971335432babedeb5f692161"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-interrupt-init-disassembly.json",
+      "sha256": "c67adca0fbae5f57b274a865e6ba37eb0b42d7c7e0fb6f23091f8c841b4bd8dc"
+    },
+    {
+      "path": "research/interrupt-init-disassembly.md",
+      "sha256": "a2a2c10f8cd0db44a06f2b00f44c2d3be178f611b76ba264b7a13f336271d391"
+    },
+    {
+      "path": "tests/test_interrupt_init_disassembly.py",
+      "sha256": "4a0eb63821a368862edf4aabaa8c3cb3b589a54556ba3273dc6587051730ad54"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}

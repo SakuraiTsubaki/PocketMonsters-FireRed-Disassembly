@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "axis": "Disassembly",
+  "game": "FireRed",
+  "function": "AgbMain",
+  "origin_reference": "bpr-j-rev0-retail",
+  "release_count": 8,
+  "generator": {
+    "repository": "SakuraiTsubaki/Disassembly",
+    "tool": "tools/catalog_gba_agb_main.py",
+    "tool_sha256": "2c914b3c5961bed5e0f79ef2129c1213d77f8a4132c0fc2d1601da571d4a2e0f"
+  },
+  "outputs": [
+    {
+      "path": "analysis/firered-global-release-catalog.json",
+      "sha256": "ba163dada53688a07d259b07b6a4a4d53d9a7b9e5cc75311d5ea0e22de745bb2"
+    },
+    {
+      "path": "analysis/agb-main-disassembly-profile.json",
+      "sha256": "5c24b03c9e368c9b1d22d94b1d65ef20c05219cde8d1c5ed684aacd49ad19fef"
+    },
+    {
+      "path": "src/agb_main.s",
+      "sha256": "baa3c2eb22dca1986d555c52090abf4f9056bdcd1a826dd6b547cf2752307c58"
+    },
+    {
+      "path": "analysis/agb-main-disassembly-summary.json",
+      "sha256": "ce61136b3833c6964c616f4c6331d31cecd3466f163ee220afeafcbb8d47b811"
+    },
+    {
+      "path": "analysis/bpr-j-rev0-retail-agb-main-disassembly.json",
+      "sha256": "5149fb63b7247876fc03d89142a77077ef23806124ed45ff6993675d68b9fcbc"
+    },
+    {
+      "path": "analysis/bpr-j-rev1-retail-agb-main-disassembly.json",
+      "sha256": "e18e532317db2744e0aeec302a1cef753aa797fa8b1d9a66220c705aab0ff0bd"
+    },
+    {
+      "path": "analysis/bpr-e-rev0-retail-agb-main-disassembly.json",
+      "sha256": "ab74c7ebd3751528c34b18ffd6bd0ccd6116977504c99253b5837549390fcba5"
+    },
+    {
+      "path": "analysis/bpr-e-rev1-retail-agb-main-disassembly.json",
+      "sha256": "7e90d8ccd9f74f81f46a708c51be978a652a81fde30def9fbb9fb97cdcfc53d6"
+    },
+    {
+      "path": "analysis/bpr-d-rev0-retail-agb-main-disassembly.json",
+      "sha256": "5cc2a043c4e2b23344c8c68ef94be76eff91f623ceb8b1db94f0b8c4dbee6f8f"
+    },
+    {
+      "path": "analysis/bpr-f-rev0-retail-agb-main-disassembly.json",
+      "sha256": "a6e3d9b581a7ad9d36e8c6c6c7d8e3a8777f95e69bb09c8fb3c8e8228202277d"
+    },
+    {
+      "path": "analysis/bpr-i-rev0-retail-agb-main-disassembly.json",
+      "sha256": "8e9413218c187dc0d50bd5c005e1b252739daf110939b3c348b5a116b5868413"
+    },
+    {
+      "path": "analysis/bpr-s-rev0-retail-agb-main-disassembly.json",
+      "sha256": "531ea90f32c17a00b41eae1dfc30332b3d6c505500d93728ab9d1ce6185f5d7d"
+    },
+    {
+      "path": "research/agb-main-disassembly.md",
+      "sha256": "a5d7c21cb87b39ef37a069ddfe1b2596df66ea3d88783d7559ac78078f7f1d21"
+    },
+    {
+      "path": "tests/test_agb_main_disassembly.py",
+      "sha256": "1f9dd583f419e54d30d758232529e607bafce7cf56687e0f351a30784509ceb8"
+    }
+  ],
+  "raw_rom_bytes_included": false
+}
